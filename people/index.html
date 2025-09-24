@@ -1,0 +1,62 @@
+---
+layout: page
+title: EuroLFT People
+description: ""
+---
+
+{% assign membersSorted = site.data.members | sort: "name" %}
+{% assign institutionsSorted = site.data.institutions | sort: "name" %}
+
+<h3>Members</h3>
+
+<p>EuroLFT represents members of the following institutions:</p>
+<div class="institution-list">
+{% for institution in institutionsSorted %}
+<div class="institution-entry">
+<div class="institution-entry-content">
+<img class="institution-logo" src="/img/institutions/{{ institution.image }}" alt="{{ institution.text }}">
+<p class="institution-text">
+{% if institution.link %}<a href="{{ institution.link }}">{% endif %}
+{{ institution.text }}
+{% if institution.link %}</a>{% endif %}
+</p>
+</div>
+</div>
+{% endfor %}
+</div>
+<p><a href="/people/map.html"><i>View as map</i></a></p>
+
+{% for category in site.data.member_groups %}
+<h3>{{ category.fullname }}</h3>
+<p>{{ category.description }}</p>
+<div class="member-container">
+{% for member in membersSorted %}
+{% if member.groups contains category.shortname %}
+<div class="eurolft-member">
+{% if member.image %}
+<img class="eurolft-member-portrait" src="{{ "/img/members/" | append: member.image | append: ".jpg" | relative_url }}" alt="Photograph of {{ member.name }}">
+{% else %}
+<img class="eurolft-member-portrait" src="/img/person.svg" alt="No portrait available">
+{% endif %}
+<p class="eurolft-member-name">
+  {{ member.name }}
+  {% if member.orcid %}
+  <a href="https://orcid.org/{{ member.orcid }}"><img src="/img/orcid.svg" width="22px" style="vertical-align: -10%;" alt="ORCID icon"></a>
+  {% endif %}
+</p>
+{% if member.pronouns %}
+<p class="eurolft-member-pronouns">
+  {{ member.pronouns }}
+</p>
+{% endif %}
+{% if member.affiliation %}
+<p class="eurolft-member-affiliation">
+  <a href="{{ member.affiliation-url }}" class="eurolft-member-affiliation-link">{{ member.affiliation }}</a>
+</p>
+{% endif %}
+</div>
+{% endif %}
+{% endfor %}
+</div>
+{% endfor %}
+<!-- <p><a href="/people/governance.html"><i>Find out more about the EuroLFT governance structure</i></a></p>-->

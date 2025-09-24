@@ -1,3 +1,0 @@
-## EuroLFT
-
-Website coming soon.

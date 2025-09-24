@@ -1,0 +1,47 @@
+title:              EuroLFT
+email:              eurolft-comms@lists.geant.org
+description:        European network for lattice field theory
+author:             EuroLFT
+baseurl:            "/"
+url:                "https://eurolft.github.io"
+
+future: true
+
+# Social Profiles
+twitter_username:
+github_username:
+facebook_username:
+instagram_username:  
+linkedin_username:
+
+# Add your google-analytics ID here to activate google analytics
+google_analytics:
+
+# Build settings
+markdown:           kramdown
+
+collections:
+  announcements:
+    output: true
+    permalink: /announcements/:path/
+  events:
+    output: true
+    permalink: /events/:path/
+  past_events:
+    output: true
+    permalink: /events/:path/
+
+pagination:
+  enabled: true
+  debug: false
+  collection: "announcements"
+  per_page: 5
+  permalink: "announcements/:num/"
+  limit: 0
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
+
+gems:
+  - jekyll-paginate-v2

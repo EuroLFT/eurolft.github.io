@@ -1,0 +1,78 @@
+- name: Swansea University
+  text: Swansea University
+  link: https://www.swansea.ac.uk
+  image: swansea.svg
+  lat: 51.609722
+  lon: -3.980556
+- name: Syddansk Universitet
+  text: Syddansk Universitet
+  link: https://sdu.dk
+  image: sdu.png
+  lat: 55.368611
+  lon: 10.428056
+- name: Bonn
+  text: Universität Bonn
+  link: https://www.uni-bonn.de/
+  image: bonn.svg
+  lat: 50.733889
+  lon: 7.102222
+- name: Bielefeld
+  text: Universität Bielefeld
+  link: https://www.uni-bielefeld.de
+  image: bielefeld.svg
+  lat: 52.037778
+  lon: 8.493056
+- name: Regensburg
+  text: Universität Regensburg
+  link: https://ur.de
+  image: regensburg.svg
+  lat: 48.99923
+  lon: 12.09317
+- name: Plymouth
+  text: University of Plymouth
+  link: https://www.plymouth.ac.uk
+  image: plymouth.svg
+  lat: 50.374121
+  lon: -4.138512
+- name: Bern
+  text: Universität Bern
+  link: https://www.unibe.ch
+  image: bern.svg
+  lat: 46.950519
+  lon: 7.438109
+- name: Wuppertal
+  text: Universität Wuppertal
+  link: https://uni-wuppertal.de
+  image: wuppertal.svg
+  lat: 51.245278
+  lon: 7.149444
+- name: Jülich
+  text: "Forschungs&shy;zentrum Jülich"
+  link: https://fz-juelich.de
+  image: juelich.svg
+  lat: 50.905
+  lon: 6.411944
+- name: Cyprus Institute
+  text: The Cyprus Institute
+  link: https://www.cyi.ac.cy
+  image: cyprus-institute.png
+  lat: 35.14069
+  lon: 33.38128
+- name: INFN
+  text: INFN
+  link: https://infn.it
+  image: infn.svg
+  lat: 41.89783
+  lon: 12.47556
+- name: Milano-Bicocca
+  text: Università degli Studi di Milano-Bicocca
+  link: https://www.unimib.it
+  image: milano-bicocca.svg
+  lat: 45.514444
+  lon: 9.213333
+- name: Liverpool
+  text: University of Liverpool
+  link: https://liverpool.ac.uk
+  image: liverpool.svg
+  lat: 53.406
+  lon: -53.406

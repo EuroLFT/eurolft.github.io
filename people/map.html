@@ -1,0 +1,39 @@
+---
+layout: page
+title: EuroLFT Sites
+map: true
+---
+
+<p>Each pin represents one institution whose members are represented in EuroLFT.</p>
+
+<div id="map" class="map" tabindex="0"></div>
+    <script>
+      var map = new ol.Map({
+        layers: [
+          new ol.layer.Tile({
+            source: new ol.source.OSM()
+          })
+        ],
+        target: 'map',
+        view: new ol.View({
+          center: ol.proj.fromLonLat([13.41, 50]),
+          zoom: 4
+        })
+      });
+      var markers = new ol.layer.Vector({
+          source: new ol.source.Vector(),
+          style: new ol.style.Style({
+              image: new ol.style.Icon({
+                  anchor: [0.5, 1],
+                  src: '/img/marker.png',
+                  scale: 0.2,
+              })
+          })
+      });
+      map.addLayer(markers);
+
+{% for institution in site.data.institutions %}
+      var marker = new ol.Feature(new ol.geom.Point(ol.proj.fromLonLat([{{ institution.lon }}, {{ institution.lat }}])));
+      markers.getSource().addFeature(marker);
+{% endfor %}
+    </script>

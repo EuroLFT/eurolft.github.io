@@ -1,0 +1,126 @@
+- name: Ed Bennett
+  affiliation: Swansea University
+  affiliation-url: https://www.swansea.ac.uk
+  groups:
+    - comms
+    - board
+  image: ed
+  orcid: 0000-0002-1678-6701
+  pronouns: they/them
+- name: Antonio Rago
+  affiliation: Syddansk Universitet
+  affiliation-url: https://sdu.dk
+  groups:
+    - comms
+    - board
+    - exec
+    - governance
+  orcid: 0000-0003-1192-5538
+  pronouns: he/him
+- name: Gunnar Bali
+  affiliation: Universität Regensburg
+  affiliation-url: https://ur.de
+  groups:
+    - comms
+    - board
+    - exec
+  orcid: 0000-0003-0242-5857
+  pronouns: he/him
+- name: Andreas Athenodorou
+  affiliation: The Cyprus Institute
+  affiliation-url: https://www.cyi.ac.cy
+  groups:
+    - board
+  orcid: 0000-0003-4600-4245
+  pronouns: he/him
+- name: Constantia Alexandrou
+  affiliation: The Cyprus Institute
+  affiliation-url: https://www.cyi.ac.cy
+  groups:
+    - board
+  orcid: 0000-0001-9136-3621
+  pronouns: she/her
+- name: Jacob Finkenrath
+  affiliation: Universität Wuppertal
+  affiliation-url: https://uni-wuppertal.de
+  groups:
+    - board
+    - exec
+  orcid: 0000-0002-2122-2249
+  pronouns: he/him
+- name: Marco Cè
+  affiliation: Università degli Studi di Milano-Bicocca
+  affiliation-url: https://www.unimib.it
+  groups:
+    - board
+  orcid: 0000-0001-6906-6823
+  pronouns: he/him
+- name: Fernando Romero-Lopez
+  affiliation: Universität Bern
+  affiliation-url: https://www.unibe.ch
+  groups:
+    - board
+    - governance
+  orcid: 0000-0003-0239-1394
+  pronouns: he/him
+- name: Gert Aarts
+  affiliation: Swansea University
+  affiliation-url: https://www.swansea.ac.uk
+  groups:
+    - board
+    - exec
+    - governance
+  orcid: 0000-0002-6038-3782
+  pronouns: he/him
+- name: Francesco Sanfilippo
+  affiliation: INFN
+  affiliation-url: https://infn.it
+  groups:
+    - board
+  orcid: 0000-0002-1333-745X
+  pronouns: he/him
+- name: Stefan Krieg
+  affiliation: Forschungszentrum Jülich
+  affiliation-url: https://fz-juelich.de
+  groups:
+    - board
+  orcid: 0000-0002-8417-9823
+  pronouns: he/him
+- name: Vincent Drach
+  affiliation: University of Plymouth
+  affiliation-url: https://www.plymouth.ac.uk
+  groups:
+    - board
+  orcid: 0000-0001-8948-0220
+  pronouns: he/him
+- name: Benjamin Jäger
+  affiliation: Syddansk Universitet
+  affiliation-url: https://sdu.dk
+  groups:
+    - board
+  orcid: 0000-0003-2930-609X
+  pronouns: he/him
+- name: Olaf Kaczmarek
+  affiliation: Universität Bielefeld
+  affiliation-url: https://www.uni-bielefeld.de
+  groups:
+    - board
+  orcid: 0000-0002-6986-2341
+  pronouns: he/him
+- name: Carsten Urbach
+  affiliation: Universität Bonn
+  affiliation-url: https://www.uni-bonn.de/
+  groups:
+    - board
+    - exec
+    - governance
+  orcid: 0000-0003-1412-7582
+  pronouns: he/him
+- name: Simon Hands
+  affiliation: University of Liverpool
+  affiliation-url: https://liverpool.ac.uk
+  groups:
+    - board
+    - governance
+  orcid: 0000-0001-5720-7852
+  pronouns: he/him

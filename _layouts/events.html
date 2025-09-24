@@ -1,0 +1,67 @@
+---
+layout: page
+---
+
+<h3>Upcoming events</h3>
+
+{% if paginator.posts == empty %}
+
+<i>There are no upcoming events</i>
+
+{% endif %}
+
+{% for post in paginator.posts %}
+
+<article class="post-preview">
+  <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
+    <h2 class="event-title">{{ post.title }}</h2>
+    {% if post.subtitle %}
+    <h3 class="post-subtitle">{{ post.subtitle }}</h3>
+    {% endif %}
+  </a>
+  <p class="post-meta">
+    {{ post.textdate }} &middot; {{ post.location }}
+  </p>
+</article>
+
+<hr>
+
+{% endfor %}
+
+<!-- Pager -->
+{% if paginator.total_pages > 1 %}
+
+<div class="clearfix">
+
+  {% if paginator.previous_page %}
+  <a class="btn btn-primary float-left" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr;
+    Newer<span class="d-none d-md-inline"> Posts</span></a>
+  {% endif %}
+
+  {% if paginator.next_page %}
+  <a class="btn btn-primary float-right" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older<span class="d-none d-md-inline"> Posts</span> &rarr;</a>
+  {% endif %}
+
+</div>
+
+{% endif %}
+
+<hr>
+
+<h3>Past events</h3>
+
+{% for post in site.past_events limit : 3 %}
+
+<article class="post-preview">
+  <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
+    <h2 class="event-title">{{ post.textdate }}: {{ post.title }}</h2>
+  </a>
+  <p class="post-meta">{{ post.location }}
+  </p>
+</article>
+
+<a href="/events/past/">See all past events</a>
+
+{% endfor %}
+
+{{ content }}
