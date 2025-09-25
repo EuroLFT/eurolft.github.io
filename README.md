@@ -124,8 +124,8 @@ To add member institutions to the list and map,
 add a block to `_data/institutions.yml` of the form:
 
 ~~~
-- name: "Name by which institution should be sorted"
-  text: "Text to display for institution name"
+- sortkey: "Name by which institution should be sorted"
+  name: "Text to display for institution name"
   link: "https://path-to-institution.tld"
   image: logo_filename.extension
   lat: YY.YYYYY
@@ -134,7 +134,7 @@ add a block to `_data/institutions.yml` of the form:
 
 Note that:
 
-- `name` allows a non-default sort order.
+- `sortkey` allows a non-default sort order.
   For example,
   setting it to `Bonn` would avoid placing
   Universität Bonn
