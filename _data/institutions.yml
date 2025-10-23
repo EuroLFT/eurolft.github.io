@@ -76,3 +76,9 @@
   image: liverpool.svg
   lat: 53.406
   lon: -53.406
+- sortkey: Cyprus
+  name: University of Cyprus
+  link: https://www.ucy.ac.cy
+  image: cyprus.svg
+  lat: 35.159722
+  lon: 33.377778
