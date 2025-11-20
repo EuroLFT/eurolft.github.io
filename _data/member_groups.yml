@@ -2,10 +2,9 @@
   fullname: "EuroLFT Executive Board"
   member-slug: "Executive Board members"
   description: |
-    The EuroLFT Executive Board comprises a subset of the full Board
-    who are able to rapidly co-ordinate responses to opportunities
-    where the full Board cannot convene,
-    and represent EuroLFT to the wider community.
+    The EuroLFT Executive Board comprises a subset of the full Board.
+    It rapidly co-ordinates responses to opportunities,
+    and represents EuroLFT to the wider community.
 - shortname: board
   fullname: "EuroLFT Board"
   member-slug: "Board representatives"
