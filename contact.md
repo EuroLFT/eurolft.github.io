@@ -23,4 +23,4 @@ eurolft-comms@lists.geant.org][comms-list]
 
 [announce]: https://lists.geant.org/sympa/info/eurolft-announce
 [comms-list]: mailto:eurolft-comms@lists.geant.org
-[mattermost]: https://example.org
+[mattermost]: https://app-mattermost.cloud.sdu.dk/signup_user_complete/?id=3emuz67qiifdjgzswryr7r3r4o
