@@ -15,6 +15,7 @@
     - board
     - exec
     - governance
+  image: antonio
   orcid: 0000-0003-1192-5538
   pronouns: he/him
 - name: Gunnar Bali
