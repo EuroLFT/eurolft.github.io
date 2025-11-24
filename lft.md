@@ -79,18 +79,56 @@ on present and future supercomputers.
 
 ## Links
 
-Learn more:
+### Learn more about lattice field theory
 
-- [Lattice Virtual Academy (LaVA)][lava]:
-  Introductory online lectures on topics in LFT
-- Book
-- Book
-- Book
+#### [LaVA][lava]
 
-Related organisations:
+[The Lattice Virtual Academy (LaVa)][lava]
+ provides introductory online lectures on topics in LFT.
+  
+---
+
+#### **Quantum Fields on a Lattice**
+*István Montvay & Gernot Münster*
+**ISBN-13:** 978-0521404327
+A comprehensive treatment of lattice field theory, covering gauge fields, fermions, algorithms, and numerical methods. 
+
+---
+
+#### **Lattice Gauge Theories: An Introduction**  
+*H. J. Rothe*  
+**ISBN-13:** 978-9812560629  
+A mathematically rigorous introduction to the foundations of lattice gauge theories, including gauge invariance, lattice actions, path integrals, and continuum limits.
+
+---
+
+#### **Lattice Quantum Chromodynamics: Practical Essentials**  
+*Carleton DeTar & Steven Gottlieb*  
+**ISBN-13:** 978-9402409970  
+A modern, concise guide to the practical and algorithmic aspects of lattice QCD simulations. 
+
+---
+
+#### **Lattice Methods for Quantum Chromodynamics**  
+*Thomas DeGrand & Carleton DeTar*  
+**ISBN-13:** 978-9812567277  
+An applied introduction emphasising spectroscopy, fermion formulations, simulation workflows, and computational strategies. 
+
+---
+
+#### **Quantum Chromodynamics on the Lattice: An Introductory Presentation**  
+*Christof Gattringer & Christian B. Lang*  
+**ISBN-13:** 978-3642018497  
+A pedagogical introduction to lattice QCD, covering the theoretical foundations, fermions, gauge fields, Monte Carlo methods, and hadron spectroscopy.
+
+
+---
+
+### Related organisations:
 
 - [International Lattice Data Grid (ILDG)][ildg]:
   Defines standards for data sharing in LFT
+  
 - [USQCD Collaboration][usqcd]:
   Representing the majority of LFT research in the USA
 
