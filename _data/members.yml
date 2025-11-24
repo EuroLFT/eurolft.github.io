@@ -25,6 +25,7 @@
     - comms
     - board
     - exec
+  image: gunnar
   orcid: 0000-0003-0242-5857
   pronouns: he/him
 - name: Andreas Athenodorou
