@@ -29,6 +29,7 @@ description: ""
 {% for category in site.data.member_groups %}
 <h3>{{ category.fullname }}</h3>
 <p>{{ category.description }}</p>
+<p>Current {{ category.member-slug }}:</p>
 <div class="member-container">
 {% for member in membersSorted %}
 {% if member.groups contains category.shortname %}

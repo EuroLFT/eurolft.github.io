@@ -1,12 +1,27 @@
 - shortname: exec
   fullname: "EuroLFT Executive Board"
-  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  member-slug: "Executive Board members"
+  description: |
+    The EuroLFT Executive Board comprises a subset of the full Board.
+    It rapidly co-ordinates responses to opportunities,
+    and represents EuroLFT to the wider community.
 - shortname: board
   fullname: "EuroLFT Board"
-  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  member-slug: "Board representatives"
+  description: |
+    The EuroLFT Board comprises members from across Europe,
+    who represent the interests of
+    their institutions, collaborations, and research areas.
 - shortname: comms
   fullname: "EuroLFT Communications Working Group"
-  description: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  member-slug: "working group members"
+  description: |
+    This working group manages this website, and the EuroLFT mailing lists.
 - shortname: governance
   fullname: "EuroLFT Structure and Governance Working Group"
-  description: "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  member-slug: "working group members"
+  description: >
+    This working group is defining proposals for
+    the future structure and governance of EuroLFT,
+    including guidelines for
+    the composition and election process of the Board and Executive Board.
