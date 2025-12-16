@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "EuroLFT is now active"
-date: 2025-12-16 01:00 +0000
+title: "Announcing the European network for lattice field theory - EuroLFT"
+date: 2025-12-16 11:30 +0000
 ---
 
 We are pleased to announce progress in defining
