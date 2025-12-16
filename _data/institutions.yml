@@ -4,81 +4,647 @@
   image: swansea.svg
   lat: 51.609722
   lon: -3.980556
+  categories:
+  - mailinglist
+  - board
+  - board
+  match-domains:
+  - swansea.ac.uk
+  - swan.ac.uk
+  - abertawe.ac.uk
 - sortkey: Syddansk Universitet
   name: Syddansk Universitet
   link: https://sdu.dk
   image: sdu.png
   lat: 55.368611
   lon: 10.428056
+  categories:
+  - board
+  - board
+  match-domains:
+  - sdu.dk
 - sortkey: Bonn
-  name: Universität Bonn
+  name: "Universit\xE4t Bonn"
   link: https://www.uni-bonn.de/
   image: bonn.svg
   lat: 50.733889
   lon: 7.102222
+  categories:
+  - board
+  match-domains:
+  - uni-bonn.de
 - sortkey: Bielefeld
-  name: Universität Bielefeld
+  name: "Universit\xE4t Bielefeld"
   link: https://www.uni-bielefeld.de
   image: bielefeld.svg
   lat: 52.037778
   lon: 8.493056
+  categories:
+  - board
+  match-domains:
+  - uni-bielefeld.de
 - sortkey: Regensburg
-  name: Universität Regensburg
+  name: "Universit\xE4t Regensburg"
   link: https://ur.de
   image: regensburg.svg
   lat: 48.99923
   lon: 12.09317
+  categories:
+  - mailinglist
+  - board
+  match-domains:
+  - ur.de
+  - uni-regensburg.de
+  - uni-r.de
 - sortkey: Plymouth
   name: University of Plymouth
   link: https://www.plymouth.ac.uk
   image: plymouth.svg
   lat: 50.374121
   lon: -4.138512
+  categories:
+  - board
+  match-domains:
+  - plymouth.ac.uk
 - sortkey: Bern
-  name: Universität Bern
+  name: "Universit\xE4t Bern"
   link: https://www.unibe.ch
   image: bern.svg
   lat: 46.950519
   lon: 7.438109
+  categories:
+  - board
+  match-domains:
+  - unibe.ch
 - sortkey: Wuppertal
-  name: Universität Wuppertal
+  name: "Universit\xE4t Wuppertal"
   link: https://uni-wuppertal.de
   image: wuppertal.svg
   lat: 51.245278
   lon: 7.149444
-- sortkey: Jülich
-  name: "Forschungs&shy;zentrum Jülich"
+  categories:
+  - board
+  match-domains:
+  - uni-wuppertal.de
+- sortkey: "J\xFClich"
+  name: "Forschungs&shy;zentrum J\xFClich"
   link: https://fz-juelich.de
   image: juelich.svg
   lat: 50.905
   lon: 6.411944
+  categories: []
+  match-domains:
+  - fz-juelich.de
 - sortkey: Cyprus Institute
   name: The Cyprus Institute
   link: https://www.cyi.ac.cy
   image: cyprus-institute.png
   lat: 35.14069
   lon: 33.38128
+  categories:
+  - board
+  - board
+  match-domains:
+  - cyi.ac.cy
 - sortkey: INFN
   name: INFN
   link: https://infn.it
   image: infn.svg
   lat: 41.89783
   lon: 12.47556
+  categories:
+  - mailinglist
+  - mailinglist
+  - mailinglist
+  - board
+  match-domains:
+  - infn.it
 - sortkey: Milano-Bicocca
-  name: Università degli Studi di Milano-Bicocca
+  name: "Universit\xE0 degli Studi di Milano-Bicocca"
   link: https://www.unimib.it
   image: milano-bicocca.svg
   lat: 45.514444
   lon: 9.213333
+  categories:
+  - board
+  match-domains:
+  - unimib.it
 - sortkey: Liverpool
   name: University of Liverpool
   link: https://liverpool.ac.uk
   image: liverpool.svg
   lat: 53.406
   lon: -53.406
+  categories:
+  - board
+  match-domains:
+  - liverpool.ac.uk
+  - liv.ac.uk
 - sortkey: Cyprus
   name: University of Cyprus
   link: https://www.ucy.ac.cy
   image: cyprus.svg
   lat: 35.159722
   lon: 33.377778
+  categories: []
+  match-domains:
+  - ucy.ac.cy
+- sortkey: "Adama Mickiewicza w Poznaniu"
+  name: "Uniwersytet im. Adama Mickiewicza w Poznaniu"
+  link: http://international.amu.edu.pl/
+  image: amu.svg
+  lat: 52.4047
+  lon: 16.9155
+  categories:
+  - mailinglist
+  match-domains:
+  - amu.edu.pl
+- sortkey: "E\xF6tv\xF6s Lor\xE1nd University"
+  name: "Eötvös Loránd Tudomány&shy;egyetem"
+  link: https://www.elte.hu/
+  image: elte.png
+  lat: 47.4906
+  lon: 19.0585
+  categories:
+  - mailinglist
+  match-domains:
+  - bodri.elte.hu
+  - elte.hu
+- sortkey: Cambridge
+  name: University of Cambridge
+  link: https://www.cam.ac.uk
+  image: cam.svg
+  lat: 52.205278
+  lon: 0.117222
+  categories:
+  - mailinglist
+  match-domains:
+  - cam.ac.uk
+  - cambridge.ac.uk
+- sortkey: CERN
+  name: CERN
+  link: https://cern.ch
+  image: cern.svg
+  lat: 46.234167
+  lon: 6.052778
+  categories:
+  - mailinglist
+  match-domains:
+  - cern.ch
+- sortkey: Colorado College
+  name: Colorado College
+  link: https://coloradocollege.edu
+  image: coloradocollege.svg
+  lat: 38.8479
+  lon: -104.8228
+  categories:
+  - mailinglist
+  match-domains:
+  - coloradocollege.edu
+- sortkey: Coventry University
+  name: Coventry University
+  link: https://www.coventry.ac.uk/
+  image: coventry.png
+  lat: 52.408055555556
+  lon: -1.5055555555556
+  categories:
+  - mailinglist
+  match-domains:
+  - coventry.ac.uk
+- sortkey: Centre de Physique Théorique
+  name: Centre de Physique Théorique
+  link: https://www.cpt.univ-mrs.fr
+  image: cpt.png
+  lat: 43.2315892
+  lon: 5.437808
+  categories:
+  - mailinglist
+  match-domains:
+  - cpt.univ-mrs.fr
+- sortkey: Consejo Superior de Investigaciones Científicas
+  name: Consejo Superior de Investigaciones Científicas
+  link: http://www.csic.es/
+  image: csic.svg
+  lat: 40.4411202
+  lon: -3.7024793
+  categories:
+  - mailinglist
+  match-domains:
+  - csic.es
+- sortkey: Deutsches Elektronen-Synchrotron
+  name: Deutsches Elektronen-Synchrotron
+  link: http://desy.de/
+  image: desy.svg
+  lat: 52.366667
+  lon: 13.616667
+  categories:
+  - mailinglist
+  match-domains:
+  - desy.de
+- sortkey: Edinburgh
+  name: University of Edinburgh
+  link: https://www.ed.ac.uk
+  image: edinburgh.svg
+  lat: 55.95
+  lon: -3.183333
+  categories:
+  - mailinglist
+  match-domains:
+  - ed.ac.uk
+  - edinburgh.ac.uk
+- sortkey: Calabria
+  name: Università della Calabria
+  link: https://unical.it
+  image: unical.svg
+  lat: 39.363611
+  lon: 16.226389
+  categories:
+  - mailinglist
+  match-domains:
+  - fis.unical.it
+- sortkey: Roma Tre
+  name: "Universit\xE0 degli Studi Roma Tre"
+  link: https://www.uniroma3.it/en/
+  image: romatre.svg
+  lat: 41.8625
+  lon: 12.478888888889
+  categories:
+  - mailinglist
+  match-domains:
+  - fis.uniroma3.it
+  - uniroma3.it
+- sortkey: Barcelona
+  name: Universitat de Barcelona
+  link: https://web.ub.edu/web/ub/
+  image: barcelona.svg
+  lat: 41.386666666667
+  lon: 2.1638888888889
+  categories:
+  - mailinglist
+  match-domains:
+  - ub.edu
+- sortkey: Tirana
+  name: Universiteti I Tiranës
+  link: https://unitir.edu.al/
+  image: tirana.svg
+  lat: 41.316667
+  lon: 19.821667
+  categories:
+  - mailinglist
+  match-domains:
+  - fshn.edu.al
+  - unitir.edu.al
+- sortkey: Lunds universitet
+  name: Lunds universitet
+  link: https://www.lu.se/
+  image: lunds.svg
+  lat: 55.705833
+  lon: 13.193333
+  categories:
+  - mailinglist
+  match-domains:
+  - lu.se
+- sortkey: Zagrebu
+  name: Sveučilište u Zagrebu
+  link: http://www.unizg.hr/homepage/
+  image: unizg.png
+  lat: 45.810672
+  lon: 15.970097
+  categories:
+  - mailinglist
+  match-domains:
+  - unizg.hr
+- sortkey: Helsingin yliopisto
+  name: Helsingin yliopisto
+  link: https://www.helsinki.fi/en
+  image: helsinki.svg
+  lat: 60.169444444444
+  lon: 24.95
+  categories:
+  - mailinglist
+  match-domains:
+  - helsinki.fi
+- sortkey: "Humboldt-Universit\xE4t zu Berlin"
+  name: "Humboldt-Universit\xE4t zu Berlin"
+  link: https://www.hu-berlin.de/
+  image: huberlin.svg
+  lat: 52.518055555556
+  lon: 13.393333333333
+  categories:
+  - mailinglist
+  match-domains:
+  - hu-berlin.de
+- sortkey: Cantabria
+  name: Universidad de Cantabria
+  link: http://www.unican.es/
+  image: unican.svg
+  lat: 43.473
+  lon: -3.801
+  categories:
+  - mailinglist
+  match-domains:
+  - ifca.unican.es
+- sortkey: Valencia
+  name: Universitat de Valencia
+  link: https://www.uv.es/
+  image: valencia.svg
+  lat: 39.4790511
+  lon: -0.3590873
+  categories:
+  - mailinglist
+  match-domains:
+  - uv.es
+- sortkey: Institute for High Energy Physics
+  name: Institute for High Energy Physics
+  link: http://www.ihep.ru/
+  image: ihep.gif
+  lat: 54.8678
+  lon: 37.203
+  categories:
+  - mailinglist
+  match-domains:
+  - ihep.ru
+- sortkey: Jozef Stefan
+  name: "Institut »Jožef Stefan«"
+  link: http://www.ijs.si/
+  image: ijs.svg
+  lat: 46.042303
+  lon: 14.487769
+  categories:
+  - mailinglist
+  match-domains:
+  - ijs.si
+- sortkey: Goethe-Universität Frankfurt
+  name: Goethe-Universität Frankfurt
+  link: https://www.uni-frankfurt.de/
+  image: frankfurt.svg
+  lat: 50.127778
+  lon: 8.666667
+  categories:
+  - mailinglist
+  match-domains:
+  - uni-frankfurt.de
+  - goethe-university-frankfurt.de
+- sortkey: Tel Aviv University
+  name: Tel Aviv University
+  link: https://www.tau.ac.il/
+  image: tau.svg
+  lat: 32.1125
+  lon: 34.805
+  categories:
+  - mailinglist
+  match-domains:
+  - tau.ac.il
+- sortkey: Tours
+  name: Université de Tours
+  link: http://www.univ-tours.fr/
+  image: tours.svg
+  lat: 47.35633
+  lon: 0.70312
+  categories:
+  - mailinglist
+  match-domains:
+  - univ-tours.fr
+- sortkey: Athens
+  name: National Technical University of Athens
+  link: https://www.ntua.gr/en/
+  image: ntua.png
+  lat: 37.987864
+  lon: 23.731614
+  categories:
+  - mailinglist
+  match-domains:
+  - ntua.gr
+- sortkey: Maynooth
+  name: Maynooth University
+  link: https://mu.ie
+  image: maynooth.png
+  lat: 53.3835
+  lon: -6.5996
+  categories:
+  - mailinglist
+  match-domains:
+  - mu.ie
+  - nuim.ie
+  - maynoothuniversity.ie
+- sortkey: NVIDIA
+  name: NVIDIA
+  link: https://nvidia.com
+  image: nvidia.svg
+  categories:
+  - mailinglist
+  match-domains:
+  - nvidia.com
+- sortkey: Queen Mary University of London
+  name: Queen Mary University of London
+  link: https://qmul.ac.uk
+  image: qmul.svg
+  lat: 51.523
+  lon: -0.04
+  categories:
+  - mailinglist
+  match-domains:
+  - qmul.ac.uk
+- sortkey: Glasgow
+  name: University of Glasgow
+  link: https://gla.ac.uk/
+  image: glasgow.svg
+  lat: 55.871944
+  lon: -4.2875
+  categories:
+  - mailinglist
+  match-domains:
+  - gla.ac.uk
+  - glasgow.ac.uk
+- sortkey: Southampton
+  name: University of Southampton
+  link: https://southampton.ac.uk/
+  image: soton.svg
+  lat: 50.93463
+  lon: -1.39595
+  categories:
+  - mailinglist
+  match-domains:
+  - soton.ac.uk
+  - southampton.ac.uk
+- sortkey: Trinity College Dublin
+  name: Trinity College Dublin
+  link: https://www.tcd.ie/
+  image: tcd.svg
+  lat: 53.3444
+  lon: -6.2577
+  categories:
+  - mailinglist
+  match-domains:
+  - tcd.ie
+- sortkey: Lisboa
+  name: Universidade de Lisboa
+  link: https://www.ulisboa.pt/en
+  image: lisboa.svg
+  lat: 38.7526578
+  lon: -9.1608253
+  categories:
+  - mailinglist
+  match-domains:
+  - ulisboa.pt
+- sortkey: "Ruprecht-Karls-Universit\xE4t Heidelberg"
+  name: "Ruprecht-Karls-Universit\xE4t Heidelberg"
+  link: https://www.uni-heidelberg.de/
+  image: heidelberg.svg
+  lat: 49.410277777778
+  lon: 8.7063888888889
+  categories:
+  - mailinglist
+  match-domains:
+  - uni-heidelberg.de
+- sortkey: Technische Universität München
+  name: Technische Universität München
+  link: https://www.tum.de/en/
+  image: tum.svg
+  lat: 48.148056
+  lon: 11.568056
+  categories:
+  - mailinglist
+  match-domains:
+  - tum.de
+- sortkey: Madrid
+  name: Universidad Autónoma de Madrid
+  link: https://www.uam.es/ss/Satellite/en/home.htm
+  image: uam.svg
+  lat: 40.5453
+  lon: -3.69611
+  categories:
+  - mailinglist
+  match-domains:
+  - uam.es
+- sortkey: Coimbra
+  name: Universidade de Coimbra
+  link: https://www.uc.pt/
+  image: coimbra.svg
+  lat: 40.2074
+  lon: -8.4265
+  categories:
+  - mailinglist
+  match-domains:
+  - uc.pt
+- sortkey: Granada
+  name: Universidad de Granada
+  link: http://www.ugr.es/
+  image: granada.png
+  lat: 37.1839386
+  lon: -3.6030005
+  categories:
+  - mailinglist
+  match-domains:
+  - ugr.es
+- sortkey: Stavanger
+  name: Universitetet i Stavanger
+  link: https://www.uis.no/
+  image: stavanger.svg
+  lat: 58.937505555556
+  lon: 5.6974166666667
+  categories:
+  - mailinglist
+  match-domains:
+  - uis.no
+- sortkey: Graz
+  name: Universität Graz
+  link: http://www.uni-graz.at/en
+  image: graz.svg
+  lat: 47.078056
+  lon: 15.449167
+  categories:
+  - mailinglist
+  match-domains:
+  - uni-graz.at
+- sortkey: "Friedrich-Schiller-Universit\xE4t Jena"
+  name: "Friedrich-Schiller-Universit\xE4t Jena"
+  link: https://www.uni-jena.de/
+  image: jena.svg
+  lat: 50.928333333333
+  lon: 11.582222222222
+  categories:
+  - mailinglist
+  match-domains:
+  - uni-jena.de
+- sortkey: "Johannes Gutenberg-Universit\xE4t Mainz"
+  name: "Johannes Gutenberg-Universit\xE4t Mainz"
+  link: https://www.uni-mainz.de/
+  image: mainz.svg
+  lat: 49.993055555556
+  lon: 8.2416666666667
+  categories:
+  - mailinglist
+  match-domains:
+  - uni-mainz.de
+- sortkey: "M\xFCnster"
+  name: "Universit\xE4t M\xFCnster"
+  link: https://www.uni-muenster.de/
+  image: muenster.svg
+  lat: 51.964
+  lon: 7.613
+  categories:
+  - mailinglist
+  match-domains:
+  - uni-muenster.de
+- sortkey: Tübingen
+  name: Eberhard Karls Universität Tübingen
+  link: https://uni-tuebingen.de/en
+  image: tuebingen.svg
+  lat: 48.525
+  lon: 9.058889
+  categories:
+  - mailinglist
+  match-domains:
+  - uni-tuebingen.de
+- sortkey: Pisa
+  name: Università di Pisa
+  link: https://www.unipi.it/en/
+  image: pisa.svg
+  lat: 43.716508
+  lon: 10.398458
+  categories:
+  - mailinglist
+  match-domains:
+  - unipi.it
+- sortkey: Parma
+  name: Università degli Studi di Parma
+  link: http://www.unipr.it/
+  image: parma.svg
+  lat: 44.801
+  lon: 10.3251
+  categories:
+  - mailinglist
+  match-domains:
+  - unipr.it
+- sortkey: Torino
+  name: Università degli Studi di Torino
+  link: http://unito.it/
+  image: torino.svg
+  lat: 45.069444
+  lon: 7.688889
+  categories:
+  - mailinglist
+  match-domains:
+  - unito.it
+- sortkey: Zaragoza
+  name: Universidad de Zaragoza
+  link: http://www.unizar.es/
+  image: zaragoza.png
+  lat: 41.642064
+  lon: -0.901507
+  categories:
+  - mailinglist
+  match-domains:
+  - unizar.es
+- sortkey: Pablo de Olavide
+  name: Universidad Pablo de Olavide
+  link: http://sede.upo.es/
+  image: upo.png
+  lat: 37.355
+  lon: -5.938
+  categories:
+  - mailinglist
+  match-domains:
+  - upo.es
+

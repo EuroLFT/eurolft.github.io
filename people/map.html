@@ -4,9 +4,34 @@ title: EuroLFT Sites
 map: true
 ---
 
+{% assign institutionsSorted = site.data.institutions | sort: "sortkey" %}
+
 <p>Each pin represents one institution whose members are represented in EuroLFT.</p>
 
 <div id="map" class="map" tabindex="0"></div>
+
+<ul>
+  <li><img src="/img/marker.png" style="height: 1em;"> Mailing list member</li>
+  <li><img src="/img/boardmarker.png" style="height: 1em;"> Board member</li>
+</ul>
+
+<p>The EuroLFT mailing lists include members of the following institutions:</p>
+<div class="institution-list">
+{% for institution in institutionsSorted %}
+<div class="institution-entry">
+<div class="institution-entry-content">
+<img class="institution-logo" src="/img/institutions/{{ institution.image }}" alt="{{ institution.name }}">
+<p class="institution-text">
+{% if institution.link %}<a href="{{ institution.link }}">{% endif %}
+{{ institution.name }}
+{% if institution.link %}</a>{% endif %}
+</p>
+</div>
+</div>
+{% endfor %}
+</div>
+
+
     <script>
       var map = new ol.Map({
         layers: [
@@ -31,9 +56,24 @@ map: true
           })
       });
       map.addLayer(markers);
+      var boardMarkers = new ol.layer.Vector({
+          source: new ol.source.Vector(),
+          style: new ol.style.Style({
+              image: new ol.style.Icon({
+                  anchor: [0.5, 1],
+                  src: '/img/boardmarker.png',
+                  scale: 0.2,
+              })
+          })
+      });
+      map.addLayer(boardMarkers);
 
 {% for institution in site.data.institutions %}
       var marker = new ol.Feature(new ol.geom.Point(ol.proj.fromLonLat([{{ institution.lon }}, {{ institution.lat }}])));
+{% if institution.categories contains "board" %}
+      boardMarkers.getSource().addFeature(marker);
+{% elsif institution.categories contains "mailinglist" %}
       markers.getSource().addFeature(marker);
+{% endif %}
 {% endfor %}
     </script>
