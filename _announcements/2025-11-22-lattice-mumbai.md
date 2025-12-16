@@ -4,4 +4,26 @@ title: "Lattice 2025 Mumbai"
 date: 2025-09-22 00:00 +0100
 ---
 
-At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
+**Lattice 2025**,
+the annual international conference on lattice field theory,
+brings together the global lattice community to present the latest advances in
+algorithms,
+theory,
+and high-performance computing,
+and their impact on particle,
+nuclear,
+and beyond-the-Standard-Model physics.
+The conference features plenary and parallel sessions covering lattice QCD,
+lattice gauge theories,
+phenomenology,
+and emerging computational methods,
+with strong connections to current and future experimental programmes.
+
+The conference will take place in Mumbai in November 2025.
+Further information,
+to be followed by all conference material,
+including slides,
+posters,
+and recorded talks,
+is publicly available on
+[The Lattice 2025 Indico](https://indico.global/event/14504/).
