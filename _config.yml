@@ -38,6 +38,7 @@ pagination:
   per_page: 5
   permalink: "announcements/:num/"
   limit: 0
+  sort_reverse: true
 
 plugins:
   - jekyll-feed
