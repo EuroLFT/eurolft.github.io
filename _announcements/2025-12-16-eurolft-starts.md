@@ -12,6 +12,6 @@ We would encourage all lattice researchers in Europe to visit our [website][webs
 and in particular to [join our mailing list][mailing-list]
 and [Mattermost server][mattermost].
 
-[announce]: https://lists.geant.org/sympa/info/eurolft-announce
+[mailing-list]: https://lists.geant.org/sympa/info/eurolft-announce
 [mattermost]: https://app-mattermost.cloud.sdu.dk/signup_user_complete/?id=3emuz67qiifdjgzswryr7r3r4o
 [website]: <https://eurolft.github.io>
