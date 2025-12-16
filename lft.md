@@ -23,6 +23,11 @@ LFT was born from the seminal idea introduced by Kenneth Wilson in the 1970s,
 who realized that
 discretizing space–time provides a non-perturbative definition of gauge theories.
 
+<figure class="image">
+<img src="/img/phasediagram.png" alt='Phase diagram of QCD. A graph showing temperature on the vertical axis and baryon density on the horizontal axis. The region to the bottom left is marked "supernovae and neutron star mergers"; above this "hadron gas". This region is surrounded by a "chiral transition" and "deconfinement transition", ending in a "critical point". To the right of this is marked "Color superconductor?" To the top right "quark-gluon plasma", and to the top left "lattice QCD".' width="100%">
+<figcaption>Phase diagram of QCD, from <a href="https://doi.org/10.1146/annurev-nucl-102419-041903">Drischler, Holt, and Wellenhofer, 2021</a>.</figcaption>
+</figure>
+
 Over the past decades,
 lattice QCD has become a unique tool
 for studying the dynamics of the strong interactions
@@ -55,6 +60,11 @@ and real-time dynamical phenomena,
 including studies at finite baryon density.
 Progress in each of these areas is crucial for
 interpreting heavy-ion collision experiments without model-dependent assumptions.
+
+<figure class="image">
+<img src="/img/alpha-strong.svg" width="100%" alt="Graph of the strong coupling constant alpha-s as a function of mu (in GeV, on a logarithmic scale from 3 to 10000), showing an exponential decay fit from 0.35 at low mu to around 0.07 at high mu. Data from many different methods agree with the fit.">
+<figcaption>The strong coupling constant for a wide range of energy scales, from <a href="https://doi.org/10.48550/arXiv.2501.06633">ALPHA Collaboration (2025)</a>.</figcaption>
+</figure>
 
 As a consequence,
 the interaction
