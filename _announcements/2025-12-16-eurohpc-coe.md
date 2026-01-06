@@ -23,12 +23,19 @@ The broader goal is to establish a reference center for large-scale HEP scientif
 A non-exhaustive list of activities includes:
 
 -) Enhancing scientific reach
+
 -) Improving scalability of theoretical HEP codes
+
 -) Improving scalability of experimental HEP codes
+
 -) Validating enabling technologies and solutions
+
 -) Scouting and evaluating emerging HPC technologies
+
 -) Ensuring long-term sustainability
+
 -) Community building
+
 -) Assessing solutions relevant to neighbouring scientific domains
 
 I am therefore writing to request the involvement of you and your collaborators in this initiative.
