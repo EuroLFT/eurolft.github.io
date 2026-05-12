@@ -21,6 +21,9 @@ including:
 - Workflow management for automated data analysis
 - Open science
 - Data sharing
+- Techniques for high-performance computing
+- Applying for high-performance computing resources
+  (with a focus on the UK context)
 
 These will be covered by a mix of lecture-style talks and hands-on workshops.
 The full programme and list of instructors will be confirmed closer to the event.
@@ -28,9 +31,12 @@ The full programme and list of instructors will be confirmed closer to the event
 Researchers in particle physics who touch code as part of their work&mdash;in particular,
 PhD students and postdocs&mdash;are
 encouraged to apply.
-Workshop costs for UK particle physics researchers,
+Workshop costs for UK and European particle physics researchers,
 including travel, accommodation, and food,
 will be fully funded.
+(International air travel cannot be funded,
+but international rail travel can.
+Please see [the Indico][register] for details)
 
 Our project is committed to equity, diversity, and inclusion within the community;
 if there are financial reasons beyond typical travel expenses
@@ -47,7 +53,7 @@ we do not wish to be exclusionary:
 if you are unable to participate in in-person events,
 please let us know and we can try to facilitate alternative means of participation.
 
-The proto-CCP-TEPP
+The [proto-CCP-TEPP][ccp-tepp]
 (Collaborative Computational Project in Theoretical and Experimental Particle Physics)
 project is funded by [CoSeC][cosec] to bring together the particle physics community to 
 define a roadmap for the future of software in particle physics,
@@ -63,6 +69,7 @@ please [get in touch with Ed Bennett][ejb] for further information.
 We look forward to seeing you in Swansea!
 
 [ccp]: <https://www.ccp.ac.uk>
+[ccp-tepp]: <https://ccp-tepp.github.io>
 [cosec]: <https://www.cosec.ac.uk>
 [ejb]: <mailto:e.j.bennett@swansea.ac.uk>
 [register]: <https://indico.global/e/ccp-tepp-school-2026>
