@@ -119,11 +119,21 @@
     - governance
   orcid: 0000-0003-1412-7582
   pronouns: he/him
-- name: Simon Hands
-  affiliation: University of Liverpool
-  affiliation-url: https://liverpool.ac.uk
+- name: Vera Guelpers
+  affiliation: University of Edinburgh
+  affiliation-url: https://www.ed.ac.uk/
   groups:
     - board
-    - governance
-  orcid: 0000-0001-5720-7852
-  pronouns: he/him
+  orcid: 0000-0003-4555-6662
+- name: Gregorio Herdoiza
+  affiliation: Universidad Autónoma de Madrid
+  affiliation-url: https://uam.es
+  groups:
+    - board
+  orcid: 0000-0002-8187-5671
+- name: Elvira Gamiz
+  affiliation: Universidad de Granada
+  affiliation-url: https://ugr.es
+  groups:
+    - board
+  orcid: 0000-0001-5125-2687
