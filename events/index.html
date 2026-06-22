@@ -7,3 +7,106 @@ pagination:
   collection: events
   permalink: "/events/:num/"
 ---
+
+{% comment %}
+Note that the EuroLFT events are populated in _layouts/events.html,
+and will appear above the community events below..
+{% endcomment %}
+
+{% comment %}
+The below implements date handling in a language disastrously unsuited to it.
+It would likely be better to rewrite much of this in Ruby as a custom filter,
+or give up on doing this section as a static site
+and use JavaScript.
+{% endcomment %}
+
+<h3 style="margin-top: 50px;">Upcoming community events</h3>
+
+Below is a fuller listing of events known to us
+that you may wish to account for when scheduling your own events.
+
+{% assign current_year = site.time | date: "%Y" %}
+{% assign next_year = current_year | plus: 1 %}
+
+{% assign month_names = "Smarch, January, February, March, April, May, June, July, August, September, October, November, December" | split: ", " %}
+{% assign current_month = site.time | date: "%m" %}
+{% assign this_year_months = (current_month..12) %}
+{% assign next_year_months = (1..12) %}
+{% assign events = site.data.community_events | sort: "start" %}
+
+<!-- This year -->
+
+{% for month in this_year_months %}
+{% capture month_events %}
+{% for event in events %}
+
+{% capture event_start_date %}{{ event.start }}{% endcapture %}
+{% capture event_end_date %}{{ event.end }}{% endcapture %}
+{% capture month_start_date %}{{ current_year }}-{% if month < 10 %}0{% endif %}{{ month }}-01{% endcapture %}
+{% unless forloop.parentloop.last %}
+{% capture month_end_date %}{{ current_year }}-{% if month < 9 %}0{% endif %}{{ month | plus: 1 }}-01{% endcapture %}
+{% else %}
+{% capture month_end_date %}{{ current_year | plus: 1 }}-01-01{% endcapture %}
+{% endunless %}
+
+{% if event_start_date < month_end_date and event_end_date > month_start_date %}
+    <li>
+      <img src="/img/flags/{{ event.country }}.svg" alt="{{ event.country }}" style="height: 0.5lh;">
+      {% if event.start == event.end %}
+      {{ event.start }}:
+      {% else %}
+      {{ event.start }}&ndash;{{ event.end }}:
+      {% endif %}
+      <a href="{{ event.url }}">{{ event.name }}</a>,
+      {{ event.location }}
+    </li>
+{% endif %}
+{% endfor %}
+{% endcapture %}
+{% assign stripped_events = month_events | strip_newlines | strip %}
+{% unless stripped_events == "" %}
+<h4>{{ month_names[month] }} {{ current_year }}</h4>
+<ul>
+{{ stripped_events }}
+</ul>
+{% endunless %}
+{% endfor %}
+
+<!-- Next year -->
+
+{% for month in next_year_months %}
+{% capture month_events %}
+{% for event in events %}
+
+{% capture event_start_date %}{{ event.start }}{% endcapture %}
+{% capture event_end_date %}{{ event.end }}{% endcapture %}
+{% capture month_start_date %}{{ next_year }}-{% if month < 10 %}0{% endif %}{{ month }}-01{% endcapture %}
+{% unless forloop.parentloop.last %}
+{% capture month_end_date %}{{ next_year }}-{% if month < 9 %}0{% endif %}{{ month | plus: 1 }}-01{% endcapture %}
+{% else %}
+{% capture month_end_date %}{{ next_year | plus: 1 }}-01-01{% endcapture %}
+{% endunless %}
+
+{% if event_start_date < month_end_date and event_end_date > month_start_date %}
+    <li>
+      <img src="/img/flags/{{ event.country }}.svg" alt="{{ event.country }}">
+      {% if event.start == event.end %}
+      {{ event.start }}:
+      {% else %}
+      {{ event.start }}&ndash;{{ event.end }}:
+      {% endif %}
+      <a href="{{ event.url }}">{{ event.name }}</a>,
+      {{ event.location }}
+    </li>
+{% endif %}
+{% endfor %}
+{% endcapture %}
+
+{% assign stripped_events = month_events | strip_newlines | strip %}
+{% unless stripped_events == "" %}
+<h4>{{ month_names[month] }} {{ next_year }}</h4>
+<ul>
+{{ month_events | strip }}
+</ul>
+{% endunless %}
+{% endfor %}
