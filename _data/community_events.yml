@@ -1,0 +1,24 @@
+- name: Lattice 2026
+  location: Maryland, USA
+  country: us
+  url: https://indico.global/event/16565/
+  start: 2026-07-26
+  end: 2026-08-01
+- name: Extreme QCD 2026
+  location: Busan, South Korea
+  country: kr
+  url: https://indico.ibs.re.kr/event/1158/
+  start: 2026-07-14
+  end: 2026-07-17
+- name: Strong and Electroweak Matter 2026
+  location: Helsinki, Finland
+  country: fi
+  url: https://indico.global/event/14246/
+  start: 2026-08-17
+  end: 2026-08-21
+- name: CCP-TEPP Summer School 2026
+  location: Swansea, UK
+  country: gb
+  url: https://indico.global/event/16372/overview
+  start: 2026-06-29
+  end: 2026-07-03

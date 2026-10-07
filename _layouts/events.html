@@ -2,11 +2,11 @@
 layout: page
 ---
 
-<h3>Upcoming events</h3>
+<h3>Upcoming EuroLFT events</h3>
 
 {% if paginator.posts == empty %}
 
-<i>There are no upcoming events</i>
+<i>There are no upcoming EuroLFT events</i>
 
 {% endif %}
 
@@ -48,7 +48,7 @@ layout: page
 
 <hr>
 
-<h3>Past events</h3>
+<h3>Past EuroLFT events</h3>
 
 {% for post in site.past_events limit : 3 %}
 
@@ -60,7 +60,7 @@ layout: page
   </p>
 </article>
 
-<a href="/events/past/">See all past events</a>
+<a href="/events/past/">See all past EuroLFT events</a>
 
 {% endfor %}
 
