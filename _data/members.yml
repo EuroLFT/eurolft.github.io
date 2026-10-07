@@ -137,3 +137,9 @@
   groups:
     - board
   orcid: 0000-0001-5125-2687
+- name: Christopher Thomas
+  affiliation: University of Cambridge
+  affiliation-url: https://www.damtp.cam.ac.uk
+  groups:
+    - board
+  orcid: 0000-0001-8817-4977

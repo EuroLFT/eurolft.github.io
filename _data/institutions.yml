@@ -173,6 +173,7 @@
   lon: 0.117222
   categories:
   - mailinglist
+  - board
   match-domains:
   - cam.ac.uk
   - cambridge.ac.uk
