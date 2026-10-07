@@ -1,5 +1,6 @@
 ---
 layout: home
+map: true
 ---
 
 <div style="width: 40%; float: right; margin-top: 48px;">
@@ -28,3 +29,9 @@ such as EuroHPC-JU,
 and organizations,
 such as CERN,
 to give our European research community a voice and represent its interests.
+
+<div id="map" class="map" tabindex="0"></div>
+
+<div style="float: right; font-style: italic;"><a href="people/map.html">Map details</a></div>
+
+{% include mapactivate.html %}

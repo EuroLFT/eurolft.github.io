@@ -4,7 +4,6 @@ title: EuroLFT Sites
 map: true
 ---
 
-{% assign institutionsSorted = site.data.institutions | sort: "sortkey" %}
 
 <p>Each pin represents one institution whose members are represented in EuroLFT.</p>
 
@@ -14,6 +13,8 @@ map: true
   <li><img src="/img/marker.png" style="height: 1em;"> Member</li>
   <li><img src="/img/boardmarker.png" style="height: 1em;"> Board member</li>
 </ul>
+
+{% assign institutionsSorted = site.data.institutions | sort: "sortkey" %}
 
 <p>EuroLFT includes members of the following institutions:</p>
 <div class="institution-list">
@@ -31,49 +32,4 @@ map: true
 {% endfor %}
 </div>
 
-
-    <script>
-      var map = new ol.Map({
-        layers: [
-          new ol.layer.Tile({
-            source: new ol.source.OSM()
-          })
-        ],
-        target: 'map',
-        view: new ol.View({
-          center: ol.proj.fromLonLat([13.41, 50]),
-          zoom: 4
-        })
-      });
-      var markers = new ol.layer.Vector({
-          source: new ol.source.Vector(),
-          style: new ol.style.Style({
-              image: new ol.style.Icon({
-                  anchor: [0.5, 1],
-                  src: '/img/marker.png',
-                  scale: 0.2,
-              })
-          })
-      });
-      map.addLayer(markers);
-      var boardMarkers = new ol.layer.Vector({
-          source: new ol.source.Vector(),
-          style: new ol.style.Style({
-              image: new ol.style.Icon({
-                  anchor: [0.5, 1],
-                  src: '/img/boardmarker.png',
-                  scale: 0.2,
-              })
-          })
-      });
-      map.addLayer(boardMarkers);
-
-{% for institution in site.data.institutions %}
-      var marker = new ol.Feature(new ol.geom.Point(ol.proj.fromLonLat([{{ institution.lon }}, {{ institution.lat }}])));
-{% if institution.categories contains "board" %}
-      boardMarkers.getSource().addFeature(marker);
-{% elsif institution.categories contains "mailinglist" %}
-      markers.getSource().addFeature(marker);
-{% endif %}
-{% endfor %}
-    </script>
+{% include mapactivate.html %}
