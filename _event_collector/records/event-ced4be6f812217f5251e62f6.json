@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "id": "event-ced4be6f812217f5251e62f6",
+  "revision": 1,
+  "origin": "collected",
+  "facts": {
+    "title": "26th Australian Institute of Physics (AIP) Congress",
+    "type": "conference",
+    "start_date": "2026-12-07",
+    "end_date": "2026-12-11",
+    "start_time": null,
+    "end_time": null,
+    "timezone": null,
+    "location": {
+      "venue": null,
+      "city": "Sydney",
+      "country": "Australia"
+    },
+    "attendance": "unknown",
+    "official_url": "https://www.aip.org.au/CONGRESS",
+    "summary": null,
+    "deadlines": [],
+    "lifecycle": "scheduled"
+  },
+  "sources": [
+    {
+      "id": "inspire-3148240",
+      "kind": "announcement",
+      "url": "https://inspirehep.net/conferences/3148240",
+      "posted_at": null,
+      "retrieved_at": null,
+      "note": "Structured INSPIRE catalogue metadata; updated 2026-04-24T23:13:03.022045+00:00"
+    }
+  ],
+  "evidence": [
+    {
+      "field": "/facts/title",
+      "source_id": "inspire-3148240",
+      "excerpt": "26th Australian Institute of Physics (AIP) Congress"
+    },
+    {
+      "field": "/facts/start_date",
+      "source_id": "inspire-3148240",
+      "excerpt": "2026-12-07"
+    },
+    {
+      "field": "/facts/end_date",
+      "source_id": "inspire-3148240",
+      "excerpt": "2026-12-11"
+    },
+    {
+      "field": "/facts/location/city",
+      "source_id": "inspire-3148240",
+      "excerpt": "Sydney"
+    },
+    {
+      "field": "/facts/location/country",
+      "source_id": "inspire-3148240",
+      "excerpt": "Australia"
+    },
+    {
+      "field": "/facts/official_url",
+      "source_id": "inspire-3148240",
+      "excerpt": "https://www.aip.org.au/CONGRESS"
+    }
+  ],
+  "related_events": [],
+  "identity_aliases": [
+    "inspire:3148240",
+    "source-event:https://inspirehep.net/conferences/3148240|title:26th australian institute of physics aip congress"
+  ],
+  "warnings": [
+    "Human review required for INSPIRE metadata and lattice relevance.",
+    "Event type inferred from title/catalogue; confirm before approval.",
+    "Broad Theory-HEP candidate: relevance requires human review."
+  ],
+  "editor_overrides": [],
+  "decision": {
+    "status": "pending",
+    "reviewed_revision": null,
+    "reason": null,
+    "acknowledged_warnings": []
+  },
+  "history": []
+}
