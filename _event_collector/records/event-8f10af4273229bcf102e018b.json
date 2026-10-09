@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "id": "event-8f10af4273229bcf102e018b",
+  "revision": 1,
+  "origin": "collected",
+  "facts": {
+    "title": "17th International QCD@LHC Workshop",
+    "type": "workshop",
+    "start_date": "2027-09-06",
+    "end_date": "2027-09-10",
+    "start_time": null,
+    "end_time": null,
+    "timezone": null,
+    "location": {
+      "venue": null,
+      "city": "Krakow",
+      "country": "Poland"
+    },
+    "attendance": "unknown",
+    "official_url": null,
+    "summary": null,
+    "deadlines": [],
+    "lifecycle": "scheduled"
+  },
+  "sources": [
+    {
+      "id": "inspire-3148731",
+      "kind": "announcement",
+      "url": "https://inspirehep.net/conferences/3148731",
+      "posted_at": null,
+      "retrieved_at": null,
+      "note": "Structured INSPIRE catalogue metadata; updated 2026-05-03T21:45:22.848245+00:00"
+    }
+  ],
+  "evidence": [
+    {
+      "field": "/facts/title",
+      "source_id": "inspire-3148731",
+      "excerpt": "17th International QCD@LHC Workshop"
+    },
+    {
+      "field": "/facts/start_date",
+      "source_id": "inspire-3148731",
+      "excerpt": "2027-09-06"
+    },
+    {
+      "field": "/facts/end_date",
+      "source_id": "inspire-3148731",
+      "excerpt": "2027-09-10"
+    },
+    {
+      "field": "/facts/location/city",
+      "source_id": "inspire-3148731",
+      "excerpt": "Krakow"
+    },
+    {
+      "field": "/facts/location/country",
+      "source_id": "inspire-3148731",
+      "excerpt": "Poland"
+    }
+  ],
+  "related_events": [],
+  "identity_aliases": [
+    "inspire:3148731",
+    "source-event:https://inspirehep.net/conferences/3148731|title:17th international qcd lhc workshop"
+  ],
+  "warnings": [
+    "Human review required for INSPIRE metadata and lattice relevance.",
+    "Event type inferred from title/catalogue; confirm before approval.",
+    "Broad Theory-HEP candidate: relevance requires human review."
+  ],
+  "editor_overrides": [],
+  "decision": {
+    "status": "pending",
+    "reviewed_revision": null,
+    "reason": null,
+    "acknowledged_warnings": []
+  },
+  "history": []
+}
