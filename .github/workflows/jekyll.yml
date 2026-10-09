@@ -42,11 +42,20 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Export approved community event data
+        run: |
+          python -m pip install -r tools/event_collector/requirements.txt
+          python -m tools.event_collector.registry --require-decisions --export _data/community_events.json
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
+      - name: Check collector material is absent from the website
+        run: python -m tools.event_collector.audit_site _site
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v3

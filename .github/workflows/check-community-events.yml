@@ -1,0 +1,36 @@
+name: Check community events
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r tools/event_collector/requirements.txt
+      - run: python -m unittest discover -s tests/event_collector
+      - name: Validate editorial decisions
+        run: python -m tools.event_collector.registry --require-decisions
+      - name: Check registry changes against the base branch
+        if: github.event_name == 'pull_request'
+        env:
+          BASE_BRANCH: ${{ github.base_ref }}
+        run: python -m tools.event_collector.registry --base "origin/$BASE_BRANCH" --require-decisions
+      - name: Export reviewed public facts
+        run: python -m tools.event_collector.registry --export _data/community_events.json
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2.2'
+          bundler-cache: true
+      - run: bundle exec jekyll build
+      - run: python -m tools.event_collector.audit_site _site

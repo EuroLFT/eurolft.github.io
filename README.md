@@ -2,6 +2,42 @@
 
 The EuroLFT website
 
+## Community event collector (in development)
+
+The initial event format, scope and GitHub moderation rules are documented in
+[the community events contract](docs/event-collector.md).
+The schema and example records under `_event_collector/` are development material
+and are excluded from website output. A local announcement collector is available;
+scheduled collection and publication are not enabled. See the contract for commands
+and the tested anonymous-session handling.
+Routine collection reads only the current archive month; the previous completed
+month is available as an explicit choice. Older multi-month data is a development
+sample, not the routine ingestion window.
+
+The draft extraction evaluation corpus, split rules and scoring definitions are in
+[`_event_collector/evaluation/`](_event_collector/evaluation/README.md).
+Lattice courses are included; broad quantum/computing events with unclear lattice
+relevance require review. Live Gemini development testing has begun.
+
+The [Step 4 pilot and setup guide](_event_collector/extraction/README.md) covers
+structured extraction, evidence checks, caching and evaluation. A Gemini free-tier
+adapter is connected; full live accuracy evaluation is still needed.
+Offline tests and fixture replay are software checks, not model accuracy results.
+
+A local proposal builder now prepares editable pending event records and readable
+review summaries, retaining plausible events with quality warnings. Local reconciliation
+now assigns persistent event IDs, matches reminders and protects manual edits and
+exclusions. These local preparation steps make no API calls or remote GitHub changes.
+INSPIRE's bounded adapter is now implemented and has fetched
+the upcoming Theory-HEP listing successfully. Editors can add, correct, approve, reject,
+hide, restore and merge event records. The community page, publication validation,
+private preview, backups and manual GitHub workflows are implemented.
+
+See [the operating guide](docs/event-collector-operations.md) for the complete flow.
+The published community dataset starts empty; candidates still need human review.
+No recurring schedule is enabled. The collection workflow can prepare a review artifact
+and optionally open a draft PR; it never approves or merges an event.
+
 ## Submitting announcements
 
 All are welcome to submit announcements to the website.

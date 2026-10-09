@@ -3,3 +3,7 @@ _site
 node_modules
 Gemfile.lock
 *.gem
+__pycache__/
+_event_collector/local/
+.bundle/
+.jekyll-cache/

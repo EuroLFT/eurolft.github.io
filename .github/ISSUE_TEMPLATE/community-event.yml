@@ -1,0 +1,44 @@
+name: Suggest a community event
+description: Add a missing lattice-community event or report a correction
+title: '[Community event] '
+body:
+  - type: markdown
+    attributes:
+      value: 'An editor will review your suggestion. Submission does not publish the event.'
+  - type: input
+    id: title
+    attributes:
+      label: Event title
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: Event type
+      options:
+        - Conference
+        - Workshop
+        - School
+        - Lattice course
+        - Software training
+        - Correction to an existing event
+    validations:
+      required: true
+  - type: input
+    id: dates
+    attributes:
+      label: Dates
+      description: 'Start and inclusive end date, preferably YYYY-MM-DD. Include the recurring timetable for courses.'
+  - type: input
+    id: location
+    attributes:
+      label: Location or online attendance
+  - type: input
+    id: url
+    attributes:
+      label: Organiser or announcement URL
+  - type: textarea
+    id: details
+    attributes:
+      label: Details, deadlines and relevance to the lattice community
+      description: 'For corrections, link the existing event and describe what should change. Do not include passwords or private contact details.'
