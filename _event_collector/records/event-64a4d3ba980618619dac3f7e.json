@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "id": "event-64a4d3ba980618619dac3f7e",
+  "revision": 1,
+  "origin": "collected",
+  "facts": {
+    "title": "String Data 2026",
+    "type": "conference",
+    "start_date": "2026-12-09",
+    "end_date": "2026-12-11",
+    "start_time": null,
+    "end_time": null,
+    "timezone": null,
+    "location": {
+      "venue": null,
+      "city": "Ulsan",
+      "country": "South Korea"
+    },
+    "attendance": "unknown",
+    "official_url": "https://rakkyeongseong.github.io/stringdata2026/",
+    "summary": null,
+    "deadlines": [],
+    "lifecycle": "scheduled"
+  },
+  "sources": [
+    {
+      "id": "inspire-3182713",
+      "kind": "announcement",
+      "url": "https://inspirehep.net/conferences/3182713",
+      "posted_at": null,
+      "retrieved_at": null,
+      "note": "Structured INSPIRE catalogue metadata; updated 2026-07-23T06:01:50.171973+00:00"
+    }
+  ],
+  "evidence": [
+    {
+      "field": "/facts/title",
+      "source_id": "inspire-3182713",
+      "excerpt": "String Data 2026"
+    },
+    {
+      "field": "/facts/start_date",
+      "source_id": "inspire-3182713",
+      "excerpt": "2026-12-09"
+    },
+    {
+      "field": "/facts/end_date",
+      "source_id": "inspire-3182713",
+      "excerpt": "2026-12-11"
+    },
+    {
+      "field": "/facts/location/city",
+      "source_id": "inspire-3182713",
+      "excerpt": "Ulsan"
+    },
+    {
+      "field": "/facts/location/country",
+      "source_id": "inspire-3182713",
+      "excerpt": "South Korea"
+    },
+    {
+      "field": "/facts/official_url",
+      "source_id": "inspire-3182713",
+      "excerpt": "https://rakkyeongseong.github.io/stringdata2026/"
+    }
+  ],
+  "related_events": [],
+  "identity_aliases": [
+    "inspire:3182713",
+    "source-event:https://inspirehep.net/conferences/3182713|title:string data 2026"
+  ],
+  "warnings": [
+    "Human review required for INSPIRE metadata and lattice relevance.",
+    "Event type inferred from title/catalogue; confirm before approval.",
+    "Broad Theory-HEP candidate: relevance requires human review."
+  ],
+  "editor_overrides": [],
+  "decision": {
+    "status": "pending",
+    "reviewed_revision": null,
+    "reason": null,
+    "acknowledged_warnings": []
+  },
+  "history": []
+}
