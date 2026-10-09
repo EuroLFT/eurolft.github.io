@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "id": "event-e169e260ee655d864c7c7b33",
+  "revision": 1,
+  "origin": "collected",
+  "facts": {
+    "title": "Standard Model at the LHC 2027",
+    "type": "conference",
+    "start_date": "2027-04-26",
+    "end_date": "2027-04-30",
+    "start_time": null,
+    "end_time": null,
+    "timezone": null,
+    "location": {
+      "venue": null,
+      "city": "Cracow",
+      "country": "Poland"
+    },
+    "attendance": "unknown",
+    "official_url": null,
+    "summary": null,
+    "deadlines": [],
+    "lifecycle": "scheduled"
+  },
+  "sources": [
+    {
+      "id": "inspire-3114982",
+      "kind": "announcement",
+      "url": "https://inspirehep.net/conferences/3114982",
+      "posted_at": null,
+      "retrieved_at": null,
+      "note": "Structured INSPIRE catalogue metadata; updated 2026-02-03T19:52:07.785966+00:00"
+    }
+  ],
+  "evidence": [
+    {
+      "field": "/facts/title",
+      "source_id": "inspire-3114982",
+      "excerpt": "Standard Model at the LHC 2027"
+    },
+    {
+      "field": "/facts/start_date",
+      "source_id": "inspire-3114982",
+      "excerpt": "2027-04-26"
+    },
+    {
+      "field": "/facts/end_date",
+      "source_id": "inspire-3114982",
+      "excerpt": "2027-04-30"
+    },
+    {
+      "field": "/facts/location/city",
+      "source_id": "inspire-3114982",
+      "excerpt": "Cracow"
+    },
+    {
+      "field": "/facts/location/country",
+      "source_id": "inspire-3114982",
+      "excerpt": "Poland"
+    }
+  ],
+  "related_events": [],
+  "identity_aliases": [
+    "inspire:3114982",
+    "source-event:https://inspirehep.net/conferences/3114982|title:standard model at the lhc 2027"
+  ],
+  "warnings": [
+    "Human review required for INSPIRE metadata and lattice relevance.",
+    "Event type inferred from title/catalogue; confirm before approval.",
+    "Broad Theory-HEP candidate: relevance requires human review."
+  ],
+  "editor_overrides": [],
+  "decision": {
+    "status": "pending",
+    "reviewed_revision": null,
+    "reason": null,
+    "acknowledged_warnings": []
+  },
+  "history": []
+}
