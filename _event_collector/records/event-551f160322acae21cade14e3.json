@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "id": "event-551f160322acae21cade14e3",
+  "revision": 1,
+  "origin": "collected",
+  "facts": {
+    "title": "LACES 2026",
+    "type": "conference",
+    "start_date": "2026-11-23",
+    "end_date": "2026-12-11",
+    "start_time": null,
+    "end_time": null,
+    "timezone": null,
+    "location": {
+      "venue": null,
+      "city": "Florence",
+      "country": "Italy"
+    },
+    "attendance": "unknown",
+    "official_url": "https://www.ggi.infn.it/single-school.php?id=566",
+    "summary": null,
+    "deadlines": [],
+    "lifecycle": "scheduled"
+  },
+  "sources": [
+    {
+      "id": "inspire-3182432",
+      "kind": "announcement",
+      "url": "https://inspirehep.net/conferences/3182432",
+      "posted_at": null,
+      "retrieved_at": null,
+      "note": "Structured INSPIRE catalogue metadata; updated 2026-09-11T17:08:26.229987+00:00"
+    }
+  ],
+  "evidence": [
+    {
+      "field": "/facts/title",
+      "source_id": "inspire-3182432",
+      "excerpt": "LACES 2026"
+    },
+    {
+      "field": "/facts/start_date",
+      "source_id": "inspire-3182432",
+      "excerpt": "2026-11-23"
+    },
+    {
+      "field": "/facts/end_date",
+      "source_id": "inspire-3182432",
+      "excerpt": "2026-12-11"
+    },
+    {
+      "field": "/facts/location/city",
+      "source_id": "inspire-3182432",
+      "excerpt": "Florence"
+    },
+    {
+      "field": "/facts/location/country",
+      "source_id": "inspire-3182432",
+      "excerpt": "Italy"
+    },
+    {
+      "field": "/facts/official_url",
+      "source_id": "inspire-3182432",
+      "excerpt": "https://www.ggi.infn.it/single-school.php?id=566"
+    }
+  ],
+  "related_events": [],
+  "identity_aliases": [
+    "inspire:3182432",
+    "source-event:https://inspirehep.net/conferences/3182432|title:laces 2026"
+  ],
+  "warnings": [
+    "Human review required for INSPIRE metadata and lattice relevance.",
+    "Event type inferred from title/catalogue; confirm before approval.",
+    "Broad Theory-HEP candidate: relevance requires human review."
+  ],
+  "editor_overrides": [],
+  "decision": {
+    "status": "pending",
+    "reviewed_revision": null,
+    "reason": null,
+    "acknowledged_warnings": []
+  },
+  "history": []
+}

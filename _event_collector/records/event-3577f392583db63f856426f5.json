@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "id": "event-3577f392583db63f856426f5",
+  "revision": 1,
+  "origin": "collected",
+  "facts": {
+    "title": "3rd International Workshop on the physics of Ultra Peripheral Collisions (UPC 2026)",
+    "type": "workshop",
+    "start_date": "2026-12-07",
+    "end_date": "2026-12-12",
+    "start_time": null,
+    "end_time": null,
+    "timezone": null,
+    "location": {
+      "venue": null,
+      "city": "Playa del Carmen",
+      "country": "Mexico"
+    },
+    "attendance": "unknown",
+    "official_url": "https://indico.cern.ch/event/1648300/",
+    "summary": null,
+    "deadlines": [],
+    "lifecycle": "scheduled"
+  },
+  "sources": [
+    {
+      "id": "inspire-3121307",
+      "kind": "announcement",
+      "url": "https://inspirehep.net/conferences/3121307",
+      "posted_at": null,
+      "retrieved_at": null,
+      "note": "Structured INSPIRE catalogue metadata; updated 2026-02-19T01:22:08.897263+00:00"
+    }
+  ],
+  "evidence": [
+    {
+      "field": "/facts/title",
+      "source_id": "inspire-3121307",
+      "excerpt": "3rd International Workshop on the physics of Ultra Peripheral Collisions (UPC 2026)"
+    },
+    {
+      "field": "/facts/start_date",
+      "source_id": "inspire-3121307",
+      "excerpt": "2026-12-07"
+    },
+    {
+      "field": "/facts/end_date",
+      "source_id": "inspire-3121307",
+      "excerpt": "2026-12-12"
+    },
+    {
+      "field": "/facts/location/city",
+      "source_id": "inspire-3121307",
+      "excerpt": "Playa del Carmen"
+    },
+    {
+      "field": "/facts/location/country",
+      "source_id": "inspire-3121307",
+      "excerpt": "Mexico"
+    },
+    {
+      "field": "/facts/official_url",
+      "source_id": "inspire-3121307",
+      "excerpt": "https://indico.cern.ch/event/1648300/"
+    }
+  ],
+  "related_events": [],
+  "identity_aliases": [
+    "inspire:3121307",
+    "source-event:https://inspirehep.net/conferences/3121307|title:3rd international workshop on the physics of ultra peripheral collisions upc 2026"
+  ],
+  "warnings": [
+    "Human review required for INSPIRE metadata and lattice relevance.",
+    "Event type inferred from title/catalogue; confirm before approval.",
+    "Broad Theory-HEP candidate: relevance requires human review."
+  ],
+  "editor_overrides": [],
+  "decision": {
+    "status": "pending",
+    "reviewed_revision": null,
+    "reason": null,
+    "acknowledged_warnings": []
+  },
+  "history": []
+}

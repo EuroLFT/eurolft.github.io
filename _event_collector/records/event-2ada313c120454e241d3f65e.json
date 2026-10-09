@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "id": "event-2ada313c120454e241d3f65e",
+  "revision": 1,
+  "origin": "collected",
+  "facts": {
+    "title": "Gravity 2027: RESCEU International Symposium on Quantum Aspects of Gravity",
+    "type": "conference",
+    "start_date": "2027-02-15",
+    "end_date": "2027-02-19",
+    "start_time": null,
+    "end_time": null,
+    "timezone": null,
+    "location": {
+      "venue": null,
+      "city": "Tokyo",
+      "country": "Japan"
+    },
+    "attendance": "unknown",
+    "official_url": "https://www.resceu.s.u-tokyo.ac.jp/symposium/gravity2027/index.html",
+    "summary": null,
+    "deadlines": [],
+    "lifecycle": "scheduled"
+  },
+  "sources": [
+    {
+      "id": "inspire-3202656",
+      "kind": "announcement",
+      "url": "https://inspirehep.net/conferences/3202656",
+      "posted_at": null,
+      "retrieved_at": null,
+      "note": "Structured INSPIRE catalogue metadata; updated 2026-09-12T04:37:29.489880+00:00"
+    }
+  ],
+  "evidence": [
+    {
+      "field": "/facts/title",
+      "source_id": "inspire-3202656",
+      "excerpt": "Gravity 2027: RESCEU International Symposium on Quantum Aspects of Gravity"
+    },
+    {
+      "field": "/facts/start_date",
+      "source_id": "inspire-3202656",
+      "excerpt": "2027-02-15"
+    },
+    {
+      "field": "/facts/end_date",
+      "source_id": "inspire-3202656",
+      "excerpt": "2027-02-19"
+    },
+    {
+      "field": "/facts/location/city",
+      "source_id": "inspire-3202656",
+      "excerpt": "Tokyo"
+    },
+    {
+      "field": "/facts/location/country",
+      "source_id": "inspire-3202656",
+      "excerpt": "Japan"
+    },
+    {
+      "field": "/facts/official_url",
+      "source_id": "inspire-3202656",
+      "excerpt": "https://www.resceu.s.u-tokyo.ac.jp/symposium/gravity2027/index.html"
+    }
+  ],
+  "related_events": [],
+  "identity_aliases": [
+    "inspire:3202656",
+    "source-event:https://inspirehep.net/conferences/3202656|title:gravity 2027 resceu international symposium on quantum aspects of gravity"
+  ],
+  "warnings": [
+    "Human review required for INSPIRE metadata and lattice relevance.",
+    "Event type inferred from title/catalogue; confirm before approval.",
+    "Broad Theory-HEP candidate: relevance requires human review."
+  ],
+  "editor_overrides": [],
+  "decision": {
+    "status": "pending",
+    "reviewed_revision": null,
+    "reason": null,
+    "acknowledged_warnings": []
+  },
+  "history": []
+}

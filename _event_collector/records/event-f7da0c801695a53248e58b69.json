@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "id": "event-f7da0c801695a53248e58b69",
+  "revision": 1,
+  "origin": "collected",
+  "facts": {
+    "title": "32nd International Conference on Ultra-relativistic Nucleus-Nucleus Collisions",
+    "type": "conference",
+    "start_date": "2027-03-21",
+    "end_date": "2027-03-27",
+    "start_time": null,
+    "end_time": null,
+    "timezone": null,
+    "location": {
+      "venue": null,
+      "city": "Seoguipo",
+      "country": "South Korea"
+    },
+    "attendance": "unknown",
+    "official_url": null,
+    "summary": null,
+    "deadlines": [],
+    "lifecycle": "scheduled"
+  },
+  "sources": [
+    {
+      "id": "inspire-2779154",
+      "kind": "announcement",
+      "url": "https://inspirehep.net/conferences/2779154",
+      "posted_at": null,
+      "retrieved_at": null,
+      "note": "Structured INSPIRE catalogue metadata; updated 2024-04-22T09:01:28.550263+00:00"
+    }
+  ],
+  "evidence": [
+    {
+      "field": "/facts/title",
+      "source_id": "inspire-2779154",
+      "excerpt": "32nd International Conference on Ultra-relativistic Nucleus-Nucleus Collisions"
+    },
+    {
+      "field": "/facts/start_date",
+      "source_id": "inspire-2779154",
+      "excerpt": "2027-03-21"
+    },
+    {
+      "field": "/facts/end_date",
+      "source_id": "inspire-2779154",
+      "excerpt": "2027-03-27"
+    },
+    {
+      "field": "/facts/location/city",
+      "source_id": "inspire-2779154",
+      "excerpt": "Seoguipo"
+    },
+    {
+      "field": "/facts/location/country",
+      "source_id": "inspire-2779154",
+      "excerpt": "South Korea"
+    }
+  ],
+  "related_events": [],
+  "identity_aliases": [
+    "inspire:2779154",
+    "source-event:https://inspirehep.net/conferences/2779154|title:32nd international conference on ultra relativistic nucleus nucleus collisions"
+  ],
+  "warnings": [
+    "Human review required for INSPIRE metadata and lattice relevance.",
+    "Event type inferred from title/catalogue; confirm before approval.",
+    "Broad Theory-HEP candidate: relevance requires human review."
+  ],
+  "editor_overrides": [],
+  "decision": {
+    "status": "pending",
+    "reviewed_revision": null,
+    "reason": null,
+    "acknowledged_warnings": []
+  },
+  "history": []
+}
