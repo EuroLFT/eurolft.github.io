@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "id": "event-37901225b4d74331e6c5e2d3",
+  "revision": 1,
+  "origin": "collected",
+  "facts": {
+    "title": "DISCRETE 2026",
+    "type": "conference",
+    "start_date": "2026-11-13",
+    "end_date": "2026-11-17",
+    "start_time": null,
+    "end_time": null,
+    "timezone": null,
+    "location": {
+      "venue": null,
+      "city": "Bratislava",
+      "country": "Slovakia"
+    },
+    "attendance": "unknown",
+    "official_url": "https://conference.uniba.sk/e/discrete2026",
+    "summary": null,
+    "deadlines": [],
+    "lifecycle": "scheduled"
+  },
+  "sources": [
+    {
+      "id": "inspire-3124114",
+      "kind": "announcement",
+      "url": "https://inspirehep.net/conferences/3124114",
+      "posted_at": null,
+      "retrieved_at": null,
+      "note": "Structured INSPIRE catalogue metadata; updated 2026-02-27T08:45:22.702307+00:00"
+    }
+  ],
+  "evidence": [
+    {
+      "field": "/facts/title",
+      "source_id": "inspire-3124114",
+      "excerpt": "DISCRETE 2026"
+    },
+    {
+      "field": "/facts/start_date",
+      "source_id": "inspire-3124114",
+      "excerpt": "2026-11-13"
+    },
+    {
+      "field": "/facts/end_date",
+      "source_id": "inspire-3124114",
+      "excerpt": "2026-11-17"
+    },
+    {
+      "field": "/facts/location/city",
+      "source_id": "inspire-3124114",
+      "excerpt": "Bratislava"
+    },
+    {
+      "field": "/facts/location/country",
+      "source_id": "inspire-3124114",
+      "excerpt": "Slovakia"
+    },
+    {
+      "field": "/facts/official_url",
+      "source_id": "inspire-3124114",
+      "excerpt": "https://conference.uniba.sk/e/discrete2026"
+    }
+  ],
+  "related_events": [],
+  "identity_aliases": [
+    "inspire:3124114",
+    "source-event:https://inspirehep.net/conferences/3124114|title:discrete 2026"
+  ],
+  "warnings": [
+    "Human review required for INSPIRE metadata and lattice relevance.",
+    "Event type inferred from title/catalogue; confirm before approval.",
+    "Broad Theory-HEP candidate: relevance requires human review."
+  ],
+  "editor_overrides": [],
+  "decision": {
+    "status": "pending",
+    "reviewed_revision": null,
+    "reason": null,
+    "acknowledged_warnings": []
+  },
+  "history": []
+}
