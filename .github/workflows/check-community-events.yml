@@ -18,23 +18,23 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: Antonio-Rago/EuroLFT-Event-Scraper
-          ref: 5b0683b21eeea2460315e14a0620a661fb59058f
+          ref: 7f3c0f5ee542b6484ecfdbfe39f78d0ffe8fb5ee
           path: .event-tools
           persist-credentials: false
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
       - run: python -m pip install -r .event-tools/tools/event_collector/requirements.txt
-      - name: Validate editorial decisions
+      - name: Validate event proposals for publication
         working-directory: .event-tools
-        run: python -m tools.event_collector.registry --site "$GITHUB_WORKSPACE" --require-decisions
+        run: python -m tools.event_collector.registry --site "$GITHUB_WORKSPACE" --github-proposal
       - name: Check registry changes against the website base branch
         if: github.event_name == 'pull_request'
         working-directory: .event-tools
         env:
           BASE_BRANCH: ${{ github.base_ref }}
-        run: python -m tools.event_collector.registry --site "$GITHUB_WORKSPACE" --base "origin/$BASE_BRANCH" --require-decisions
-      - name: Export reviewed public facts
+        run: python -m tools.event_collector.registry --site "$GITHUB_WORKSPACE" --base "origin/$BASE_BRANCH" --github-proposal
+      - name: Prepare a build without publishing pending proposals
         working-directory: .event-tools
         run: python -m tools.event_collector.registry --site "$GITHUB_WORKSPACE" --export "$GITHUB_WORKSPACE/_data/community_events.json"
       - uses: ruby/setup-ruby@v1
