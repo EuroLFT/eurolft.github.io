@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "id": "event-9e8fa1f09b059df072f2c02a",
+  "revision": 1,
+  "origin": "collected",
+  "facts": {
+    "title": "Workshop on Spectral Densities for Flavor Physics",
+    "type": "workshop",
+    "start_date": "2027-06-16",
+    "end_date": "2027-06-19",
+    "start_time": null,
+    "end_time": null,
+    "timezone": null,
+    "location": {
+      "venue": null,
+      "city": null,
+      "country": null
+    },
+    "attendance": "unknown",
+    "official_url": null,
+    "summary": null,
+    "deadlines": [],
+    "lifecycle": "scheduled"
+  },
+  "sources": [
+    {
+      "id": "source-3706fa23c0697eaed72f",
+      "kind": "announcement",
+      "url": "https://list.iu.edu/sympa/arc/latticenews-l/2026-09/msg00002.html",
+      "posted_at": "2026-09-03T14:44:49+00:00",
+      "retrieved_at": null,
+      "note": "Draft from a saved model extraction; source retrieval time is not supplied."
+    }
+  ],
+  "evidence": [
+    {
+      "field": "/facts/title",
+      "source_id": "source-3706fa23c0697eaed72f",
+      "excerpt": "Workshop on Spectral Densities for Flavor Physics , 16–19 June 2027"
+    },
+    {
+      "field": "/facts/type",
+      "source_id": "source-3706fa23c0697eaed72f",
+      "excerpt": "Workshop on Spectral Densities for Flavor Physics , 16–19 June 2027"
+    },
+    {
+      "field": "/facts/start_date",
+      "source_id": "source-3706fa23c0697eaed72f",
+      "excerpt": "Workshop on Spectral Densities for Flavor Physics , 16–19 June 2027"
+    },
+    {
+      "field": "/facts/end_date",
+      "source_id": "source-3706fa23c0697eaed72f",
+      "excerpt": "Workshop on Spectral Densities for Flavor Physics , 16–19 June 2027"
+    },
+    {
+      "field": "/facts/type",
+      "source_id": "source-3706fa23c0697eaed72f",
+      "excerpt": "Workshop on Spectral Densities for Flavor Physics"
+    },
+    {
+      "field": "/facts/lifecycle",
+      "source_id": "source-3706fa23c0697eaed72f",
+      "excerpt": "We will also organize two satellite events"
+    }
+  ],
+  "related_events": [
+    {
+      "id": "event-428987d9eac8ec0d618db90b",
+      "relation": "satellite_of"
+    }
+  ],
+  "identity_aliases": [
+    "source-event:https://list.iu.edu/sympa/arc/latticenews-l/2026-09/msg00002.html|title:workshop on spectral densities for flavor physics"
+  ],
+  "warnings": [
+    "Human review required: matching quotations do not establish semantic correctness.",
+    "Model flag: location_review",
+    "Model flag: timezone_review",
+    "Model warning: Location not explicitly confirmed for satellites e2 and e3; location_review set.",
+    "Model warning: Timezones for all events are null; timezone_review set.",
+    "quote_unverified at /related_events/0: Quotation does not match the source; verify the claim manually.",
+    "missing_evidence at /related_events/0: No matching quotation covers this field; verify it against the source."
+  ],
+  "editor_overrides": [],
+  "decision": {
+    "status": "pending",
+    "reviewed_revision": null,
+    "reason": null,
+    "acknowledged_warnings": []
+  },
+  "history": []
+}
