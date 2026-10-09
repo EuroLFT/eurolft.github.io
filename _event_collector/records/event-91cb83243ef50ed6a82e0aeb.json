@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "id": "event-91cb83243ef50ed6a82e0aeb",
+  "revision": 1,
+  "origin": "collected",
+  "facts": {
+    "title": "HERA Symposium 2027",
+    "type": "conference",
+    "start_date": "2027-06-30",
+    "end_date": "2027-07-02",
+    "start_time": null,
+    "end_time": null,
+    "timezone": null,
+    "location": {
+      "venue": null,
+      "city": "Hamburg",
+      "country": "Germany"
+    },
+    "attendance": "unknown",
+    "official_url": null,
+    "summary": null,
+    "deadlines": [],
+    "lifecycle": "scheduled"
+  },
+  "sources": [
+    {
+      "id": "inspire-3134400",
+      "kind": "announcement",
+      "url": "https://inspirehep.net/conferences/3134400",
+      "posted_at": null,
+      "retrieved_at": null,
+      "note": "Structured INSPIRE catalogue metadata; updated 2026-03-26T15:50:23.272506+00:00"
+    }
+  ],
+  "evidence": [
+    {
+      "field": "/facts/title",
+      "source_id": "inspire-3134400",
+      "excerpt": "HERA Symposium 2027"
+    },
+    {
+      "field": "/facts/start_date",
+      "source_id": "inspire-3134400",
+      "excerpt": "2027-06-30"
+    },
+    {
+      "field": "/facts/end_date",
+      "source_id": "inspire-3134400",
+      "excerpt": "2027-07-02"
+    },
+    {
+      "field": "/facts/location/city",
+      "source_id": "inspire-3134400",
+      "excerpt": "Hamburg"
+    },
+    {
+      "field": "/facts/location/country",
+      "source_id": "inspire-3134400",
+      "excerpt": "Germany"
+    }
+  ],
+  "related_events": [],
+  "identity_aliases": [
+    "inspire:3134400",
+    "source-event:https://inspirehep.net/conferences/3134400|title:hera symposium 2027"
+  ],
+  "warnings": [
+    "Human review required for INSPIRE metadata and lattice relevance.",
+    "Event type inferred from title/catalogue; confirm before approval.",
+    "Broad Theory-HEP candidate: relevance requires human review."
+  ],
+  "editor_overrides": [],
+  "decision": {
+    "status": "pending",
+    "reviewed_revision": null,
+    "reason": null,
+    "acknowledged_warnings": []
+  },
+  "history": []
+}
