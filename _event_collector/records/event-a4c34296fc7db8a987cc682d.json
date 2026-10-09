@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "id": "event-a4c34296fc7db8a987cc682d",
+  "revision": 1,
+  "origin": "collected",
+  "facts": {
+    "title": "Bangkok School on Cosmology",
+    "type": "school",
+    "start_date": "2026-12-06",
+    "end_date": "2026-12-12",
+    "start_time": null,
+    "end_time": null,
+    "timezone": null,
+    "location": {
+      "venue": null,
+      "city": "Bangkok",
+      "country": "Thailand"
+    },
+    "attendance": "unknown",
+    "official_url": "https://indico.ictp.it/event/11129/",
+    "summary": null,
+    "deadlines": [],
+    "lifecycle": "scheduled"
+  },
+  "sources": [
+    {
+      "id": "inspire-3120087",
+      "kind": "announcement",
+      "url": "https://inspirehep.net/conferences/3120087",
+      "posted_at": null,
+      "retrieved_at": null,
+      "note": "Structured INSPIRE catalogue metadata; updated 2026-02-16T10:52:51.598808+00:00"
+    }
+  ],
+  "evidence": [
+    {
+      "field": "/facts/title",
+      "source_id": "inspire-3120087",
+      "excerpt": "Bangkok School on Cosmology"
+    },
+    {
+      "field": "/facts/start_date",
+      "source_id": "inspire-3120087",
+      "excerpt": "2026-12-06"
+    },
+    {
+      "field": "/facts/end_date",
+      "source_id": "inspire-3120087",
+      "excerpt": "2026-12-12"
+    },
+    {
+      "field": "/facts/location/city",
+      "source_id": "inspire-3120087",
+      "excerpt": "Bangkok"
+    },
+    {
+      "field": "/facts/location/country",
+      "source_id": "inspire-3120087",
+      "excerpt": "Thailand"
+    },
+    {
+      "field": "/facts/official_url",
+      "source_id": "inspire-3120087",
+      "excerpt": "https://indico.ictp.it/event/11129/"
+    }
+  ],
+  "related_events": [],
+  "identity_aliases": [
+    "inspire:3120087",
+    "source-event:https://inspirehep.net/conferences/3120087|title:bangkok school on cosmology"
+  ],
+  "warnings": [
+    "Human review required for INSPIRE metadata and lattice relevance.",
+    "Event type inferred from title/catalogue; confirm before approval.",
+    "Broad Theory-HEP candidate: relevance requires human review."
+  ],
+  "editor_overrides": [],
+  "decision": {
+    "status": "pending",
+    "reviewed_revision": null,
+    "reason": null,
+    "acknowledged_warnings": []
+  },
+  "history": []
+}
