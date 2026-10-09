@@ -1,0 +1,167 @@
+{
+  "schema_version": 1,
+  "id": "event-3eae26dad94624a082df5b75",
+  "revision": 1,
+  "origin": "collected",
+  "facts": {
+    "title": "KEK Theory Meeting on Particle Physics Phenomenology and Lattice QCD (KEK-PH-LAT 2026)",
+    "type": "conference",
+    "start_date": "2026-12-09",
+    "end_date": "2026-12-11",
+    "start_time": null,
+    "end_time": null,
+    "timezone": null,
+    "location": {
+      "venue": "KEK",
+      "city": null,
+      "country": "Japan"
+    },
+    "attendance": "unknown",
+    "official_url": "https://conference-indico.kek.jp/event/376/",
+    "summary": null,
+    "deadlines": [
+      {
+        "kind": "registration",
+        "label": "registration and registration fee payment",
+        "date": "2026-11-25",
+        "time": null,
+        "timezone": null
+      },
+      {
+        "kind": "other",
+        "label": "short talks and travel support application",
+        "date": "2026-10-23",
+        "time": null,
+        "timezone": null
+      },
+      {
+        "kind": "visa",
+        "label": "VISA documents from KEK",
+        "date": "2026-10-09",
+        "time": null,
+        "timezone": null
+      }
+    ],
+    "lifecycle": "scheduled"
+  },
+  "sources": [
+    {
+      "id": "source-bf5e3116f80637bc5d4c",
+      "kind": "announcement",
+      "url": "https://list.iu.edu/sympa/arc/latticenews-l/2026-10/msg00000.html",
+      "posted_at": "2026-10-02T05:45:18-04:00",
+      "retrieved_at": null,
+      "note": "Draft from a saved model extraction; source retrieval time is not supplied."
+    }
+  ],
+  "evidence": [
+    {
+      "field": "/facts/title",
+      "source_id": "source-bf5e3116f80637bc5d4c",
+      "excerpt": "It is our great pleasure to announce the KEK Theory Meeting on Particle\n Physics Phenomenology and Lattice QCD (KEK-PH-LAT 2026), to be held at KEK in\n Japan on December 9-11, 2026:"
+    },
+    {
+      "field": "/facts/start_date",
+      "source_id": "source-bf5e3116f80637bc5d4c",
+      "excerpt": "It is our great pleasure to announce the KEK Theory Meeting on Particle\n Physics Phenomenology and Lattice QCD (KEK-PH-LAT 2026), to be held at KEK in\n Japan on December 9-11, 2026:"
+    },
+    {
+      "field": "/facts/end_date",
+      "source_id": "source-bf5e3116f80637bc5d4c",
+      "excerpt": "It is our great pleasure to announce the KEK Theory Meeting on Particle\n Physics Phenomenology and Lattice QCD (KEK-PH-LAT 2026), to be held at KEK in\n Japan on December 9-11, 2026:"
+    },
+    {
+      "field": "/facts/location/venue",
+      "source_id": "source-bf5e3116f80637bc5d4c",
+      "excerpt": "It is our great pleasure to announce the KEK Theory Meeting on Particle\n Physics Phenomenology and Lattice QCD (KEK-PH-LAT 2026), to be held at KEK in\n Japan on December 9-11, 2026:"
+    },
+    {
+      "field": "/facts/location/country",
+      "source_id": "source-bf5e3116f80637bc5d4c",
+      "excerpt": "It is our great pleasure to announce the KEK Theory Meeting on Particle\n Physics Phenomenology and Lattice QCD (KEK-PH-LAT 2026), to be held at KEK in\n Japan on December 9-11, 2026:"
+    },
+    {
+      "field": "/facts/official_url",
+      "source_id": "source-bf5e3116f80637bc5d4c",
+      "excerpt": "https://conference-indico.kek.jp/event/376/"
+    },
+    {
+      "field": "/facts/deadlines/0/kind",
+      "source_id": "source-bf5e3116f80637bc5d4c",
+      "excerpt": "For registration and registration fee payment: Wednesday, November 25th."
+    },
+    {
+      "field": "/facts/deadlines/0/label",
+      "source_id": "source-bf5e3116f80637bc5d4c",
+      "excerpt": "For registration and registration fee payment: Wednesday, November 25th."
+    },
+    {
+      "field": "/facts/deadlines/0/date",
+      "source_id": "source-bf5e3116f80637bc5d4c",
+      "excerpt": "For registration and registration fee payment: Wednesday, November 25th."
+    },
+    {
+      "field": "/facts/deadlines/1/kind",
+      "source_id": "source-bf5e3116f80637bc5d4c",
+      "excerpt": "For short talks and travel support application: Friday, October 23rd."
+    },
+    {
+      "field": "/facts/deadlines/1/label",
+      "source_id": "source-bf5e3116f80637bc5d4c",
+      "excerpt": "For short talks and travel support application: Friday, October 23rd."
+    },
+    {
+      "field": "/facts/deadlines/1/date",
+      "source_id": "source-bf5e3116f80637bc5d4c",
+      "excerpt": "For short talks and travel support application: Friday, October 23rd."
+    },
+    {
+      "field": "/facts/deadlines/2/kind",
+      "source_id": "source-bf5e3116f80637bc5d4c",
+      "excerpt": "For those who need VISA documents from KEK: Friday, October 9th."
+    },
+    {
+      "field": "/facts/deadlines/2/label",
+      "source_id": "source-bf5e3116f80637bc5d4c",
+      "excerpt": "For those who need VISA documents from KEK: Friday, October 9th."
+    },
+    {
+      "field": "/facts/deadlines/2/date",
+      "source_id": "source-bf5e3116f80637bc5d4c",
+      "excerpt": "For those who need VISA documents from KEK: Friday, October 9th."
+    },
+    {
+      "field": "/facts/type",
+      "source_id": "source-bf5e3116f80637bc5d4c",
+      "excerpt": "It is our great pleasure to announce the KEK Theory Meeting on Particle\n Physics Phenomenology and Lattice QCD (KEK-PH-LAT 2026)"
+    },
+    {
+      "field": "/facts/lifecycle",
+      "source_id": "source-bf5e3116f80637bc5d4c",
+      "excerpt": "to be held at KEK in\n Japan on December 9-11, 2026"
+    },
+    {
+      "field": "/facts/attendance",
+      "source_id": "source-bf5e3116f80637bc5d4c",
+      "excerpt": "We look forward to seeing you at the KEK-PH-LAT 2026!"
+    }
+  ],
+  "related_events": [],
+  "identity_aliases": [
+    "source-event:https://list.iu.edu/sympa/arc/latticenews-l/2026-10/msg00000.html|title:kek theory meeting on particle physics phenomenology and lattice qcd kek ph lat 2026"
+  ],
+  "warnings": [
+    "Human review required: matching quotations do not establish semantic correctness.",
+    "Model flag: location_review",
+    "Model warning: City for KEK location is unknown; flagged as location_review.",
+    "deadline_review at /facts/deadlines: Review deadline purposes, labels and any shared dates."
+  ],
+  "editor_overrides": [],
+  "decision": {
+    "status": "pending",
+    "reviewed_revision": null,
+    "reason": null,
+    "acknowledged_warnings": []
+  },
+  "history": []
+}
