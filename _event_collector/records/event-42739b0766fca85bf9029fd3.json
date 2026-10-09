@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "id": "event-42739b0766fca85bf9029fd3",
+  "revision": 1,
+  "origin": "collected",
+  "facts": {
+    "title": "Saas Fee Advanced Doctoral Workshop 2027",
+    "type": "workshop",
+    "start_date": "2027-01-24",
+    "end_date": "2027-01-29",
+    "start_time": null,
+    "end_time": null,
+    "timezone": null,
+    "location": {
+      "venue": null,
+      "city": "Saas Fee",
+      "country": "Switzerland"
+    },
+    "attendance": "unknown",
+    "official_url": "https://saasfee2027.ch/",
+    "summary": null,
+    "deadlines": [],
+    "lifecycle": "scheduled"
+  },
+  "sources": [
+    {
+      "id": "inspire-3195468",
+      "kind": "announcement",
+      "url": "https://inspirehep.net/conferences/3195468",
+      "posted_at": null,
+      "retrieved_at": null,
+      "note": "Structured INSPIRE catalogue metadata; updated 2026-08-25T08:53:10.951296+00:00"
+    }
+  ],
+  "evidence": [
+    {
+      "field": "/facts/title",
+      "source_id": "inspire-3195468",
+      "excerpt": "Saas Fee Advanced Doctoral Workshop 2027"
+    },
+    {
+      "field": "/facts/start_date",
+      "source_id": "inspire-3195468",
+      "excerpt": "2027-01-24"
+    },
+    {
+      "field": "/facts/end_date",
+      "source_id": "inspire-3195468",
+      "excerpt": "2027-01-29"
+    },
+    {
+      "field": "/facts/location/city",
+      "source_id": "inspire-3195468",
+      "excerpt": "Saas Fee"
+    },
+    {
+      "field": "/facts/location/country",
+      "source_id": "inspire-3195468",
+      "excerpt": "Switzerland"
+    },
+    {
+      "field": "/facts/official_url",
+      "source_id": "inspire-3195468",
+      "excerpt": "https://saasfee2027.ch/"
+    }
+  ],
+  "related_events": [],
+  "identity_aliases": [
+    "inspire:3195468",
+    "source-event:https://inspirehep.net/conferences/3195468|title:saas fee advanced doctoral workshop 2027"
+  ],
+  "warnings": [
+    "Human review required for INSPIRE metadata and lattice relevance.",
+    "Event type inferred from title/catalogue; confirm before approval.",
+    "Broad Theory-HEP candidate: relevance requires human review."
+  ],
+  "editor_overrides": [],
+  "decision": {
+    "status": "pending",
+    "reviewed_revision": null,
+    "reason": null,
+    "acknowledged_warnings": []
+  },
+  "history": []
+}
