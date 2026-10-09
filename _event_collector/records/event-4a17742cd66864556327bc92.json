@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "id": "event-4a17742cd66864556327bc92",
+  "revision": 1,
+  "origin": "collected",
+  "facts": {
+    "title": "The 1st International Online Conference on Symmetry",
+    "type": "conference",
+    "start_date": "2026-10-20",
+    "end_date": "2026-10-22",
+    "start_time": null,
+    "end_time": null,
+    "timezone": null,
+    "location": {
+      "venue": null,
+      "city": "Beijing",
+      "country": "China"
+    },
+    "attendance": "unknown",
+    "official_url": "https://sciforum.net/event/IOCSYM2026",
+    "summary": null,
+    "deadlines": [],
+    "lifecycle": "scheduled"
+  },
+  "sources": [
+    {
+      "id": "inspire-3086550",
+      "kind": "announcement",
+      "url": "https://inspirehep.net/conferences/3086550",
+      "posted_at": null,
+      "retrieved_at": null,
+      "note": "Structured INSPIRE catalogue metadata; updated 2025-11-26T13:47:50.379039+00:00"
+    }
+  ],
+  "evidence": [
+    {
+      "field": "/facts/title",
+      "source_id": "inspire-3086550",
+      "excerpt": "The 1st International Online Conference on Symmetry"
+    },
+    {
+      "field": "/facts/start_date",
+      "source_id": "inspire-3086550",
+      "excerpt": "2026-10-20"
+    },
+    {
+      "field": "/facts/end_date",
+      "source_id": "inspire-3086550",
+      "excerpt": "2026-10-22"
+    },
+    {
+      "field": "/facts/location/city",
+      "source_id": "inspire-3086550",
+      "excerpt": "Beijing"
+    },
+    {
+      "field": "/facts/location/country",
+      "source_id": "inspire-3086550",
+      "excerpt": "China"
+    },
+    {
+      "field": "/facts/official_url",
+      "source_id": "inspire-3086550",
+      "excerpt": "https://sciforum.net/event/IOCSYM2026"
+    }
+  ],
+  "related_events": [],
+  "identity_aliases": [
+    "inspire:3086550",
+    "source-event:https://inspirehep.net/conferences/3086550|title:the 1st international online conference on symmetry"
+  ],
+  "warnings": [
+    "Human review required for INSPIRE metadata and lattice relevance.",
+    "Event type inferred from title/catalogue; confirm before approval.",
+    "Broad Theory-HEP candidate: relevance requires human review."
+  ],
+  "editor_overrides": [],
+  "decision": {
+    "status": "pending",
+    "reviewed_revision": null,
+    "reason": null,
+    "acknowledged_warnings": []
+  },
+  "history": []
+}
