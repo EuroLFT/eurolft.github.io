@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "id": "event-900ea113df512c1a2a94051c",
+  "revision": 1,
+  "origin": "collected",
+  "facts": {
+    "title": "34th International Conference on Supersymmetry and Unification of Fundamental Interactions (SUSY 2027)",
+    "type": "conference",
+    "start_date": "2027-05-31",
+    "end_date": "2027-06-04",
+    "start_time": null,
+    "end_time": null,
+    "timezone": null,
+    "location": {
+      "venue": null,
+      "city": "Daejeon",
+      "country": "South Korea"
+    },
+    "attendance": "unknown",
+    "official_url": "https://indico.ibs.re.kr/event/1301",
+    "summary": null,
+    "deadlines": [],
+    "lifecycle": "scheduled"
+  },
+  "sources": [
+    {
+      "id": "inspire-3157559",
+      "kind": "announcement",
+      "url": "https://inspirehep.net/conferences/3157559",
+      "posted_at": null,
+      "retrieved_at": null,
+      "note": "Structured INSPIRE catalogue metadata; updated 2026-05-19T06:02:27.549185+00:00"
+    }
+  ],
+  "evidence": [
+    {
+      "field": "/facts/title",
+      "source_id": "inspire-3157559",
+      "excerpt": "34th International Conference on Supersymmetry and Unification of Fundamental Interactions (SUSY 2027)"
+    },
+    {
+      "field": "/facts/start_date",
+      "source_id": "inspire-3157559",
+      "excerpt": "2027-05-31"
+    },
+    {
+      "field": "/facts/end_date",
+      "source_id": "inspire-3157559",
+      "excerpt": "2027-06-04"
+    },
+    {
+      "field": "/facts/location/city",
+      "source_id": "inspire-3157559",
+      "excerpt": "Daejeon"
+    },
+    {
+      "field": "/facts/location/country",
+      "source_id": "inspire-3157559",
+      "excerpt": "South Korea"
+    },
+    {
+      "field": "/facts/official_url",
+      "source_id": "inspire-3157559",
+      "excerpt": "https://indico.ibs.re.kr/event/1301"
+    }
+  ],
+  "related_events": [],
+  "identity_aliases": [
+    "inspire:3157559",
+    "source-event:https://inspirehep.net/conferences/3157559|title:34th international conference on supersymmetry and unification of fundamental interactions susy 2027"
+  ],
+  "warnings": [
+    "Human review required for INSPIRE metadata and lattice relevance.",
+    "Event type inferred from title/catalogue; confirm before approval.",
+    "Broad Theory-HEP candidate: relevance requires human review."
+  ],
+  "editor_overrides": [],
+  "decision": {
+    "status": "pending",
+    "reviewed_revision": null,
+    "reason": null,
+    "acknowledged_warnings": []
+  },
+  "history": []
+}
