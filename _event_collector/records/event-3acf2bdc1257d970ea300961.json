@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "id": "event-3acf2bdc1257d970ea300961",
+  "revision": 1,
+  "origin": "collected",
+  "facts": {
+    "title": "High Energy Particle and Nuclear Physics in the LHC Era",
+    "type": "conference",
+    "start_date": "2027-01-18",
+    "end_date": "2027-01-22",
+    "start_time": null,
+    "end_time": null,
+    "timezone": null,
+    "location": {
+      "venue": null,
+      "city": "Valparaíso",
+      "country": "Chile"
+    },
+    "attendance": "unknown",
+    "official_url": "https://indico.hpc.utfsm.cl/e/hepnp2027",
+    "summary": null,
+    "deadlines": [],
+    "lifecycle": "scheduled"
+  },
+  "sources": [
+    {
+      "id": "inspire-3179069",
+      "kind": "announcement",
+      "url": "https://inspirehep.net/conferences/3179069",
+      "posted_at": null,
+      "retrieved_at": null,
+      "note": "Structured INSPIRE catalogue metadata; updated 2026-07-10T13:35:06.714115+00:00"
+    }
+  ],
+  "evidence": [
+    {
+      "field": "/facts/title",
+      "source_id": "inspire-3179069",
+      "excerpt": "High Energy Particle and Nuclear Physics in the LHC Era"
+    },
+    {
+      "field": "/facts/start_date",
+      "source_id": "inspire-3179069",
+      "excerpt": "2027-01-18"
+    },
+    {
+      "field": "/facts/end_date",
+      "source_id": "inspire-3179069",
+      "excerpt": "2027-01-22"
+    },
+    {
+      "field": "/facts/location/city",
+      "source_id": "inspire-3179069",
+      "excerpt": "Valparaíso"
+    },
+    {
+      "field": "/facts/location/country",
+      "source_id": "inspire-3179069",
+      "excerpt": "Chile"
+    },
+    {
+      "field": "/facts/official_url",
+      "source_id": "inspire-3179069",
+      "excerpt": "https://indico.hpc.utfsm.cl/e/hepnp2027"
+    }
+  ],
+  "related_events": [],
+  "identity_aliases": [
+    "inspire:3179069",
+    "source-event:https://inspirehep.net/conferences/3179069|title:high energy particle and nuclear physics in the lhc era"
+  ],
+  "warnings": [
+    "Human review required for INSPIRE metadata and lattice relevance.",
+    "Event type inferred from title/catalogue; confirm before approval.",
+    "Broad Theory-HEP candidate: relevance requires human review."
+  ],
+  "editor_overrides": [],
+  "decision": {
+    "status": "pending",
+    "reviewed_revision": null,
+    "reason": null,
+    "acknowledged_warnings": []
+  },
+  "history": []
+}
