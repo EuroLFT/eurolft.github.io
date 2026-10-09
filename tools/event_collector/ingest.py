@@ -1,8 +1,10 @@
 """Collect one archive month and prepare production review candidates, without labels."""
 
 import argparse
+from datetime import date
 import json
 from pathlib import Path
+import re
 import time
 from urllib.parse import urlsplit
 
@@ -127,10 +129,22 @@ def process(inputs, root=ROOT, live=False, transport=None, wait=False):
     return destination, report
 
 
+def archive_month(value):
+    try:
+        if not re.fullmatch(r"[0-9]{4}-[0-9]{2}", value):
+            raise ValueError
+        date.fromisoformat(value + "-01")
+    except ValueError:
+        raise argparse.ArgumentTypeError("Use one valid archive month in YYYY-MM format")
+    return value
+
+
 def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--root", type=Path, default=ROOT)
-    parser.add_argument("--month-window", choices=("current", "previous"), default="current")
+    selection = parser.add_mutually_exclusive_group()
+    selection.add_argument("--month-window", choices=("current", "previous"), default="current")
+    selection.add_argument("--month", type=archive_month, help="One explicit archive month, YYYY-MM")
     parser.add_argument("--offline", action="store_true", help="Collect using saved HTTP responses")
     parser.add_argument("--skip-collection", action="store_true", help="Use already collected messages for the selected month")
     parser.add_argument("--limit", type=int, default=50)
@@ -138,7 +152,7 @@ def main(argv=None):
     parser.add_argument("--wait", action="store_true", help="Pace a multi-message batch instead of deferring later messages")
     args = parser.parse_args(argv)
     try:
-        month = recent_month(args.month_window)
+        month = args.month if args.month is not None else recent_month(args.month_window)
         collection = None
         if not args.skip_collection:
             collection = collect([month], args.root / "local", Fetcher(args.root / "local/cache", offline=args.offline),

@@ -16,11 +16,33 @@ _event_collector/local/venv/bin/python -m pip install -r tools/event_collector/r
 
 Routine mailing-list ingestion selects exactly one UTC archive month. The current
 month is the default; `--month-window previous` selects the last completed month.
-Older frozen development samples are separate. First inspect the preflight:
+Use `--month YYYY-MM` to select one specific historical archive month instead.
+The two selection options are mutually exclusive. Frozen development samples are
+separate. First inspect the preflight:
 
 ```sh
 _event_collector/local/venv/bin/python -m tools.event_collector.ingest
 ```
+
+For another month, for example August 2026, collect and inspect its preflight, then
+extract from exactly those saved announcements:
+
+```sh
+_event_collector/local/venv/bin/python -m tools.event_collector.ingest --month 2026-08
+_event_collector/local/venv/bin/python -m tools.event_collector.ingest --month 2026-08 \
+  --skip-collection --live --wait
+```
+
+Use the same month in both commands. Preflight may download the archive but makes
+no Gemini requests. `--skip-collection` avoids repeating the archive download; leave
+it out when refreshing the selected month's source messages. A month contains
+announcements posted in that month, including events whose own dates are later.
+The default limit is 50 messages; `--limit 100` is the maximum ingestion limit and
+must be selected consistently if the month exceeds 50. This is a source completeness
+limit, not a way to select the first few messages. If the 20-attempt rolling-day cap
+leaves messages unprocessed, rerun the same live command after capacity becomes
+available. Successful responses are reused; failed API calls are not automatically
+retried. Do not delete private cache or quota state to restart a run.
 
 After configuring a Gemini key with the existing hidden-input credentials helper,
 permit extraction explicitly:

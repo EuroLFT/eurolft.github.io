@@ -1,6 +1,8 @@
 """Editorial/publication and source integration tests; no real approvals or API calls."""
 
 import copy
+from contextlib import redirect_stderr, redirect_stdout
+import io
 import json
 from pathlib import Path
 import tempfile
@@ -12,7 +14,7 @@ from tools.event_collector.backup import restore, snapshot
 from tools.event_collector.collect import digest
 from tools.event_collector.extract import save_json
 from tools.event_collector.extraction import ROOT, MODEL
-from tools.event_collector.ingest import inputs_for_month, process, production_input
+from tools.event_collector.ingest import inputs_for_month, main as ingest_main, process, production_input
 from tools.event_collector.inspire import blank_facts, discover, map_record
 from tools.event_collector.moderate import decide, edit, manual, merge_duplicate
 from tools.event_collector.reconcile import prepare as reconcile, reconcile_records
@@ -310,6 +312,45 @@ class ReviewChangesTests(TemporaryRoot):
 
 
 class ProductionIngestionTests(TemporaryRoot):
+    def test_explicit_month_reaches_collection_and_extraction_with_no_other_months(self):
+        with patch("tools.event_collector.ingest.collect", return_value={"status": "success"}) as collect_month, \
+                patch("tools.event_collector.ingest.inputs_for_month", return_value=[]) as inputs, \
+                patch("tools.event_collector.ingest.process", return_value=(None, {"mode": "preflight", "api_requests": 0})) as extraction, \
+                patch("tools.event_collector.ingest.recent_month") as recent, redirect_stdout(io.StringIO()) as output:
+            status = ingest_main(["--root", str(self.root), "--month", "2026-08"])
+        self.assertEqual(status, 0)
+        self.assertEqual(collect_month.call_args.args[0], ["2026-08"])
+        inputs.assert_called_once_with(self.root, "2026-08", 50)
+        self.assertFalse(extraction.call_args.args[2])
+        recent.assert_not_called()
+        self.assertEqual(json.loads(output.getvalue())["month"], "2026-08")
+
+    def test_invalid_or_multiple_months_fail_before_collection(self):
+        for value in ("2026-00", "2026-13", "2026-9", "0000-09", "2026/09", "2026-09,2026-10"):
+            with self.subTest(month=value), patch("tools.event_collector.ingest.collect") as collect_month, \
+                    redirect_stderr(io.StringIO()), self.assertRaises(SystemExit) as error:
+                ingest_main(["--root", str(self.root), "--month", value])
+            self.assertEqual(error.exception.code, 2)
+            collect_month.assert_not_called()
+
+    def test_explicit_month_and_relative_window_are_mutually_exclusive(self):
+        with patch("tools.event_collector.ingest.collect") as collect_month, redirect_stderr(io.StringIO()), \
+                self.assertRaises(SystemExit) as error:
+            ingest_main(["--month", "2026-08", "--month-window", "previous"])
+        self.assertEqual(error.exception.code, 2)
+        collect_month.assert_not_called()
+
+    def test_relative_month_defaults_are_preserved_and_cached_sources_can_be_selected(self):
+        for options, window in (([], "current"), (["--month-window", "previous"], "previous")):
+            with self.subTest(window=window), patch("tools.event_collector.ingest.recent_month", return_value="2026-09") as recent, \
+                    patch("tools.event_collector.ingest.collect") as collect_month, \
+                    patch("tools.event_collector.ingest.inputs_for_month", return_value=[]) as inputs, \
+                    patch("tools.event_collector.ingest.process", return_value=(None, {"api_requests": 0})), redirect_stdout(io.StringIO()):
+                self.assertEqual(ingest_main(["--root", str(self.root), "--skip-collection", *options]), 0)
+            recent.assert_called_once_with(window)
+            collect_month.assert_not_called()
+            inputs.assert_called_once_with(self.root, "2026-09", 50)
+
     def fixture(self):
         labels = json.loads((ROOT / "evaluation/labels.json").read_text())
         case = next(item for item in labels["cases"] if item["case_id"] == "synthetic-06")

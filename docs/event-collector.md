@@ -312,7 +312,7 @@ the submitted quote is retained separately for whitespace matches. Other charact
 must match, and link evidence still requires the literal full URL. This proves quote
 presence, not that a quoted passage establishes every claimed fact.
 
-The local suite has 134 passing regression tests, including credential-format/error
+The local suite has 138 passing regression tests, including credential-format/error
 handling regressions and full Draft 2020-12
 validation of all eight canonical examples. Gold-derived fixture replay runs across
 all 53 cases and is explicitly labelled a software check, with the accuracy gate
@@ -358,7 +358,7 @@ facts, source references and a readable change summary.
 
 The current three-announcement batch produces five pending event records, including
 all three Lattice candidates previously held back by relationship quote checks. All
-134 regression tests pass, covering quality-warning routing, source/provenance integrity,
+138 regression tests pass, covering explicit single-month selection, quality-warning routing, source/provenance integrity,
 synthetic exclusion, operational failures, invalid-date repairs, repeat preservation
 and owner-only permissions. No new API calls or publication were made by this step.
 

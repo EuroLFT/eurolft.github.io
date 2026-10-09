@@ -326,5 +326,5 @@ ledger remain private; unchanged plans preserve edits. See the community-events 
 for matching rules and snapshot limitations. The five real candidates now have a local
 reconciled plan; no authoritative records exist yet. These preparation commands perform
 no remote PR creation or approval. Publication and manual GitHub workflows are implemented
-separately, with sealed human decisions required for export. All 134 software tests pass.
+separately, with sealed human decisions required for export. All 138 software tests pass.
 See the [operating guide](../../docs/event-collector-operations.md) for the complete flow.
