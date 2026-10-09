@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "id": "event-0fe07a1f266ed72e82ae373a",
+  "revision": 1,
+  "origin": "collected",
+  "facts": {
+    "title": "KITP program \"Merging Strong-field and Perturbative Gravity for the Precision Gravitational-Wave Era\"",
+    "type": "conference",
+    "start_date": "2028-05-08",
+    "end_date": "2028-06-22",
+    "start_time": null,
+    "end_time": null,
+    "timezone": null,
+    "location": {
+      "venue": null,
+      "city": "Santa Barbara",
+      "country": "United States"
+    },
+    "attendance": "unknown",
+    "official_url": "https://www.kitp.ucsb.edu/activities/PERFECTWAVE28",
+    "summary": null,
+    "deadlines": [],
+    "lifecycle": "scheduled"
+  },
+  "sources": [
+    {
+      "id": "inspire-3180294",
+      "kind": "announcement",
+      "url": "https://inspirehep.net/conferences/3180294",
+      "posted_at": null,
+      "retrieved_at": null,
+      "note": "Structured INSPIRE catalogue metadata; updated 2026-07-14T22:09:54.685983+00:00"
+    }
+  ],
+  "evidence": [
+    {
+      "field": "/facts/title",
+      "source_id": "inspire-3180294",
+      "excerpt": "KITP program \"Merging Strong-field and Perturbative Gravity for the Precision Gravitational-Wave Era\""
+    },
+    {
+      "field": "/facts/start_date",
+      "source_id": "inspire-3180294",
+      "excerpt": "2028-05-08"
+    },
+    {
+      "field": "/facts/end_date",
+      "source_id": "inspire-3180294",
+      "excerpt": "2028-06-22"
+    },
+    {
+      "field": "/facts/location/city",
+      "source_id": "inspire-3180294",
+      "excerpt": "Santa Barbara"
+    },
+    {
+      "field": "/facts/location/country",
+      "source_id": "inspire-3180294",
+      "excerpt": "United States"
+    },
+    {
+      "field": "/facts/official_url",
+      "source_id": "inspire-3180294",
+      "excerpt": "https://www.kitp.ucsb.edu/activities/PERFECTWAVE28"
+    }
+  ],
+  "related_events": [],
+  "identity_aliases": [
+    "inspire:3180294",
+    "source-event:https://inspirehep.net/conferences/3180294|title:kitp program merging strong field and perturbative gravity for the precision gravitational wave era"
+  ],
+  "warnings": [
+    "Human review required for INSPIRE metadata and lattice relevance.",
+    "Event type inferred from title/catalogue; confirm before approval.",
+    "Broad Theory-HEP candidate: relevance requires human review."
+  ],
+  "editor_overrides": [],
+  "decision": {
+    "status": "pending",
+    "reviewed_revision": null,
+    "reason": null,
+    "acknowledged_warnings": []
+  },
+  "history": []
+}
