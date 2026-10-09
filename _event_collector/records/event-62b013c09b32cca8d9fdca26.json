@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "id": "event-62b013c09b32cca8d9fdca26",
+  "revision": 1,
+  "origin": "collected",
+  "facts": {
+    "title": "Horizons in Quantum Gravity",
+    "type": "conference",
+    "start_date": "2027-10-25",
+    "end_date": "2027-10-28",
+    "start_time": null,
+    "end_time": null,
+    "timezone": null,
+    "location": {
+      "venue": null,
+      "city": "Santa Barbara",
+      "country": "United States"
+    },
+    "attendance": "unknown",
+    "official_url": "https://www.kitp.ucsb.edu/activities/pathintegrals-c27",
+    "summary": null,
+    "deadlines": [],
+    "lifecycle": "scheduled"
+  },
+  "sources": [
+    {
+      "id": "inspire-3179572",
+      "kind": "announcement",
+      "url": "https://inspirehep.net/conferences/3179572",
+      "posted_at": null,
+      "retrieved_at": null,
+      "note": "Structured INSPIRE catalogue metadata; updated 2026-07-11T14:55:14.420689+00:00"
+    }
+  ],
+  "evidence": [
+    {
+      "field": "/facts/title",
+      "source_id": "inspire-3179572",
+      "excerpt": "Horizons in Quantum Gravity"
+    },
+    {
+      "field": "/facts/start_date",
+      "source_id": "inspire-3179572",
+      "excerpt": "2027-10-25"
+    },
+    {
+      "field": "/facts/end_date",
+      "source_id": "inspire-3179572",
+      "excerpt": "2027-10-28"
+    },
+    {
+      "field": "/facts/location/city",
+      "source_id": "inspire-3179572",
+      "excerpt": "Santa Barbara"
+    },
+    {
+      "field": "/facts/location/country",
+      "source_id": "inspire-3179572",
+      "excerpt": "United States"
+    },
+    {
+      "field": "/facts/official_url",
+      "source_id": "inspire-3179572",
+      "excerpt": "https://www.kitp.ucsb.edu/activities/pathintegrals-c27"
+    }
+  ],
+  "related_events": [],
+  "identity_aliases": [
+    "inspire:3179572",
+    "source-event:https://inspirehep.net/conferences/3179572|title:horizons in quantum gravity"
+  ],
+  "warnings": [
+    "Human review required for INSPIRE metadata and lattice relevance.",
+    "Event type inferred from title/catalogue; confirm before approval.",
+    "Broad Theory-HEP candidate: relevance requires human review."
+  ],
+  "editor_overrides": [],
+  "decision": {
+    "status": "pending",
+    "reviewed_revision": null,
+    "reason": null,
+    "acknowledged_warnings": []
+  },
+  "history": []
+}
