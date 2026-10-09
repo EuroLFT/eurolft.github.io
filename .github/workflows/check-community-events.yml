@@ -18,7 +18,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: Antonio-Rago/EuroLFT-Event-Scraper
-          ref: 7f3c0f5ee542b6484ecfdbfe39f78d0ffe8fb5ee
+          ref: afe60be6c527494eba5c68762f34b120fa45f093
           path: .event-tools
           persist-credentials: false
       - uses: actions/setup-python@v5
