@@ -1,0 +1,78 @@
+---
+layout: page
+title: Community events
+description: Conferences, workshops, schools and courses for the lattice community
+---
+
+{% if site.community_preview %}
+<div class="alert alert-warning" role="status"><strong>Private preview — these events are unapproved.</strong>
+This page shows proposed data for review. It is not the published calendar.</div>
+{% endif %}
+<p>{% if site.community_preview %}Proposed events of interest to the lattice field theory community.
+{% else %}Events of interest to the lattice field theory community, reviewed by EuroLFT editors.{% endif %}
+Dates and deadlines may change; check the organiser’s website before making plans.</p>
+
+{% assign calendar = site.data.community_events %}
+{% if calendar.last_editorial_update %}
+<p class="text-muted">Latest editorial update: {{ calendar.last_editorial_update | date: "%e %B %Y" }}.
+This is the review date of the published data.</p>
+{% endif %}
+
+<p><a href="https://github.com/EuroLFT/eurolft.github.io/issues/new?template=community-event.yml">Suggest an event or correction</a>
+&middot; <a href="{{ '/events/' | relative_url }}">EuroLFT events</a></p>
+
+{% if calendar.events == empty %}
+<p>No community events have been published yet. New announcements are being prepared for editorial review.</p>
+{% else %}
+<form id="community-filters" hidden aria-label="Filter community events" class="mb-4">
+  <div class="form-row">
+    <div class="col-sm-4 mb-2"><label for="community-period">When</label>
+      <select id="community-period" class="form-control"><option value="current">Upcoming and ongoing</option>
+        <option value="past">Past events</option><option value="all">All dates</option></select></div>
+    <div class="col-sm-4 mb-2"><label for="community-type">Event type</label>
+      <select id="community-type" class="form-control"><option value="all">All types</option>
+        <option value="conference">Conferences</option><option value="workshop">Workshops</option>
+        <option value="school">Schools</option><option value="software_training">Software training</option>
+        <option value="course">Courses</option></select></div>
+    <div class="col-sm-4 mb-2"><label for="community-country">Country</label>
+      <select id="community-country" class="form-control"><option value="all">All countries</option></select></div>
+  </div>
+</form>
+<p id="community-count" role="status" aria-live="polite" hidden></p>
+<p id="community-no-matches" hidden>No events match these filters.</p>
+<noscript><p>All reviewed events are shown below in date order.</p></noscript>
+{% for event in calendar.events %}
+<article id="{{ event.id | escape }}" class="community-event mb-4 pb-3 border-bottom"
+         data-start="{{ event.start_date | escape }}" data-end="{{ event.end_date | default: event.start_date | escape }}"
+         data-type="{{ event.type | escape }}" data-country="{{ event.location.country | escape }}">
+  <h2 class="h4">{{ event.title | escape }}</h2>
+  <p><strong><time datetime="{{ event.start_date | escape }}">{{ event.start_date | date: "%e %B %Y" }}</time>
+    {% if event.end_date and event.end_date != event.start_date %}– <time datetime="{{ event.end_date | escape }}">{{ event.end_date | date: "%e %B %Y" }}</time>{% endif %}</strong>
+    &middot; {{ event.type | replace: '_', ' ' | capitalize | escape }}
+    {% if event.lifecycle == 'cancelled' %}<strong class="text-danger"> &middot; Cancelled</strong>{% endif %}
+    <span class="community-period-label"></span></p>
+  {% if event.start_time %}<p>Starts {{ event.start_time | escape }}{% if event.end_time %}; ends {{ event.end_time | escape }}{% endif %}
+    ({{ event.timezone | default: 'timezone to be confirmed' | escape }}).</p>{% endif %}
+  <p>{% if event.location.venue %}{{ event.location.venue | escape }}{% endif %}
+    {% if event.location.city %}{% if event.location.venue %}, {% endif %}{{ event.location.city | escape }}{% endif %}
+    {% if event.location.country %}{% if event.location.venue or event.location.city %}, {% endif %}{{ event.location.country | escape }}{% endif %}
+    {% if event.location.venue == nil and event.location.city == nil and event.location.country == nil %}Location to be confirmed{% endif %}
+    {% if event.attendance != 'unknown' %} &middot; {{ event.attendance | replace: '_', ' ' | capitalize | escape }}{% endif %}</p>
+  {% if event.summary %}<p>{{ event.summary | escape }}</p>{% endif %}
+  {% if event.type == 'course' %}<p class="text-muted">Dates indicate the course period. Check the source for its recurring timetable.</p>{% endif %}
+  {% if event.deadlines != empty %}<ul aria-label="Deadlines">
+    {% for deadline in event.deadlines %}<li>{{ deadline.label | escape }}:
+      {% if deadline.date %}{{ deadline.date | date: "%e %B %Y" }}{% else %}date to be confirmed{% endif %}
+      {% if deadline.time %}, {{ deadline.time | escape }} ({{ deadline.timezone | default: 'timezone to be confirmed' | escape }}){% endif %}</li>{% endfor %}
+  </ul>{% endif %}
+  <p>{% if event.official_url %}<a href="{{ event.official_url | escape }}" rel="noopener">Organiser’s website</a> &middot; {% endif %}
+    {% for source in event.sources %}<a href="{{ source | escape }}" rel="noopener">Source{% if event.sources.size > 1 %} {{ forloop.index }}{% endif %}</a>{% unless forloop.last %} &middot; {% endunless %}{% endfor %}</p>
+  {% if event.related_events != empty %}<ul aria-label="Related events">
+    {% for relation in event.related_events %}{% assign related = calendar.events | where: 'id', relation.id | first %}
+      <li>{{ relation.relation | replace: '_', ' ' | capitalize | escape }}:
+        <a href="#{{ relation.id | escape }}">{{ related.title | escape }}</a></li>{% endfor %}
+  </ul>{% endif %}
+</article>
+{% endfor %}
+<script src="{{ '/assets/community-events.js' | relative_url }}" defer></script>
+{% endif %}

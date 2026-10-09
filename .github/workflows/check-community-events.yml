@@ -1,0 +1,47 @@
+name: Check community events
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Checkout pinned event validation tools
+        uses: actions/checkout@v4
+        with:
+          repository: Antonio-Rago/EuroLFT-Event-Scraper
+          ref: 5b0683b21eeea2460315e14a0620a661fb59058f
+          path: .event-tools
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r .event-tools/tools/event_collector/requirements.txt
+      - name: Validate editorial decisions
+        working-directory: .event-tools
+        run: python -m tools.event_collector.registry --site "$GITHUB_WORKSPACE" --require-decisions
+      - name: Check registry changes against the website base branch
+        if: github.event_name == 'pull_request'
+        working-directory: .event-tools
+        env:
+          BASE_BRANCH: ${{ github.base_ref }}
+        run: python -m tools.event_collector.registry --site "$GITHUB_WORKSPACE" --base "origin/$BASE_BRANCH" --require-decisions
+      - name: Export reviewed public facts
+        working-directory: .event-tools
+        run: python -m tools.event_collector.registry --site "$GITHUB_WORKSPACE" --export "$GITHUB_WORKSPACE/_data/community_events.json"
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2.2'
+          bundler-cache: true
+      - run: bundle exec jekyll build
+      - name: Audit published site
+        working-directory: .event-tools
+        run: python -m tools.event_collector.audit_site "$GITHUB_WORKSPACE/_site"

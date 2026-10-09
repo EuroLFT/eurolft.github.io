@@ -2,6 +2,24 @@
 
 The EuroLFT website
 
+## Community event review and publication
+
+This repository owns the event registry, editorial review and calendar publication.
+Collector code, source adapters, Gemini integration, tests and ingestion workflows
+belong to [Antonio-Rago/EuroLFT-Event-Scraper](https://github.com/Antonio-Rago/EuroLFT-Event-Scraper).
+
+Proposed event records arrive through draft PRs. Editors correct, approve, reject or
+hide them; durable exclusions are retained in `_event_collector/records/`. Only sealed
+approved records are exported to `_data/community_events.json` and shown on the
+[community calendar](events/community/index.html). The initial approved dataset is empty.
+
+Website review/publication workflows check out a pinned scraper commit for validation
+and export. Collector source is not stored in this repository, and source collection
+or Gemini extraction never runs during a website build.
+
+See [the event review guide](docs/community-events.md) for editorial and publication
+instructions, and the separate scraper's operating guide for ingestion.
+
 ## Submitting announcements
 
 All are welcome to submit announcements to the website.

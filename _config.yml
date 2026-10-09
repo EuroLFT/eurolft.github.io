@@ -7,6 +7,16 @@ url:                "https://eurolft.github.io"
 
 future: true
 
+# Editorial records and external validation tools are not public website assets.
+exclude:
+  - _event_collector
+  - docs/event-collector.md
+  - docs/event-collector-operations.md
+  - tools/event_collector
+  - tests/event_collector
+  - .event-tools
+  - docs/community-events.md
+
 # Social Profiles
 twitter_username:
 github_username:
