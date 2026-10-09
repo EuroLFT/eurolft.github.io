@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "id": "event-6fa005dd4604472a026ab4c9",
+  "revision": 2,
+  "origin": "collected",
+  "facts": {
+    "title": "HEPMAD26",
+    "type": "conference",
+    "start_date": "2026-10-26",
+    "end_date": "2026-10-31",
+    "start_time": null,
+    "end_time": null,
+    "timezone": null,
+    "location": {
+      "venue": null,
+      "city": "Antananarivo",
+      "country": "Madagascar"
+    },
+    "attendance": "unknown",
+    "official_url": "https://www.lupm.in2p3.fr/users/qcd/hepmad26/",
+    "summary": null,
+    "deadlines": [],
+    "lifecycle": "scheduled"
+  },
+  "sources": [
+    {
+      "id": "inspire-3109687",
+      "kind": "announcement",
+      "url": "https://inspirehep.net/conferences/3109687",
+      "posted_at": null,
+      "retrieved_at": null,
+      "note": "Structured INSPIRE catalogue metadata; updated 2026-01-21T13:47:31.261893+00:00"
+    },
+    {
+      "id": "inspire-3109688",
+      "kind": "announcement",
+      "url": "https://inspirehep.net/conferences/3109688",
+      "posted_at": null,
+      "retrieved_at": null,
+      "note": "Structured INSPIRE catalogue metadata; updated 2026-01-21T13:56:32.706156+00:00"
+    }
+  ],
+  "evidence": [
+    {
+      "field": "/facts/title",
+      "source_id": "inspire-3109687",
+      "excerpt": "HEPMAD26"
+    },
+    {
+      "field": "/facts/start_date",
+      "source_id": "inspire-3109687",
+      "excerpt": "2026-10-26"
+    },
+    {
+      "field": "/facts/end_date",
+      "source_id": "inspire-3109687",
+      "excerpt": "2026-10-31"
+    },
+    {
+      "field": "/facts/location/city",
+      "source_id": "inspire-3109687",
+      "excerpt": "Antananarivo"
+    },
+    {
+      "field": "/facts/location/country",
+      "source_id": "inspire-3109687",
+      "excerpt": "Madagascar"
+    },
+    {
+      "field": "/facts/title",
+      "source_id": "inspire-3109688",
+      "excerpt": "HEPMAD26"
+    },
+    {
+      "field": "/facts/start_date",
+      "source_id": "inspire-3109688",
+      "excerpt": "2026-10-26"
+    },
+    {
+      "field": "/facts/end_date",
+      "source_id": "inspire-3109688",
+      "excerpt": "2026-10-31"
+    },
+    {
+      "field": "/facts/location/city",
+      "source_id": "inspire-3109688",
+      "excerpt": "Antananarivo"
+    },
+    {
+      "field": "/facts/location/country",
+      "source_id": "inspire-3109688",
+      "excerpt": "Madagascar"
+    },
+    {
+      "field": "/facts/official_url",
+      "source_id": "inspire-3109688",
+      "excerpt": "https://www.lupm.in2p3.fr/users/qcd/hepmad26/"
+    }
+  ],
+  "related_events": [],
+  "identity_aliases": [
+    "inspire:3109687",
+    "inspire:3109688",
+    "source-event:https://inspirehep.net/conferences/3109687|title:hepmad26",
+    "source-event:https://inspirehep.net/conferences/3109688|title:hepmad26"
+  ],
+  "warnings": [
+    "Human review required for INSPIRE metadata and lattice relevance.",
+    "Event type inferred from title/catalogue; confirm before approval.",
+    "Broad Theory-HEP candidate: relevance requires human review."
+  ],
+  "editor_overrides": [],
+  "decision": {
+    "status": "pending",
+    "reviewed_revision": null,
+    "reason": null,
+    "acknowledged_warnings": []
+  },
+  "history": []
+}
