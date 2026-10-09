@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "id": "event-c37508b72d2aad5fc2bff396",
+  "revision": 1,
+  "origin": "collected",
+  "facts": {
+    "title": "Andres Florez",
+    "type": "conference",
+    "start_date": "2026-11-30",
+    "end_date": "2026-12-04",
+    "start_time": null,
+    "end_time": null,
+    "timezone": null,
+    "location": {
+      "venue": null,
+      "city": "Bogota",
+      "country": "Colombia"
+    },
+    "attendance": "unknown",
+    "official_url": "https://fisindico.uniandes.edu.co/event/18/",
+    "summary": null,
+    "deadlines": [],
+    "lifecycle": "scheduled"
+  },
+  "sources": [
+    {
+      "id": "inspire-3158791",
+      "kind": "announcement",
+      "url": "https://inspirehep.net/conferences/3158791",
+      "posted_at": null,
+      "retrieved_at": null,
+      "note": "Structured INSPIRE catalogue metadata; updated 2026-05-22T14:04:59.963421+00:00"
+    }
+  ],
+  "evidence": [
+    {
+      "field": "/facts/title",
+      "source_id": "inspire-3158791",
+      "excerpt": "Andres Florez"
+    },
+    {
+      "field": "/facts/start_date",
+      "source_id": "inspire-3158791",
+      "excerpt": "2026-11-30"
+    },
+    {
+      "field": "/facts/end_date",
+      "source_id": "inspire-3158791",
+      "excerpt": "2026-12-04"
+    },
+    {
+      "field": "/facts/location/city",
+      "source_id": "inspire-3158791",
+      "excerpt": "Bogota"
+    },
+    {
+      "field": "/facts/location/country",
+      "source_id": "inspire-3158791",
+      "excerpt": "Colombia"
+    },
+    {
+      "field": "/facts/official_url",
+      "source_id": "inspire-3158791",
+      "excerpt": "https://fisindico.uniandes.edu.co/event/18/"
+    }
+  ],
+  "related_events": [],
+  "identity_aliases": [
+    "inspire:3158791",
+    "source-event:https://inspirehep.net/conferences/3158791|title:andres florez"
+  ],
+  "warnings": [
+    "Human review required for INSPIRE metadata and lattice relevance.",
+    "Event type inferred from title/catalogue; confirm before approval.",
+    "Broad Theory-HEP candidate: relevance requires human review."
+  ],
+  "editor_overrides": [],
+  "decision": {
+    "status": "pending",
+    "reviewed_revision": null,
+    "reason": null,
+    "acknowledged_warnings": []
+  },
+  "history": []
+}
