@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "id": "event-14f16b371951f29723bc85bf",
+  "revision": 1,
+  "origin": "collected",
+  "facts": {
+    "title": "Worldsheet String Theory and String Field Theory",
+    "type": "conference",
+    "start_date": "2026-11-09",
+    "end_date": "2026-11-20",
+    "start_time": null,
+    "end_time": null,
+    "timezone": null,
+    "location": {
+      "venue": null,
+      "city": "Bengaluru",
+      "country": "India"
+    },
+    "attendance": "unknown",
+    "official_url": "https://www.icts.res.in/program/wstsft",
+    "summary": null,
+    "deadlines": [],
+    "lifecycle": "scheduled"
+  },
+  "sources": [
+    {
+      "id": "inspire-3164760",
+      "kind": "announcement",
+      "url": "https://inspirehep.net/conferences/3164760",
+      "posted_at": null,
+      "retrieved_at": null,
+      "note": "Structured INSPIRE catalogue metadata; updated 2026-06-03T06:42:10.849569+00:00"
+    }
+  ],
+  "evidence": [
+    {
+      "field": "/facts/title",
+      "source_id": "inspire-3164760",
+      "excerpt": "Worldsheet String Theory and String Field Theory"
+    },
+    {
+      "field": "/facts/start_date",
+      "source_id": "inspire-3164760",
+      "excerpt": "2026-11-09"
+    },
+    {
+      "field": "/facts/end_date",
+      "source_id": "inspire-3164760",
+      "excerpt": "2026-11-20"
+    },
+    {
+      "field": "/facts/location/city",
+      "source_id": "inspire-3164760",
+      "excerpt": "Bengaluru"
+    },
+    {
+      "field": "/facts/location/country",
+      "source_id": "inspire-3164760",
+      "excerpt": "India"
+    },
+    {
+      "field": "/facts/official_url",
+      "source_id": "inspire-3164760",
+      "excerpt": "https://www.icts.res.in/program/wstsft"
+    }
+  ],
+  "related_events": [],
+  "identity_aliases": [
+    "inspire:3164760",
+    "source-event:https://inspirehep.net/conferences/3164760|title:worldsheet string theory and string field theory"
+  ],
+  "warnings": [
+    "Human review required for INSPIRE metadata and lattice relevance.",
+    "Event type inferred from title/catalogue; confirm before approval.",
+    "Broad Theory-HEP candidate: relevance requires human review."
+  ],
+  "editor_overrides": [],
+  "decision": {
+    "status": "pending",
+    "reviewed_revision": null,
+    "reason": null,
+    "acknowledged_warnings": []
+  },
+  "history": []
+}
