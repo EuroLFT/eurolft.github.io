@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "id": "event-615d5e5709ef53b55c908479",
+  "revision": 1,
+  "origin": "collected",
+  "facts": {
+    "title": "24th International Workshop on Advanced Computing and Analysis Techniques in Physics Research (ACAT 2027)",
+    "type": "workshop",
+    "start_date": "2027-03-05",
+    "end_date": "2027-03-10",
+    "start_time": null,
+    "end_time": null,
+    "timezone": null,
+    "location": {
+      "venue": null,
+      "city": "Setagaya City",
+      "country": "Japan"
+    },
+    "attendance": "unknown",
+    "official_url": "https://indico.cern.ch/e/acat2027",
+    "summary": null,
+    "deadlines": [],
+    "lifecycle": "scheduled"
+  },
+  "sources": [
+    {
+      "id": "inspire-3109061",
+      "kind": "announcement",
+      "url": "https://inspirehep.net/conferences/3109061",
+      "posted_at": null,
+      "retrieved_at": null,
+      "note": "Structured INSPIRE catalogue metadata; updated 2026-03-03T13:17:58.563624+00:00"
+    }
+  ],
+  "evidence": [
+    {
+      "field": "/facts/title",
+      "source_id": "inspire-3109061",
+      "excerpt": "24th International Workshop on Advanced Computing and Analysis Techniques in Physics Research (ACAT 2027)"
+    },
+    {
+      "field": "/facts/start_date",
+      "source_id": "inspire-3109061",
+      "excerpt": "2027-03-05"
+    },
+    {
+      "field": "/facts/end_date",
+      "source_id": "inspire-3109061",
+      "excerpt": "2027-03-10"
+    },
+    {
+      "field": "/facts/location/city",
+      "source_id": "inspire-3109061",
+      "excerpt": "Setagaya City"
+    },
+    {
+      "field": "/facts/location/country",
+      "source_id": "inspire-3109061",
+      "excerpt": "Japan"
+    },
+    {
+      "field": "/facts/official_url",
+      "source_id": "inspire-3109061",
+      "excerpt": "https://indico.cern.ch/e/acat2027"
+    }
+  ],
+  "related_events": [],
+  "identity_aliases": [
+    "inspire:3109061",
+    "source-event:https://inspirehep.net/conferences/3109061|title:24th international workshop on advanced computing and analysis techniques in physics research acat 2027"
+  ],
+  "warnings": [
+    "Human review required for INSPIRE metadata and lattice relevance.",
+    "Event type inferred from title/catalogue; confirm before approval.",
+    "Title does not explicitly mention lattice: relevance requires human review."
+  ],
+  "editor_overrides": [],
+  "decision": {
+    "status": "pending",
+    "reviewed_revision": null,
+    "reason": null,
+    "acknowledged_warnings": []
+  },
+  "history": []
+}
