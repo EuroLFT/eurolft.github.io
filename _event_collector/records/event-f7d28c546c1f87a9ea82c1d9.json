@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "id": "event-f7d28c546c1f87a9ea82c1d9",
+  "revision": 1,
+  "origin": "collected",
+  "facts": {
+    "title": "24th International Conference on Few-Body Problems in Physics",
+    "type": "conference",
+    "start_date": "2027-09-27",
+    "end_date": "2027-10-01",
+    "start_time": null,
+    "end_time": null,
+    "timezone": null,
+    "location": {
+      "venue": null,
+      "city": "Bochum",
+      "country": "Germany"
+    },
+    "attendance": "unknown",
+    "official_url": "https://www.indico.tp2.ruhr-uni-bochum.de/event/5/",
+    "summary": null,
+    "deadlines": [],
+    "lifecycle": "scheduled"
+  },
+  "sources": [
+    {
+      "id": "inspire-3153478",
+      "kind": "announcement",
+      "url": "https://inspirehep.net/conferences/3153478",
+      "posted_at": null,
+      "retrieved_at": null,
+      "note": "Structured INSPIRE catalogue metadata; updated 2026-05-09T11:05:09.041796+00:00"
+    }
+  ],
+  "evidence": [
+    {
+      "field": "/facts/title",
+      "source_id": "inspire-3153478",
+      "excerpt": "24th International Conference on Few-Body Problems in Physics"
+    },
+    {
+      "field": "/facts/start_date",
+      "source_id": "inspire-3153478",
+      "excerpt": "2027-09-27"
+    },
+    {
+      "field": "/facts/end_date",
+      "source_id": "inspire-3153478",
+      "excerpt": "2027-10-01"
+    },
+    {
+      "field": "/facts/location/city",
+      "source_id": "inspire-3153478",
+      "excerpt": "Bochum"
+    },
+    {
+      "field": "/facts/location/country",
+      "source_id": "inspire-3153478",
+      "excerpt": "Germany"
+    },
+    {
+      "field": "/facts/official_url",
+      "source_id": "inspire-3153478",
+      "excerpt": "https://www.indico.tp2.ruhr-uni-bochum.de/event/5/"
+    }
+  ],
+  "related_events": [],
+  "identity_aliases": [
+    "inspire:3153478",
+    "source-event:https://inspirehep.net/conferences/3153478|title:24th international conference on few body problems in physics"
+  ],
+  "warnings": [
+    "Human review required for INSPIRE metadata and lattice relevance.",
+    "Event type inferred from title/catalogue; confirm before approval.",
+    "Title does not explicitly mention lattice: relevance requires human review."
+  ],
+  "editor_overrides": [],
+  "decision": {
+    "status": "pending",
+    "reviewed_revision": null,
+    "reason": null,
+    "acknowledged_warnings": []
+  },
+  "history": []
+}
