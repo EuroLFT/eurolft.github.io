@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "id": "event-9d636629a14c6ad0e8a71c4b",
+  "revision": 1,
+  "origin": "collected",
+  "facts": {
+    "title": "Pacific Spin 2026",
+    "type": "conference",
+    "start_date": "2026-10-27",
+    "end_date": "2026-10-30",
+    "start_time": null,
+    "end_time": null,
+    "timezone": null,
+    "location": {
+      "venue": null,
+      "city": "Taipei",
+      "country": "Taiwan"
+    },
+    "attendance": "unknown",
+    "official_url": "https://indico.phys.sinica.edu.tw/event/371/",
+    "summary": null,
+    "deadlines": [],
+    "lifecycle": "scheduled"
+  },
+  "sources": [
+    {
+      "id": "inspire-3098989",
+      "kind": "announcement",
+      "url": "https://inspirehep.net/conferences/3098989",
+      "posted_at": null,
+      "retrieved_at": null,
+      "note": "Structured INSPIRE catalogue metadata; updated 2026-01-09T07:10:05.035632+00:00"
+    }
+  ],
+  "evidence": [
+    {
+      "field": "/facts/title",
+      "source_id": "inspire-3098989",
+      "excerpt": "Pacific Spin 2026"
+    },
+    {
+      "field": "/facts/start_date",
+      "source_id": "inspire-3098989",
+      "excerpt": "2026-10-27"
+    },
+    {
+      "field": "/facts/end_date",
+      "source_id": "inspire-3098989",
+      "excerpt": "2026-10-30"
+    },
+    {
+      "field": "/facts/location/city",
+      "source_id": "inspire-3098989",
+      "excerpt": "Taipei"
+    },
+    {
+      "field": "/facts/location/country",
+      "source_id": "inspire-3098989",
+      "excerpt": "Taiwan"
+    },
+    {
+      "field": "/facts/official_url",
+      "source_id": "inspire-3098989",
+      "excerpt": "https://indico.phys.sinica.edu.tw/event/371/"
+    }
+  ],
+  "related_events": [],
+  "identity_aliases": [
+    "inspire:3098989",
+    "source-event:https://inspirehep.net/conferences/3098989|title:pacific spin 2026"
+  ],
+  "warnings": [
+    "Human review required for INSPIRE metadata and lattice relevance.",
+    "Event type inferred from title/catalogue; confirm before approval.",
+    "Broad Theory-HEP candidate: relevance requires human review."
+  ],
+  "editor_overrides": [],
+  "decision": {
+    "status": "pending",
+    "reviewed_revision": null,
+    "reason": null,
+    "acknowledged_warnings": []
+  },
+  "history": []
+}
