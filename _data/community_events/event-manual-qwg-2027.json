@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "id": "event-manual-qwg-2027",
+  "revision": 1,
+  "title": "18th International Workshop on Heavy Quarkonium (QWG 2027)",
+  "type": "workshop",
+  "start_date": "2027-07-05",
+  "end_date": "2027-07-09",
+  "start_time": "09:00",
+  "end_time": "17:00",
+  "timezone": "Asia/Seoul",
+  "location": {
+    "venue": "Sejong University",
+    "city": "Seoul",
+    "country": "South Korea"
+  },
+  "attendance": "unknown",
+  "official_url": "https://indico.global/event/18578/",
+  "summary": "Workshop bringing together experimentalists and theorists working on heavy quarkonium in particle and nuclear physics. Topics include spectroscopy, decays, production and quarkonium in media. Speakers are invited.",
+  "deadlines": [],
+  "lifecycle": "scheduled",
+  "origin": "manual",
+  "sources": [
+    {
+      "id": "qwg-2027-overview",
+      "kind": "organiser",
+      "url": "https://indico.global/event/18578/",
+      "posted_at": null,
+      "retrieved_at": "2026-10-12T21:36:51.150736+00:00",
+      "note": "Public Indico overview supplies dates, times, timezone, venue and scientific topics."
+    }
+  ],
+  "evidence": [
+    {
+      "field": "/facts/start_date",
+      "source_id": "qwg-2027-overview",
+      "excerpt": "Starts 5 Jul 2027, 09:00"
+    },
+    {
+      "field": "/facts/end_date",
+      "source_id": "qwg-2027-overview",
+      "excerpt": "Ends 9 Jul 2027, 17:00"
+    },
+    {
+      "field": "/facts/timezone",
+      "source_id": "qwg-2027-overview",
+      "excerpt": "All times are in Asia/Seoul"
+    }
+  ],
+  "related_events": [],
+  "identity_aliases": [
+    "url:https://indico.global/event/18578/"
+  ],
+  "warnings": [
+    "No registration or abstract deadlines are supplied on the overview.",
+    "Attendance mode is not explicitly stated; attendance remains unknown."
+  ],
+  "editor_overrides": [],
+  "decision": {
+    "status": "pending",
+    "reviewed_revision": null,
+    "reason": null,
+    "acknowledged_warnings": []
+  },
+  "history": [
+    {
+      "action": "edit",
+      "actor": "Antonio-Rago",
+      "at": "2026-10-12T21:36:51.150527+00:00",
+      "revision": 1,
+      "note": "Manual addition"
+    }
+  ]
+}
