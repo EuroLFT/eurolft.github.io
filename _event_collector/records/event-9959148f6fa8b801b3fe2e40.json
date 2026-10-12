@@ -13,8 +13,8 @@
     "timezone": null,
     "location": {
       "venue": null,
-      "city": null,
-      "country": null
+      "city": Nicosia,
+      "country": Cyprus
     },
     "attendance": "unknown",
     "official_url": null,
