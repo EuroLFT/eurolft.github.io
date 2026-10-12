@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "id": "event-191cde4301ea3a27cba28296",
+  "revision": 1,
+  "origin": "collected",
+  "facts": {
+    "title": "26th Zimányi School Winter Workshop on Heavy Ion Physics",
+    "type": "school",
+    "start_date": "2026-11-30",
+    "end_date": "2026-12-04",
+    "start_time": null,
+    "end_time": null,
+    "timezone": null,
+    "location": {
+      "venue": null,
+      "city": "Budapest",
+      "country": "Hungary"
+    },
+    "attendance": "unknown",
+    "official_url": "https://zimanyischool.kfki.hu/26/",
+    "summary": null,
+    "deadlines": [],
+    "lifecycle": "scheduled"
+  },
+  "sources": [
+    {
+      "id": "inspire-3089555",
+      "kind": "announcement",
+      "url": "https://inspirehep.net/conferences/3089555",
+      "posted_at": null,
+      "retrieved_at": null,
+      "note": "Structured INSPIRE catalogue metadata; updated 2026-09-09T18:12:30.387062+00:00"
+    }
+  ],
+  "evidence": [
+    {
+      "field": "/facts/title",
+      "source_id": "inspire-3089555",
+      "excerpt": "26th Zimányi School Winter Workshop on Heavy Ion Physics"
+    },
+    {
+      "field": "/facts/start_date",
+      "source_id": "inspire-3089555",
+      "excerpt": "2026-11-30"
+    },
+    {
+      "field": "/facts/end_date",
+      "source_id": "inspire-3089555",
+      "excerpt": "2026-12-04"
+    },
+    {
+      "field": "/facts/location/city",
+      "source_id": "inspire-3089555",
+      "excerpt": "Budapest"
+    },
+    {
+      "field": "/facts/location/country",
+      "source_id": "inspire-3089555",
+      "excerpt": "Hungary"
+    },
+    {
+      "field": "/facts/official_url",
+      "source_id": "inspire-3089555",
+      "excerpt": "https://zimanyischool.kfki.hu/26/"
+    }
+  ],
+  "related_events": [],
+  "identity_aliases": [
+    "inspire:3089555",
+    "source-event:https://inspirehep.net/conferences/3089555|title:26th zimányi school winter workshop on heavy ion physics"
+  ],
+  "warnings": [
+    "Human review required for INSPIRE metadata and lattice relevance.",
+    "Event type inferred from title/catalogue; confirm before approval.",
+    "Broad Theory-HEP candidate: relevance requires human review."
+  ],
+  "editor_overrides": [],
+  "decision": {
+    "status": "pending",
+    "reviewed_revision": null,
+    "reason": null,
+    "acknowledged_warnings": []
+  },
+  "history": []
+}
