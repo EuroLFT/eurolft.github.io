@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "id": "event-3112044c72522b0c7f45b469",
+  "revision": 1,
+  "title": "2027 European Physical Society Conference on High Energy Physics (EPS-HEP2027)",
+  "type": "conference",
+  "start_date": "2027-07-26",
+  "end_date": "2027-07-30",
+  "start_time": null,
+  "end_time": null,
+  "timezone": null,
+  "location": {
+    "venue": null,
+    "city": "Bucharest",
+    "country": "Romania"
+  },
+  "attendance": "unknown",
+  "official_url": "https://www.eps-hep2027.eu/",
+  "summary": null,
+  "deadlines": [],
+  "lifecycle": "scheduled",
+  "origin": "collected",
+  "sources": [
+    {
+      "id": "inspire-3213816",
+      "kind": "announcement",
+      "url": "https://inspirehep.net/conferences/3213816",
+      "posted_at": null,
+      "retrieved_at": null,
+      "note": "Structured INSPIRE catalogue metadata; updated 2026-10-12T06:27:04.315592+00:00"
+    }
+  ],
+  "evidence": [
+    {
+      "field": "/facts/title",
+      "source_id": "inspire-3213816",
+      "excerpt": "2027 European Physical Society Conference on High Energy Physics (EPS-HEP2027)"
+    },
+    {
+      "field": "/facts/start_date",
+      "source_id": "inspire-3213816",
+      "excerpt": "2027-07-26"
+    },
+    {
+      "field": "/facts/end_date",
+      "source_id": "inspire-3213816",
+      "excerpt": "2027-07-30"
+    },
+    {
+      "field": "/facts/location/city",
+      "source_id": "inspire-3213816",
+      "excerpt": "Bucharest"
+    },
+    {
+      "field": "/facts/location/country",
+      "source_id": "inspire-3213816",
+      "excerpt": "Romania"
+    },
+    {
+      "field": "/facts/official_url",
+      "source_id": "inspire-3213816",
+      "excerpt": "https://www.eps-hep2027.eu/"
+    }
+  ],
+  "related_events": [],
+  "identity_aliases": [
+    "inspire:3213816",
+    "source-event:https://inspirehep.net/conferences/3213816|title:2027 european physical society conference on high energy physics eps hep2027"
+  ],
+  "warnings": [
+    "Human review required for INSPIRE metadata and lattice relevance.",
+    "Event type inferred from title/catalogue; confirm before approval.",
+    "Title does not explicitly mention lattice: relevance requires human review."
+  ],
+  "editor_overrides": [],
+  "decision": {
+    "status": "pending",
+    "reviewed_revision": null,
+    "reason": null,
+    "acknowledged_warnings": []
+  },
+  "history": []
+}
