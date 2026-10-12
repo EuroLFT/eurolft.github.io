@@ -1,70 +1,51 @@
 # Community event review and publication
 
-EuroLFT/eurolft.github.io owns the event records, human editorial decisions and the
-community calendar. All collector and editorial-tool code lives separately in
-[Antonio-Rago/EuroLFT-Event-Scraper](https://github.com/Antonio-Rago/EuroLFT-Event-Scraper).
-Its operating guide describes ingestion and command setup.
+The collector in [Antonio-Rago/EuroLFT-Event-Scraper](https://github.com/Antonio-Rago/EuroLFT-Event-Scraper)
+prepares one website-ready JSON file per event. This website holds the data, human
+review PRs and Jekyll calendar. Its Actions workflow runs Ruby/Jekyll only.
 
-## Website-owned records
+## Review an event
 
-`_event_collector/records/*.json` contains canonical event identities and approved,
-rejected or hidden decisions. The historical folder name denotes editorial data here;
-there are no source adapters, Python modules, prompts or model caches in this repository.
-The facts-only template `_event_collector/manual-event.template.json` helps manual additions.
-The website Issue form also accepts event suggestions and corrections.
+Each event PR changes `_data/community_events/EVENT_ID.json`. Inspect the title,
+dates, location, deadlines, organiser/source links and the warnings in its summary.
 
-The collector submits **one event per PR** and retains other candidates in its
-private queue. Review the readable PR summary, organiser/source links, dates,
-deadlines, location and warnings, then use GitHub:
+- Merge the PR into main to publish the event.
+- Close without merging to reject it; the collector remembers that decision.
+- Edit the JSON before merging for corrections. Advance its revision on updates.
 
-- **Accept:** merge the event PR after review. A teammate can approve it first.
-  If the collector submitted under your own account, review and merge your PR.
-- **Reject:** close it without merging. The collector uses human closure receipts
-  to remember the event and its aliases. Reopen the rejected PR to reconsider it.
-- **Correct:** edit the event JSON or request changes in the PR before merging.
-  For an existing record, advance its revision when changing it.
+Title, dates and other facts are top-level fields. Unknown values remain null and
+are shown as unconfirmed. The remaining metadata preserves evidence, matching
+identities, warnings and historic edits. The old pending marker is retained for
+compatibility; no approval field or terminal command needs changing before merge.
+Jekyll displays main's records except those explicitly hidden or rejected.
 
-No local approve/reject scripts, per-event status edits or approval seals are needed
-for this flow. GitHub's human merge is the authoritative acceptance receipt. Source
-JSON can retain its pending proposal marker even on main; publication derives an
-approved copy using the real merger and merge time. It does not rewrite main or
-add a bot commit to the reviewed PR. Legacy explicit approved/rejected/hidden records
-and advanced moderation tools remain supported.
+To remove an unwanted published event, submit a correction PR setting
+`decision.status` to `hidden`, give a reason, and advance the revision. Retain the file
+and stable ID so later scraping cannot accidentally re-add it. Relations are linked
+only when their target is also published; duplicate redirects preserve surviving links.
 
-Do not merge an event you do not want published. Proposal CI validates publication
-facts, including date/type/chronology, safe public links and IANA zones for clock times.
-A missing zone is a fact correction, not a request to run an approval script. Set an
-unverified clock value to null if its date is known but its time cannot be established.
-Warnings are displayed for human review; merging accepts those reviewed warnings.
+For a missing event, use the website Issue form or the collector's manual-entry
+command with [the facts template](manual-event.template.json). Review and merge the
+resulting event PR in the same way.
 
-Related events can be accepted independently. A relationship is displayed publicly
-only once its target event has also been accepted. Keep identities rather than deleting
-accepted records; hide an unwanted published record in a new reviewed PR.
+## Build
 
-## Review and publication checks
+Jekyll reads `_data/community_events/*.json` directly, sorts the calendar by date,
+and renders `/events/community/`. Events with unknown dates remain visible with an
+unconfirmed date label. Local date/type/country filters work without affecting the
+server-rendered cards; the calendar is readable without JavaScript.
 
-The review and Pages workflows check out a pinned 40-character scraper commit into
-temporary `.event-tools` working storage. That code is ignored by Git and excluded
-from Jekyll. Proposal CI checks schema, publishability, revisions and protected identities.
-Publication additionally verifies a matching human-merged PR into website main, that
-its merge SHA is an ancestor of the build, and that the committed event content matches.
-A review on an unmerged PR or a later unreviewed edit cannot grant publication.
-The workflow exports accepted public facts and audits the built site.
-Changing the tools version requires a PR updating the pin in both workflows.
+There is no aggregate event JSON generation, collector checkout, Python package
+installation, scraping or Gemini extraction in website Actions. Ordinary Pages
+builds run after pushes to main. Raw collector caches, prompts, credentials and model
+replies stay in the separate collector checkout. Metadata in `_data` is not copied
+as public assets; the calendar renders only the selected event facts and source links.
+The pre-existing institution utility is unrelated to event publication.
 
-Only accepted facts, public source/organiser links and accepted related events enter
-`_data/community_events.json`. Raw announcements, model responses, evidence excerpts,
-reviewer identities and credentials do not enter the public calendar data. Collection
-and Gemini never run in a website build. Validation failure blocks publication.
+## Transition of existing proposals
 
-`/events/community/` displays dates, locations, deadlines and satellite relationships,
-with local type/country/date filters and readable cards without JavaScript. The first
-accepted dataset is empty until a reviewer merges a real event PR. Existing EuroLFT event
-pages are preserved separately.
-
-## Activation
-
-Review the scraper-code PR and the website integration PR, designate actual event
-reviewers, and require human review plus the event validation check on main. Verify
-one editorial merge and Pages deployment. No collection workflow or schedule belongs
-to this website repository; ingestion runs from the separate scraper repository.
+After merging this website migration, run the collector's `migrate --open-prs`
+command before merging remaining old-format event PRs. It retains their PR numbers,
+final reviewer-edited content and notes, and converts each file to the new data path.
+It refuses concurrent branch edits and never merges or closes proposals. Already
+accepted events in this migration retain their facts and identities.

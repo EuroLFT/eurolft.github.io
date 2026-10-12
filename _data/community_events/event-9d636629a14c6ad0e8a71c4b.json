@@ -2,26 +2,24 @@
   "schema_version": 1,
   "id": "event-9d636629a14c6ad0e8a71c4b",
   "revision": 1,
-  "origin": "collected",
-  "facts": {
-    "title": "Pacific Spin 2026",
-    "type": "conference",
-    "start_date": "2026-10-27",
-    "end_date": "2026-10-30",
-    "start_time": null,
-    "end_time": null,
-    "timezone": null,
-    "location": {
-      "venue": null,
-      "city": "Taipei",
-      "country": "Taiwan"
-    },
-    "attendance": "unknown",
-    "official_url": "https://indico.phys.sinica.edu.tw/event/371/",
-    "summary": null,
-    "deadlines": [],
-    "lifecycle": "scheduled"
+  "title": "Pacific Spin 2026",
+  "type": "conference",
+  "start_date": "2026-10-27",
+  "end_date": "2026-10-30",
+  "start_time": null,
+  "end_time": null,
+  "timezone": null,
+  "location": {
+    "venue": null,
+    "city": "Taipei",
+    "country": "Taiwan"
   },
+  "attendance": "unknown",
+  "official_url": "https://indico.phys.sinica.edu.tw/event/371/",
+  "summary": null,
+  "deadlines": [],
+  "lifecycle": "scheduled",
+  "origin": "collected",
   "sources": [
     {
       "id": "inspire-3098989",

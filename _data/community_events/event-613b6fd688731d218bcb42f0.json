@@ -2,34 +2,32 @@
   "schema_version": 1,
   "id": "event-613b6fd688731d218bcb42f0",
   "revision": 1,
-  "origin": "collected",
-  "facts": {
-    "title": "LGT4HEP Lattice Gauge Theory I (LGT1) Course",
-    "type": "course",
-    "start_date": "2026-09-14",
-    "end_date": "2026-12-04",
-    "start_time": null,
-    "end_time": null,
-    "timezone": null,
-    "location": {
-      "venue": null,
-      "city": null,
-      "country": null
-    },
-    "attendance": "unknown",
-    "official_url": null,
-    "summary": null,
-    "deadlines": [
-      {
-        "kind": "other",
-        "label": "faculty proposal submission",
-        "date": "2026-09-04",
-        "time": "11:59",
-        "timezone": null
-      }
-    ],
-    "lifecycle": "scheduled"
+  "title": "LGT4HEP Lattice Gauge Theory I (LGT1) Course",
+  "type": "course",
+  "start_date": "2026-09-14",
+  "end_date": "2026-12-04",
+  "start_time": null,
+  "end_time": null,
+  "timezone": null,
+  "location": {
+    "venue": null,
+    "city": null,
+    "country": null
   },
+  "attendance": "unknown",
+  "official_url": null,
+  "summary": null,
+  "deadlines": [
+    {
+      "kind": "other",
+      "label": "faculty proposal submission",
+      "date": "2026-09-04",
+      "time": "11:59",
+      "timezone": null
+    }
+  ],
+  "lifecycle": "scheduled",
+  "origin": "collected",
   "sources": [
     {
       "id": "source-ec727b955290d6787659",

@@ -19,13 +19,14 @@
     const today = new Date().toISOString().slice(0, 10);
     let visible = 0;
     cards.forEach(card => {
-      const past = card.dataset.end < today;
-      const ongoing = card.dataset.start <= today && !past;
+      const dated = Boolean(card.dataset.start);
+      const past = dated && card.dataset.end < today;
+      const ongoing = dated && card.dataset.start <= today && !past;
       const when = period.value === 'all' || (period.value === 'past' ? past : !past);
       const matches = when && (type.value === 'all' || type.value === card.dataset.type)
         && (country.value === 'all' || country.value === card.dataset.country);
       card.hidden = !matches;
-      card.querySelector('.community-period-label').textContent = ongoing ? ' · Ongoing' : (past ? ' · Past' : '');
+      card.querySelector('.community-period-label').textContent = !dated ? '' : (ongoing ? ' · Ongoing' : (past ? ' · Past' : ''));
       if (matches) visible += 1;
     });
     count.textContent = visible + (visible === 1 ? ' event' : ' events');

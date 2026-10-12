@@ -2,26 +2,24 @@
   "schema_version": 1,
   "id": "event-87eefef37d9bc263e75e8483",
   "revision": 1,
-  "origin": "collected",
-  "facts": {
-    "title": "Quantum Fields to Cosmic Signatures: Probing Particle Production in the Early Universe",
-    "type": "conference",
-    "start_date": "2027-04-05",
-    "end_date": "2027-04-30",
-    "start_time": null,
-    "end_time": null,
-    "timezone": null,
-    "location": {
-      "venue": null,
-      "city": "Boltzmannstr. 2, 85748 Garching",
-      "country": "Germany"
-    },
-    "attendance": "unknown",
-    "official_url": "https://www.munich-iapbp.de/activities/activities-2027/particle-production",
-    "summary": null,
-    "deadlines": [],
-    "lifecycle": "scheduled"
+  "title": "Quantum Fields to Cosmic Signatures: Probing Particle Production in the Early Universe",
+  "type": "conference",
+  "start_date": "2027-04-05",
+  "end_date": "2027-04-30",
+  "start_time": null,
+  "end_time": null,
+  "timezone": null,
+  "location": {
+    "venue": null,
+    "city": "Boltzmannstr. 2, 85748 Garching",
+    "country": "Germany"
   },
+  "attendance": "unknown",
+  "official_url": "https://www.munich-iapbp.de/activities/activities-2027/particle-production",
+  "summary": null,
+  "deadlines": [],
+  "lifecycle": "scheduled",
+  "origin": "collected",
   "sources": [
     {
       "id": "inspire-3162641",

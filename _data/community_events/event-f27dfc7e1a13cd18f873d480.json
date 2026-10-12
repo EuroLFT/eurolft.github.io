@@ -2,26 +2,24 @@
   "schema_version": 1,
   "id": "event-f27dfc7e1a13cd18f873d480",
   "revision": 1,
-  "origin": "collected",
-  "facts": {
-    "title": "Quarkonium Working Group Workshop",
-    "type": "workshop",
-    "start_date": "2028-11-06",
-    "end_date": "2028-11-10",
-    "start_time": null,
-    "end_time": null,
-    "timezone": null,
-    "location": {
-      "venue": null,
-      "city": "Mexico City",
-      "country": "Mexico"
-    },
-    "attendance": "unknown",
-    "official_url": "https://qwg.ph.nat.tum.de/",
-    "summary": null,
-    "deadlines": [],
-    "lifecycle": "scheduled"
+  "title": "Quarkonium Working Group Workshop",
+  "type": "workshop",
+  "start_date": "2028-11-06",
+  "end_date": "2028-11-10",
+  "start_time": null,
+  "end_time": null,
+  "timezone": null,
+  "location": {
+    "venue": null,
+    "city": "Mexico City",
+    "country": "Mexico"
   },
+  "attendance": "unknown",
+  "official_url": "https://qwg.ph.nat.tum.de/",
+  "summary": null,
+  "deadlines": [],
+  "lifecycle": "scheduled",
+  "origin": "collected",
   "sources": [
     {
       "id": "inspire-3180928",

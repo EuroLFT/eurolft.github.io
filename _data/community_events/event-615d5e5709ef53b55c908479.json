@@ -2,26 +2,24 @@
   "schema_version": 1,
   "id": "event-615d5e5709ef53b55c908479",
   "revision": 1,
-  "origin": "collected",
-  "facts": {
-    "title": "24th International Workshop on Advanced Computing and Analysis Techniques in Physics Research (ACAT 2027)",
-    "type": "workshop",
-    "start_date": "2027-03-05",
-    "end_date": "2027-03-10",
-    "start_time": null,
-    "end_time": null,
-    "timezone": null,
-    "location": {
-      "venue": null,
-      "city": "Setagaya City",
-      "country": "Japan"
-    },
-    "attendance": "unknown",
-    "official_url": "https://indico.cern.ch/e/acat2027",
-    "summary": null,
-    "deadlines": [],
-    "lifecycle": "scheduled"
+  "title": "24th International Workshop on Advanced Computing and Analysis Techniques in Physics Research (ACAT 2027)",
+  "type": "workshop",
+  "start_date": "2027-03-05",
+  "end_date": "2027-03-10",
+  "start_time": null,
+  "end_time": null,
+  "timezone": null,
+  "location": {
+    "venue": null,
+    "city": "Setagaya City",
+    "country": "Japan"
   },
+  "attendance": "unknown",
+  "official_url": "https://indico.cern.ch/e/acat2027",
+  "summary": null,
+  "deadlines": [],
+  "lifecycle": "scheduled",
+  "origin": "collected",
   "sources": [
     {
       "id": "inspire-3109061",
