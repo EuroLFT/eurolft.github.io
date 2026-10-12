@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "id": "event-428987d9eac8ec0d618db90b",
+  "revision": 1,
+  "origin": "collected",
+  "facts": {
+    "title": "44th International Symposium on Lattice Field Theory (Lattice 2027)",
+    "type": "conference",
+    "start_date": "2027-06-20",
+    "end_date": "2027-06-26",
+    "start_time": null,
+    "end_time": null,
+    "timezone": null,
+    "location": {
+      "venue": null,
+      "city": "Nicosia",
+      "country": "Cyprus"
+    },
+    "attendance": "unknown",
+    "official_url": null,
+    "summary": null,
+    "deadlines": [],
+    "lifecycle": "scheduled"
+  },
+  "sources": [
+    {
+      "id": "source-3706fa23c0697eaed72f",
+      "kind": "announcement",
+      "url": "https://list.iu.edu/sympa/arc/latticenews-l/2026-09/msg00002.html",
+      "posted_at": "2026-09-03T14:44:49+00:00",
+      "retrieved_at": null,
+      "note": "Draft from a saved model extraction; source retrieval time is not supplied."
+    }
+  ],
+  "evidence": [
+    {
+      "field": "/facts/title",
+      "source_id": "source-3706fa23c0697eaed72f",
+      "excerpt": "We are pleased to announce the 44th International Symposium on Lattice Field Theory (Lattice 2027) , which will take place in Nicosia, Cyprus, from 20–26 June 2027 ."
+    },
+    {
+      "field": "/facts/start_date",
+      "source_id": "source-3706fa23c0697eaed72f",
+      "excerpt": "We are pleased to announce the 44th International Symposium on Lattice Field Theory (Lattice 2027) , which will take place in Nicosia, Cyprus, from 20–26 June 2027 ."
+    },
+    {
+      "field": "/facts/end_date",
+      "source_id": "source-3706fa23c0697eaed72f",
+      "excerpt": "We are pleased to announce the 44th International Symposium on Lattice Field Theory (Lattice 2027) , which will take place in Nicosia, Cyprus, from 20–26 June 2027 ."
+    },
+    {
+      "field": "/facts/location/city",
+      "source_id": "source-3706fa23c0697eaed72f",
+      "excerpt": "We are pleased to announce the 44th International Symposium on Lattice Field Theory (Lattice 2027) , which will take place in Nicosia, Cyprus, from 20–26 June 2027 ."
+    },
+    {
+      "field": "/facts/location/country",
+      "source_id": "source-3706fa23c0697eaed72f",
+      "excerpt": "We are pleased to announce the 44th International Symposium on Lattice Field Theory (Lattice 2027) , which will take place in Nicosia, Cyprus, from 20–26 June 2027 ."
+    },
+    {
+      "field": "/facts/type",
+      "source_id": "source-3706fa23c0697eaed72f",
+      "excerpt": "44th International Symposium on Lattice Field Theory (Lattice 2027)"
+    },
+    {
+      "field": "/facts/lifecycle",
+      "source_id": "source-3706fa23c0697eaed72f",
+      "excerpt": "We are pleased to announce the 44th International Symposium on Lattice Field Theory (Lattice 2027)"
+    }
+  ],
+  "related_events": [
+    {
+      "id": "event-9959148f6fa8b801b3fe2e40",
+      "relation": "has_satellite"
+    },
+    {
+      "id": "event-9e8fa1f09b059df072f2c02a",
+      "relation": "has_satellite"
+    }
+  ],
+  "identity_aliases": [
+    "source-event:https://list.iu.edu/sympa/arc/latticenews-l/2026-09/msg00002.html|title:44th international symposium on lattice field theory lattice 2027"
+  ],
+  "warnings": [
+    "Human review required: matching quotations do not establish semantic correctness.",
+    "Model flag: timezone_review",
+    "Model warning: Location not explicitly confirmed for satellites e2 and e3; location_review set.",
+    "Model warning: Timezones for all events are null; timezone_review set.",
+    "quote_unverified at /related_events/1: Quotation does not match the source; verify the claim manually.",
+    "missing_evidence at /related_events/1: No matching quotation covers this field; verify it against the source."
+  ],
+  "editor_overrides": [],
+  "decision": {
+    "status": "pending",
+    "reviewed_revision": null,
+    "reason": null,
+    "acknowledged_warnings": []
+  },
+  "history": []
+}
