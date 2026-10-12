@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "id": "event-manual-poetic-2027",
+  "revision": 1,
+  "title": "Physics Opportunities at an Electron-Ion Collider (POETIC) XII International Conference",
+  "type": "conference",
+  "start_date": "2027-02-15",
+  "end_date": "2027-02-19",
+  "start_time": "10:00",
+  "end_time": "12:00",
+  "timezone": "Asia/Kolkata",
+  "location": {
+    "venue": "Bambolim Beach Resort",
+    "city": "Bambolim, Goa",
+    "country": "India"
+  },
+  "attendance": "unknown",
+  "official_url": "https://indico.cern.ch/event/1685317/",
+  "summary": "Conference on electron-ion collider physics, covering hadron structure, QCD spin physics and computing. The programme includes nonperturbative QCD and lattice studies relevant to the EIC.",
+  "deadlines": [
+    {
+      "kind": "abstract",
+      "label": "Abstract submission",
+      "date": "2026-10-15",
+      "time": null,
+      "timezone": null
+    },
+    {
+      "kind": "visa",
+      "label": "Visa information",
+      "date": "2026-10-16",
+      "time": null,
+      "timezone": null
+    },
+    {
+      "kind": "registration",
+      "label": "Early bird registration",
+      "date": "2026-10-30",
+      "time": null,
+      "timezone": null
+    },
+    {
+      "kind": "registration",
+      "label": "Late registration",
+      "date": "2026-12-15",
+      "time": null,
+      "timezone": null
+    }
+  ],
+  "lifecycle": "scheduled",
+  "origin": "manual",
+  "sources": [
+    {
+      "id": "poetic-overview",
+      "kind": "organiser",
+      "url": "https://indico.cern.ch/event/1685317/",
+      "posted_at": null,
+      "retrieved_at": "2026-10-12T21:31:35.693493+00:00",
+      "note": "Conference overview, dates, times and venue; read from the public Indico page."
+    },
+    {
+      "id": "poetic-programme",
+      "kind": "organiser",
+      "url": "https://indico.cern.ch/event/1685317/program",
+      "posted_at": null,
+      "retrieved_at": "2026-10-12T21:31:35.693493+00:00",
+      "note": "Scientific programme explicitly includes lattice QCD in the EIC context."
+    },
+    {
+      "id": "poetic-deadlines",
+      "kind": "organiser",
+      "url": "https://indico.cern.ch/event/1685317/page/43126-important-dates",
+      "posted_at": null,
+      "retrieved_at": "2026-10-12T21:31:35.693493+00:00",
+      "note": "Published deadlines; no deadline clock time or timezone is supplied."
+    }
+  ],
+  "evidence": [
+    {
+      "field": "/facts/start_date",
+      "source_id": "poetic-overview",
+      "excerpt": "Starts 15 Feb 2027, 10:00"
+    },
+    {
+      "field": "/facts/end_date",
+      "source_id": "poetic-overview",
+      "excerpt": "Ends 19 Feb 2027, 12:00"
+    },
+    {
+      "field": "/facts/timezone",
+      "source_id": "poetic-overview",
+      "excerpt": "All times are in Asia/Kolkata"
+    }
+  ],
+  "related_events": [],
+  "identity_aliases": [
+    "url:https://indico.cern.ch/event/1685317/"
+  ],
+  "warnings": [
+    "Deadline clock times are not specified on the Important Dates page.",
+    "Attendance mode is not explicitly stated; venue is supplied and attendance remains unknown."
+  ],
+  "editor_overrides": [],
+  "decision": {
+    "status": "pending",
+    "reviewed_revision": null,
+    "reason": null,
+    "acknowledged_warnings": []
+  },
+  "history": [
+    {
+      "action": "edit",
+      "actor": "Antonio-Rago",
+      "at": "2026-10-12T21:31:35.693319+00:00",
+      "revision": 1,
+      "note": "Manual addition"
+    }
+  ]
+}
