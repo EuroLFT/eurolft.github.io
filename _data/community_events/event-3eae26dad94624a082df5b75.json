@@ -2,48 +2,46 @@
   "schema_version": 1,
   "id": "event-3eae26dad94624a082df5b75",
   "revision": 1,
-  "origin": "collected",
-  "facts": {
-    "title": "KEK Theory Meeting on Particle Physics Phenomenology and Lattice QCD (KEK-PH-LAT 2026)",
-    "type": "conference",
-    "start_date": "2026-12-09",
-    "end_date": "2026-12-11",
-    "start_time": null,
-    "end_time": null,
-    "timezone": null,
-    "location": {
-      "venue": "KEK",
-      "city": null,
-      "country": "Japan"
-    },
-    "attendance": "unknown",
-    "official_url": "https://conference-indico.kek.jp/event/376/",
-    "summary": null,
-    "deadlines": [
-      {
-        "kind": "registration",
-        "label": "registration and registration fee payment",
-        "date": "2026-11-25",
-        "time": null,
-        "timezone": null
-      },
-      {
-        "kind": "other",
-        "label": "short talks and travel support application",
-        "date": "2026-10-23",
-        "time": null,
-        "timezone": null
-      },
-      {
-        "kind": "visa",
-        "label": "VISA documents from KEK",
-        "date": "2026-10-09",
-        "time": null,
-        "timezone": null
-      }
-    ],
-    "lifecycle": "scheduled"
+  "title": "KEK Theory Meeting on Particle Physics Phenomenology and Lattice QCD (KEK-PH-LAT 2026)",
+  "type": "conference",
+  "start_date": "2026-12-09",
+  "end_date": "2026-12-11",
+  "start_time": null,
+  "end_time": null,
+  "timezone": null,
+  "location": {
+    "venue": "KEK",
+    "city": null,
+    "country": "Japan"
   },
+  "attendance": "unknown",
+  "official_url": "https://conference-indico.kek.jp/event/376/",
+  "summary": null,
+  "deadlines": [
+    {
+      "kind": "registration",
+      "label": "registration and registration fee payment",
+      "date": "2026-11-25",
+      "time": null,
+      "timezone": null
+    },
+    {
+      "kind": "other",
+      "label": "short talks and travel support application",
+      "date": "2026-10-23",
+      "time": null,
+      "timezone": null
+    },
+    {
+      "kind": "visa",
+      "label": "VISA documents from KEK",
+      "date": "2026-10-09",
+      "time": null,
+      "timezone": null
+    }
+  ],
+  "lifecycle": "scheduled",
+  "origin": "collected",
   "sources": [
     {
       "id": "source-bf5e3116f80637bc5d4c",

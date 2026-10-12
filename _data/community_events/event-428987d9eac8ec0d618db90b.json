@@ -2,26 +2,24 @@
   "schema_version": 1,
   "id": "event-428987d9eac8ec0d618db90b",
   "revision": 1,
-  "origin": "collected",
-  "facts": {
-    "title": "44th International Symposium on Lattice Field Theory (Lattice 2027)",
-    "type": "conference",
-    "start_date": "2027-06-20",
-    "end_date": "2027-06-26",
-    "start_time": null,
-    "end_time": null,
-    "timezone": null,
-    "location": {
-      "venue": null,
-      "city": "Nicosia",
-      "country": "Cyprus"
-    },
-    "attendance": "unknown",
-    "official_url": null,
-    "summary": null,
-    "deadlines": [],
-    "lifecycle": "scheduled"
+  "title": "44th International Symposium on Lattice Field Theory (Lattice 2027)",
+  "type": "conference",
+  "start_date": "2027-06-20",
+  "end_date": "2027-06-26",
+  "start_time": null,
+  "end_time": null,
+  "timezone": null,
+  "location": {
+    "venue": null,
+    "city": "Nicosia",
+    "country": "Cyprus"
   },
+  "attendance": "unknown",
+  "official_url": null,
+  "summary": null,
+  "deadlines": [],
+  "lifecycle": "scheduled",
+  "origin": "collected",
   "sources": [
     {
       "id": "source-3706fa23c0697eaed72f",

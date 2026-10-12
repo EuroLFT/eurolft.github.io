@@ -12,10 +12,11 @@ exclude:
   - _event_collector
   - docs/event-collector.md
   - docs/event-collector-operations.md
-  - tools/event_collector
+  - tools
   - tests/event_collector
   - .event-tools
   - docs/community-events.md
+  - docs/manual-event.template.json
 
 # Social Profiles
 twitter_username:
@@ -56,3 +57,6 @@ plugins:
 
 gems:
   - jekyll-paginate-v2
+
+# Community data is prepared in the collector and rendered directly by Jekyll.
+community_event_data: per_event

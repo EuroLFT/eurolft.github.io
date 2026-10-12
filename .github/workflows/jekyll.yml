@@ -17,7 +17,6 @@ on:
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
   contents: read
-  pull-requests: read
   pages: write
   id-token: write
 
@@ -34,8 +33,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
@@ -45,31 +42,13 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
-      - name: Checkout pinned event publication tools
-        uses: actions/checkout@v4
-        with:
-          repository: Antonio-Rago/EuroLFT-Event-Scraper
-          ref: afe60be6c527494eba5c68762f34b120fa45f093
-          path: .event-tools
-          persist-credentials: false
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
-      - name: Verify human PR merges and export accepted community events
-        working-directory: .event-tools
-        env:
-          GITHUB_TOKEN: ${{ github.token }}
-        run: |
-          python -m pip install -r tools/event_collector/requirements.txt
-          python -m tools.event_collector.registry --site "$GITHUB_WORKSPACE" --github-merged --require-decisions --export "$GITHUB_WORKSPACE/_data/community_events.json"
+      - name: Check the event data layout
+        run: bundle exec ruby -e 'abort "Legacy event files remain. Convert them with the collector migration command before publication." unless Dir.glob("_event_collector/records/*.json").empty?'
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
-      - name: Check collector material is absent from the website
-        working-directory: .event-tools
-        run: python -m tools.event_collector.audit_site "$GITHUB_WORKSPACE/_site"
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v3

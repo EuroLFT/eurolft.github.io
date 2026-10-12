@@ -2,26 +2,24 @@
   "schema_version": 1,
   "id": "event-78763dfac301102e601732ea",
   "revision": 1,
-  "origin": "collected",
-  "facts": {
-    "title": "SM&FT 2026 – The XX Workshop on Statistical Mechanics and Nonperturbative Field Theory",
-    "type": "workshop",
-    "start_date": "2026-12-16",
-    "end_date": "2026-12-18",
-    "start_time": null,
-    "end_time": null,
-    "timezone": null,
-    "location": {
-      "venue": null,
-      "city": "Bari",
-      "country": "Italy"
-    },
-    "attendance": "unknown",
-    "official_url": "https://agenda.infn.it/event/49926",
-    "summary": null,
-    "deadlines": [],
-    "lifecycle": "scheduled"
+  "title": "SM&FT 2026 – The XX Workshop on Statistical Mechanics and Nonperturbative Field Theory",
+  "type": "workshop",
+  "start_date": "2026-12-16",
+  "end_date": "2026-12-18",
+  "start_time": null,
+  "end_time": null,
+  "timezone": null,
+  "location": {
+    "venue": null,
+    "city": "Bari",
+    "country": "Italy"
   },
+  "attendance": "unknown",
+  "official_url": "https://agenda.infn.it/event/49926",
+  "summary": null,
+  "deadlines": [],
+  "lifecycle": "scheduled",
+  "origin": "collected",
   "sources": [
     {
       "id": "inspire-3167729",

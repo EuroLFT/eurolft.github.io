@@ -2,26 +2,24 @@
   "schema_version": 1,
   "id": "event-d741c98c742973b04e42eb9b",
   "revision": 1,
-  "origin": "collected",
-  "facts": {
-    "title": "12th Workshop of the APS Topical Group on Hadronic Physics (GHP 2027)",
-    "type": "workshop",
-    "start_date": "2027-04-09",
-    "end_date": "2027-04-11",
-    "start_time": null,
-    "end_time": null,
-    "timezone": null,
-    "location": {
-      "venue": null,
-      "city": "Atlanta",
-      "country": "United States"
-    },
-    "attendance": "unknown",
-    "official_url": "https://indico.jlab.org/e/GHP2027",
-    "summary": null,
-    "deadlines": [],
-    "lifecycle": "scheduled"
+  "title": "12th Workshop of the APS Topical Group on Hadronic Physics (GHP 2027)",
+  "type": "workshop",
+  "start_date": "2027-04-09",
+  "end_date": "2027-04-11",
+  "start_time": null,
+  "end_time": null,
+  "timezone": null,
+  "location": {
+    "venue": null,
+    "city": "Atlanta",
+    "country": "United States"
   },
+  "attendance": "unknown",
+  "official_url": "https://indico.jlab.org/e/GHP2027",
+  "summary": null,
+  "deadlines": [],
+  "lifecycle": "scheduled",
+  "origin": "collected",
   "sources": [
     {
       "id": "inspire-3188901",

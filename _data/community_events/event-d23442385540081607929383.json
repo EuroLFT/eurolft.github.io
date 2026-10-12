@@ -2,26 +2,24 @@
   "schema_version": 1,
   "id": "event-d23442385540081607929383",
   "revision": 1,
-  "origin": "collected",
-  "facts": {
-    "title": "JuliaCon Local Tokyo 2026",
-    "type": "conference",
-    "start_date": "2026-12-04",
-    "end_date": "2026-12-05",
-    "start_time": null,
-    "end_time": null,
-    "timezone": null,
-    "location": {
-      "venue": null,
-      "city": "Kashiwa, Chiba",
-      "country": "Japan"
-    },
-    "attendance": "unknown",
-    "official_url": "https://juliacon.org/local/tokyo2026/",
-    "summary": null,
-    "deadlines": [],
-    "lifecycle": "scheduled"
+  "title": "JuliaCon Local Tokyo 2026",
+  "type": "conference",
+  "start_date": "2026-12-04",
+  "end_date": "2026-12-05",
+  "start_time": null,
+  "end_time": null,
+  "timezone": null,
+  "location": {
+    "venue": null,
+    "city": "Kashiwa, Chiba",
+    "country": "Japan"
   },
+  "attendance": "unknown",
+  "official_url": "https://juliacon.org/local/tokyo2026/",
+  "summary": null,
+  "deadlines": [],
+  "lifecycle": "scheduled",
+  "origin": "collected",
   "sources": [
     {
       "id": "inspire-3200075",

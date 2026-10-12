@@ -2,26 +2,24 @@
   "schema_version": 1,
   "id": "event-191cde4301ea3a27cba28296",
   "revision": 1,
-  "origin": "collected",
-  "facts": {
-    "title": "26th Zimányi School Winter Workshop on Heavy Ion Physics",
-    "type": "school",
-    "start_date": "2026-11-30",
-    "end_date": "2026-12-04",
-    "start_time": null,
-    "end_time": null,
-    "timezone": null,
-    "location": {
-      "venue": null,
-      "city": "Budapest",
-      "country": "Hungary"
-    },
-    "attendance": "unknown",
-    "official_url": "https://zimanyischool.kfki.hu/26/",
-    "summary": null,
-    "deadlines": [],
-    "lifecycle": "scheduled"
+  "title": "26th Zimányi School Winter Workshop on Heavy Ion Physics",
+  "type": "school",
+  "start_date": "2026-11-30",
+  "end_date": "2026-12-04",
+  "start_time": null,
+  "end_time": null,
+  "timezone": null,
+  "location": {
+    "venue": null,
+    "city": "Budapest",
+    "country": "Hungary"
   },
+  "attendance": "unknown",
+  "official_url": "https://zimanyischool.kfki.hu/26/",
+  "summary": null,
+  "deadlines": [],
+  "lifecycle": "scheduled",
+  "origin": "collected",
   "sources": [
     {
       "id": "inspire-3089555",
