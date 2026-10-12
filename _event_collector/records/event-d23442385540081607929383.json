@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "id": "event-d23442385540081607929383",
+  "revision": 1,
+  "origin": "collected",
+  "facts": {
+    "title": "JuliaCon Local Tokyo 2026",
+    "type": "conference",
+    "start_date": "2026-12-04",
+    "end_date": "2026-12-05",
+    "start_time": null,
+    "end_time": null,
+    "timezone": null,
+    "location": {
+      "venue": null,
+      "city": "Kashiwa, Chiba",
+      "country": "Japan"
+    },
+    "attendance": "unknown",
+    "official_url": "https://juliacon.org/local/tokyo2026/",
+    "summary": null,
+    "deadlines": [],
+    "lifecycle": "scheduled"
+  },
+  "sources": [
+    {
+      "id": "inspire-3200075",
+      "kind": "announcement",
+      "url": "https://inspirehep.net/conferences/3200075",
+      "posted_at": null,
+      "retrieved_at": null,
+      "note": "Structured INSPIRE catalogue metadata; updated 2026-09-06T23:39:59.195741+00:00"
+    }
+  ],
+  "evidence": [
+    {
+      "field": "/facts/title",
+      "source_id": "inspire-3200075",
+      "excerpt": "JuliaCon Local Tokyo 2026"
+    },
+    {
+      "field": "/facts/start_date",
+      "source_id": "inspire-3200075",
+      "excerpt": "2026-12-04"
+    },
+    {
+      "field": "/facts/end_date",
+      "source_id": "inspire-3200075",
+      "excerpt": "2026-12-05"
+    },
+    {
+      "field": "/facts/location/city",
+      "source_id": "inspire-3200075",
+      "excerpt": "Kashiwa, Chiba"
+    },
+    {
+      "field": "/facts/location/country",
+      "source_id": "inspire-3200075",
+      "excerpt": "Japan"
+    },
+    {
+      "field": "/facts/official_url",
+      "source_id": "inspire-3200075",
+      "excerpt": "https://juliacon.org/local/tokyo2026/"
+    }
+  ],
+  "related_events": [],
+  "identity_aliases": [
+    "inspire:3200075",
+    "source-event:https://inspirehep.net/conferences/3200075|title:juliacon local tokyo 2026"
+  ],
+  "warnings": [
+    "Human review required for INSPIRE metadata and lattice relevance.",
+    "Event type inferred from title/catalogue; confirm before approval.",
+    "Title does not explicitly mention lattice: relevance requires human review."
+  ],
+  "editor_overrides": [],
+  "decision": {
+    "status": "pending",
+    "reviewed_revision": null,
+    "reason": null,
+    "acknowledged_warnings": []
+  },
+  "history": []
+}
