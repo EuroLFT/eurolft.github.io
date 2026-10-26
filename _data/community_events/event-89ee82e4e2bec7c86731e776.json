@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "id": "event-89ee82e4e2bec7c86731e776",
+  "revision": 1,
+  "title": "Frontiers in Classical and Quantum Initial Value Problems (CQIVP2026)",
+  "type": "workshop",
+  "start_date": "2026-11-19",
+  "end_date": "2026-11-21",
+  "start_time": null,
+  "end_time": null,
+  "timezone": null,
+  "location": {
+    "venue": "Korea University",
+    "city": "Seoul",
+    "country": "South Korea"
+  },
+  "attendance": "unknown",
+  "official_url": "https://moim.korea.ac.kr/event/31/",
+  "summary": null,
+  "deadlines": [
+    {
+      "kind": "abstract",
+      "label": "abstract submission",
+      "date": "2026-10-25",
+      "time": null,
+      "timezone": null
+    }
+  ],
+  "lifecycle": "scheduled",
+  "origin": "collected",
+  "sources": [
+    {
+      "id": "source-2e950bef833b10fcf904",
+      "kind": "announcement",
+      "url": "https://list.iu.edu/sympa/arc/latticenews-l/2026-10/msg00002.html",
+      "posted_at": "2026-10-16T10:30:49+09:00",
+      "retrieved_at": null,
+      "note": "Draft from a saved model extraction; source retrieval time is not supplied."
+    }
+  ],
+  "evidence": [
+    {
+      "field": "/facts/title",
+      "source_id": "source-2e950bef833b10fcf904",
+      "excerpt": "Frontiers in Classical and Quantum Initial Value Problems (CQIVP2026)"
+    },
+    {
+      "field": "/facts/start_date",
+      "source_id": "source-2e950bef833b10fcf904",
+      "excerpt": "Korea University – November 19 (Thu) – 21 (Sat), 2026 – Seoul, South Korea"
+    },
+    {
+      "field": "/facts/end_date",
+      "source_id": "source-2e950bef833b10fcf904",
+      "excerpt": "Korea University – November 19 (Thu) – 21 (Sat), 2026 – Seoul, South Korea"
+    },
+    {
+      "field": "/facts/location/venue",
+      "source_id": "source-2e950bef833b10fcf904",
+      "excerpt": "Korea University – November 19 (Thu) – 21 (Sat), 2026 – Seoul, South Korea"
+    },
+    {
+      "field": "/facts/location/city",
+      "source_id": "source-2e950bef833b10fcf904",
+      "excerpt": "Korea University – November 19 (Thu) – 21 (Sat), 2026 – Seoul, South Korea"
+    },
+    {
+      "field": "/facts/location/country",
+      "source_id": "source-2e950bef833b10fcf904",
+      "excerpt": "Korea University – November 19 (Thu) – 21 (Sat), 2026 – Seoul, South Korea"
+    },
+    {
+      "field": "/facts/deadlines/0/kind",
+      "source_id": "source-2e950bef833b10fcf904",
+      "excerpt": "Please feel free to submit an abstract via the workshop website until October 25th."
+    },
+    {
+      "field": "/facts/deadlines/0/label",
+      "source_id": "source-2e950bef833b10fcf904",
+      "excerpt": "Please feel free to submit an abstract via the workshop website until October 25th."
+    },
+    {
+      "field": "/facts/deadlines/0/date",
+      "source_id": "source-2e950bef833b10fcf904",
+      "excerpt": "Please feel free to submit an abstract via the workshop website until October 25th."
+    },
+    {
+      "field": "/facts/official_url",
+      "source_id": "source-2e950bef833b10fcf904",
+      "excerpt": "Registration and abstract submission are open via the workshop website:\n\nhttps://moim.korea.ac.kr/event/31/"
+    },
+    {
+      "field": "/facts/type",
+      "source_id": "source-2e950bef833b10fcf904",
+      "excerpt": "I’m writing to let you know about an upcoming international workshop on Classical and Quantum Initial Value Problems (CQIVP2026)"
+    },
+    {
+      "field": "/facts/lifecycle",
+      "source_id": "source-2e950bef833b10fcf904",
+      "excerpt": "will be held between November 19-21 2026"
+    }
+  ],
+  "related_events": [],
+  "identity_aliases": [
+    "source-event:https://list.iu.edu/sympa/arc/latticenews-l/2026-10/msg00002.html|title:frontiers in classical and quantum initial value problems cqivp2026"
+  ],
+  "warnings": [
+    "Human review required: matching quotations do not establish semantic correctness.",
+    "deadline_review at /facts/deadlines: Review deadline purposes, labels and any shared dates."
+  ],
+  "editor_overrides": [],
+  "decision": {
+    "status": "pending",
+    "reviewed_revision": null,
+    "reason": null,
+    "acknowledged_warnings": []
+  },
+  "history": []
+}
