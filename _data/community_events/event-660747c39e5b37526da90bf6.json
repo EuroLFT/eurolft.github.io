@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "id": "event-660747c39e5b37526da90bf6",
+  "revision": 1,
+  "title": "Algorithmic Advancements in Lattice Field Theory at the Frontier of High-Energy Physics",
+  "type": "workshop",
+  "start_date": "2027-02-15",
+  "end_date": "2027-02-19",
+  "start_time": null,
+  "end_time": null,
+  "timezone": null,
+  "location": {
+    "venue": "University of Wuppertal",
+    "city": "Wuppertal",
+    "country": null
+  },
+  "attendance": "unknown",
+  "official_url": "https://indico.uni-wuppertal.de/event/552/registrations/100/",
+  "summary": null,
+  "deadlines": [],
+  "lifecycle": "scheduled",
+  "origin": "collected",
+  "sources": [
+    {
+      "id": "source-eca943f0850f3ffa99a4",
+      "kind": "announcement",
+      "url": "https://list.iu.edu/sympa/arc/latticenews-l/2026-10/msg00001.html",
+      "posted_at": "2026-10-14T13:52:33+02:00",
+      "retrieved_at": null,
+      "note": "Draft from a saved model extraction; source retrieval time is not supplied."
+    }
+  ],
+  "evidence": [
+    {
+      "field": "/facts/title",
+      "source_id": "source-eca943f0850f3ffa99a4",
+      "excerpt": "\"Algorithmic Advancements in Lattice Field Theory at the Frontier of High-Energy Physics\", a workshop on algorithms for lattice field theory, to be held at the University of Wuppertal from 15 to 19 February 2027."
+    },
+    {
+      "field": "/facts/type",
+      "source_id": "source-eca943f0850f3ffa99a4",
+      "excerpt": "\"Algorithmic Advancements in Lattice Field Theory at the Frontier of High-Energy Physics\", a workshop on algorithms for lattice field theory, to be held at the University of Wuppertal from 15 to 19 February 2027."
+    },
+    {
+      "field": "/facts/start_date",
+      "source_id": "source-eca943f0850f3ffa99a4",
+      "excerpt": "\"Algorithmic Advancements in Lattice Field Theory at the Frontier of High-Energy Physics\", a workshop on algorithms for lattice field theory, to be held at the University of Wuppertal from 15 to 19 February 2027."
+    },
+    {
+      "field": "/facts/end_date",
+      "source_id": "source-eca943f0850f3ffa99a4",
+      "excerpt": "\"Algorithmic Advancements in Lattice Field Theory at the Frontier of High-Energy Physics\", a workshop on algorithms for lattice field theory, to be held at the University of Wuppertal from 15 to 19 February 2027."
+    },
+    {
+      "field": "/facts/location/venue",
+      "source_id": "source-eca943f0850f3ffa99a4",
+      "excerpt": "\"Algorithmic Advancements in Lattice Field Theory at the Frontier of High-Energy Physics\", a workshop on algorithms for lattice field theory, to be held at the University of Wuppertal from 15 to 19 February 2027."
+    },
+    {
+      "field": "/facts/location/city",
+      "source_id": "source-eca943f0850f3ffa99a4",
+      "excerpt": "\"Algorithmic Advancements in Lattice Field Theory at the Frontier of High-Energy Physics\", a workshop on algorithms for lattice field theory, to be held at the University of Wuppertal from 15 to 19 February 2027."
+    },
+    {
+      "field": "/facts/official_url",
+      "source_id": "source-eca943f0850f3ffa99a4",
+      "excerpt": "Registration is now open via Indico:\nhttps://indico.uni-wuppertal.de/event/552/registrations/100/"
+    },
+    {
+      "field": "/facts/type",
+      "source_id": "source-eca943f0850f3ffa99a4",
+      "excerpt": "a workshop on algorithms for lattice field theory"
+    },
+    {
+      "field": "/facts/lifecycle",
+      "source_id": "source-eca943f0850f3ffa99a4",
+      "excerpt": "We are happy to announce \"Algorithmic Advancements in Lattice Field Theory at the Frontier of High-Energy Physics\""
+    },
+    {
+      "field": "/facts/attendance",
+      "source_id": "source-eca943f0850f3ffa99a4",
+      "excerpt": "We look forward to welcoming you in Wuppertal!"
+    }
+  ],
+  "related_events": [],
+  "identity_aliases": [
+    "source-event:https://list.iu.edu/sympa/arc/latticenews-l/2026-10/msg00001.html|title:algorithmic advancements in lattice field theory at the frontier of high energy physics"
+  ],
+  "warnings": [
+    "Human review required: matching quotations do not establish semantic correctness.",
+    "Model flag: location_review"
+  ],
+  "editor_overrides": [],
+  "decision": {
+    "status": "pending",
+    "reviewed_revision": null,
+    "reason": null,
+    "acknowledged_warnings": []
+  },
+  "history": []
+}
