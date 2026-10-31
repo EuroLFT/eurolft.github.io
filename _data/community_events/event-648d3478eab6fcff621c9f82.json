@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "id": "event-648d3478eab6fcff621c9f82",
+  "revision": 1,
+  "title": "QIHEP 2027",
+  "type": "conference",
+  "start_date": "2027-06-06",
+  "end_date": "2027-06-10",
+  "start_time": null,
+  "end_time": null,
+  "timezone": null,
+  "location": {
+    "venue": null,
+    "city": "Evanston",
+    "country": "United States"
+  },
+  "attendance": "unknown",
+  "official_url": "https://events.cels.anl.gov/event/961/",
+  "summary": null,
+  "deadlines": [],
+  "lifecycle": "scheduled",
+  "origin": "collected",
+  "sources": [
+    {
+      "id": "inspire-3219981",
+      "kind": "announcement",
+      "url": "https://inspirehep.net/conferences/3219981",
+      "posted_at": null,
+      "retrieved_at": null,
+      "note": "Structured INSPIRE catalogue metadata; updated 2026-10-29T19:35:16.398827+00:00"
+    }
+  ],
+  "evidence": [
+    {
+      "field": "/facts/title",
+      "source_id": "inspire-3219981",
+      "excerpt": "QIHEP 2027"
+    },
+    {
+      "field": "/facts/start_date",
+      "source_id": "inspire-3219981",
+      "excerpt": "2027-06-06"
+    },
+    {
+      "field": "/facts/end_date",
+      "source_id": "inspire-3219981",
+      "excerpt": "2027-06-10"
+    },
+    {
+      "field": "/facts/location/city",
+      "source_id": "inspire-3219981",
+      "excerpt": "Evanston"
+    },
+    {
+      "field": "/facts/location/country",
+      "source_id": "inspire-3219981",
+      "excerpt": "United States"
+    },
+    {
+      "field": "/facts/official_url",
+      "source_id": "inspire-3219981",
+      "excerpt": "https://events.cels.anl.gov/event/961/"
+    }
+  ],
+  "related_events": [],
+  "identity_aliases": [
+    "inspire:3219981",
+    "source-event:https://inspirehep.net/conferences/3219981|title:qihep 2027"
+  ],
+  "warnings": [
+    "Human review required for INSPIRE metadata and lattice relevance.",
+    "Event type inferred from title/catalogue; confirm before approval.",
+    "Title does not explicitly mention lattice: relevance requires human review."
+  ],
+  "editor_overrides": [],
+  "decision": {
+    "status": "pending",
+    "reviewed_revision": null,
+    "reason": null,
+    "acknowledged_warnings": []
+  },
+  "history": []
+}
