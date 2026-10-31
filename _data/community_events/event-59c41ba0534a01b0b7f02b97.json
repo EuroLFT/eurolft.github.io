@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "id": "event-59c41ba0534a01b0b7f02b97",
+  "revision": 1,
+  "title": "International workshop on Electron-Ion Collider Physics",
+  "type": "workshop",
+  "start_date": "2027-09-06",
+  "end_date": "2027-09-10",
+  "start_time": null,
+  "end_time": null,
+  "timezone": null,
+  "location": {
+    "venue": null,
+    "city": "Incheon",
+    "country": "South Korea"
+  },
+  "attendance": "unknown",
+  "official_url": null,
+  "summary": null,
+  "deadlines": [],
+  "lifecycle": "scheduled",
+  "origin": "collected",
+  "sources": [
+    {
+      "id": "inspire-3219827",
+      "kind": "announcement",
+      "url": "https://inspirehep.net/conferences/3219827",
+      "posted_at": null,
+      "retrieved_at": null,
+      "note": "Structured INSPIRE catalogue metadata; updated 2026-10-29T06:11:44.791067+00:00"
+    }
+  ],
+  "evidence": [
+    {
+      "field": "/facts/title",
+      "source_id": "inspire-3219827",
+      "excerpt": "International workshop on Electron-Ion Collider Physics"
+    },
+    {
+      "field": "/facts/start_date",
+      "source_id": "inspire-3219827",
+      "excerpt": "2027-09-06"
+    },
+    {
+      "field": "/facts/end_date",
+      "source_id": "inspire-3219827",
+      "excerpt": "2027-09-10"
+    },
+    {
+      "field": "/facts/location/city",
+      "source_id": "inspire-3219827",
+      "excerpt": "Incheon"
+    },
+    {
+      "field": "/facts/location/country",
+      "source_id": "inspire-3219827",
+      "excerpt": "South Korea"
+    }
+  ],
+  "related_events": [],
+  "identity_aliases": [
+    "inspire:3219827",
+    "source-event:https://inspirehep.net/conferences/3219827|title:international workshop on electron ion collider physics"
+  ],
+  "warnings": [
+    "Human review required for INSPIRE metadata and lattice relevance.",
+    "Event type inferred from title/catalogue; confirm before approval.",
+    "Title does not explicitly mention lattice: relevance requires human review."
+  ],
+  "editor_overrides": [],
+  "decision": {
+    "status": "pending",
+    "reviewed_revision": null,
+    "reason": null,
+    "acknowledged_warnings": []
+  },
+  "history": []
+}
