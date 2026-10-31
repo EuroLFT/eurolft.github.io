@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "id": "event-d23442385540081607929383",
-  "revision": 1,
+  "revision": 4,
   "title": "JuliaCon Local Tokyo 2026",
   "type": "conference",
   "start_date": "2026-12-04",
@@ -10,14 +10,22 @@
   "end_time": null,
   "timezone": null,
   "location": {
-    "venue": null,
+    "venue": "Kashiwa Campus, The University of Tokyo",
     "city": "Kashiwa, Chiba",
     "country": "Japan"
   },
-  "attendance": "unknown",
+  "attendance": "in_person",
   "official_url": "https://juliacon.org/local/tokyo2026/",
   "summary": null,
-  "deadlines": [],
+  "deadlines": [
+    {
+      "kind": "abstract",
+      "label": "call for proposals",
+      "date": "2026-11-15",
+      "time": "23:59",
+      "timezone": "Asia/Tokyo"
+    }
+  ],
   "lifecycle": "scheduled",
   "origin": "collected",
   "sources": [
@@ -28,6 +36,22 @@
       "posted_at": null,
       "retrieved_at": null,
       "note": "Structured INSPIRE catalogue metadata; updated 2026-09-06T23:39:59.195741+00:00"
+    },
+    {
+      "id": "source-132864cfcc4b8fcde24e",
+      "kind": "announcement",
+      "url": "https://list.iu.edu/sympa/arc/latticenews-l/2026-10/msg00003.html",
+      "posted_at": "2026-10-16T18:25:33+09:00",
+      "retrieved_at": null,
+      "note": "Draft from a saved model extraction; source retrieval time is not supplied."
+    },
+    {
+      "id": "source-96d0d163607abe039dea",
+      "kind": "announcement",
+      "url": "https://list.iu.edu/sympa/arc/latticenews-l/2026-10/msg00004.html",
+      "posted_at": "2026-10-31T09:24:18+09:00",
+      "retrieved_at": null,
+      "note": "Draft from a saved model extraction; source retrieval time is not supplied."
     }
   ],
   "evidence": [
@@ -47,11 +71,6 @@
       "excerpt": "2026-12-05"
     },
     {
-      "field": "/facts/location/city",
-      "source_id": "inspire-3200075",
-      "excerpt": "Kashiwa, Chiba"
-    },
-    {
       "field": "/facts/location/country",
       "source_id": "inspire-3200075",
       "excerpt": "Japan"
@@ -60,17 +79,175 @@
       "field": "/facts/official_url",
       "source_id": "inspire-3200075",
       "excerpt": "https://juliacon.org/local/tokyo2026/"
+    },
+    {
+      "field": "/facts/title",
+      "source_id": "source-132864cfcc4b8fcde24e",
+      "excerpt": "JuliaCon Local Tokyo 2026"
+    },
+    {
+      "field": "/facts/start_date",
+      "source_id": "source-132864cfcc4b8fcde24e",
+      "excerpt": "Dates:\nDecember 4-5, 2026"
+    },
+    {
+      "field": "/facts/end_date",
+      "source_id": "source-132864cfcc4b8fcde24e",
+      "excerpt": "Dates:\nDecember 4-5, 2026"
+    },
+    {
+      "field": "/facts/location/venue",
+      "source_id": "source-132864cfcc4b8fcde24e",
+      "excerpt": "Venue:\nKashiwa Campus, The University of Tokyo, Japan"
+    },
+    {
+      "field": "/facts/location/country",
+      "source_id": "source-132864cfcc4b8fcde24e",
+      "excerpt": "Venue:\nKashiwa Campus, The University of Tokyo, Japan"
+    },
+    {
+      "field": "/facts/attendance",
+      "source_id": "source-132864cfcc4b8fcde24e",
+      "excerpt": "Presentations must be given in person."
+    },
+    {
+      "field": "/facts/official_url",
+      "source_id": "source-132864cfcc4b8fcde24e",
+      "excerpt": "Website:\nhttps://juliacon.org/local/tokyo2026/"
+    },
+    {
+      "field": "/facts/deadlines/0/time",
+      "source_id": "source-132864cfcc4b8fcde24e",
+      "excerpt": "Deadline:\nNovember 1, 2026, 23:59 JST (UTC+9)"
+    },
+    {
+      "field": "/facts/deadlines/0/timezone",
+      "source_id": "source-132864cfcc4b8fcde24e",
+      "excerpt": "Deadline:\nNovember 1, 2026, 23:59 JST (UTC+9)"
+    },
+    {
+      "field": "/facts/deadlines/0/kind",
+      "source_id": "source-132864cfcc4b8fcde24e",
+      "excerpt": "The call for proposals for JuliaCon Local Tokyo 2026 is now open."
+    },
+    {
+      "field": "/facts/type",
+      "source_id": "source-132864cfcc4b8fcde24e",
+      "excerpt": "We invite talks, lightning talks, and posters on research and tools using Julia. Applications in physics, such as lattice QCD, cosmology, and experimental data analysis, are very welcome."
+    },
+    {
+      "field": "/facts/lifecycle",
+      "source_id": "source-132864cfcc4b8fcde24e",
+      "excerpt": "The call for proposals for JuliaCon Local Tokyo 2026 is now open."
+    },
+    {
+      "field": "/facts/title",
+      "source_id": "source-96d0d163607abe039dea",
+      "excerpt": "JuliaCon Local Tokyo 2026 (Dec 4-5, Kashiwa)"
+    },
+    {
+      "field": "/facts/start_date",
+      "source_id": "source-96d0d163607abe039dea",
+      "excerpt": "JuliaCon Local Tokyo 2026 (Dec 4-5, Kashiwa)"
+    },
+    {
+      "field": "/facts/end_date",
+      "source_id": "source-96d0d163607abe039dea",
+      "excerpt": "JuliaCon Local Tokyo 2026 (Dec 4-5, Kashiwa)"
+    },
+    {
+      "field": "/facts/title",
+      "source_id": "source-96d0d163607abe039dea",
+      "excerpt": "JuliaCon Local Tokyo 2026 (December 4-5, Kashiwa Campus, The University of Tokyo)"
+    },
+    {
+      "field": "/facts/start_date",
+      "source_id": "source-96d0d163607abe039dea",
+      "excerpt": "JuliaCon Local Tokyo 2026 (December 4-5, Kashiwa Campus, The University of Tokyo)"
+    },
+    {
+      "field": "/facts/end_date",
+      "source_id": "source-96d0d163607abe039dea",
+      "excerpt": "JuliaCon Local Tokyo 2026 (December 4-5, Kashiwa Campus, The University of Tokyo)"
+    },
+    {
+      "field": "/facts/location/venue",
+      "source_id": "source-96d0d163607abe039dea",
+      "excerpt": "JuliaCon Local Tokyo 2026 (December 4-5, Kashiwa Campus, The University of Tokyo)"
+    },
+    {
+      "field": "/facts/location/country",
+      "source_id": "source-96d0d163607abe039dea",
+      "excerpt": "JuliaCon Local Tokyo 2026 (December 4-5, Kashiwa Campus, The University of Tokyo)"
+    },
+    {
+      "field": "/facts/deadlines/0/kind",
+      "source_id": "source-96d0d163607abe039dea",
+      "excerpt": "The deadline for the call for proposals for JuliaCon Local Tokyo 2026 (December 4-5, Kashiwa Campus, The University of Tokyo) has been extended to November 15, 2026, 23:59 JST (UTC+9)."
+    },
+    {
+      "field": "/facts/deadlines/0/label",
+      "source_id": "source-96d0d163607abe039dea",
+      "excerpt": "The deadline for the call for proposals for JuliaCon Local Tokyo 2026 (December 4-5, Kashiwa Campus, The University of Tokyo) has been extended to November 15, 2026, 23:59 JST (UTC+9)."
+    },
+    {
+      "field": "/facts/deadlines/0/date",
+      "source_id": "source-96d0d163607abe039dea",
+      "excerpt": "The deadline for the call for proposals for JuliaCon Local Tokyo 2026 (December 4-5, Kashiwa Campus, The University of Tokyo) has been extended to November 15, 2026, 23:59 JST (UTC+9)."
+    },
+    {
+      "field": "/facts/deadlines/0/time",
+      "source_id": "source-96d0d163607abe039dea",
+      "excerpt": "The deadline for the call for proposals for JuliaCon Local Tokyo 2026 (December 4-5, Kashiwa Campus, The University of Tokyo) has been extended to November 15, 2026, 23:59 JST (UTC+9)."
+    },
+    {
+      "field": "/facts/deadlines/0/timezone",
+      "source_id": "source-96d0d163607abe039dea",
+      "excerpt": "The deadline for the call for proposals for JuliaCon Local Tokyo 2026 (December 4-5, Kashiwa Campus, The University of Tokyo) has been extended to November 15, 2026, 23:59 JST (UTC+9)."
+    },
+    {
+      "field": "/facts/attendance",
+      "source_id": "source-96d0d163607abe039dea",
+      "excerpt": "Presentations must be given in person."
+    },
+    {
+      "field": "/facts/official_url",
+      "source_id": "source-96d0d163607abe039dea",
+      "excerpt": "Website:\n\nhttps://juliacon.org/local/tokyo2026/"
+    },
+    {
+      "field": "/facts/type",
+      "source_id": "source-96d0d163607abe039dea",
+      "excerpt": "We invite talks, lightning talks, and posters on research and tools using Julia"
+    },
+    {
+      "field": "/facts/lifecycle",
+      "source_id": "source-96d0d163607abe039dea",
+      "excerpt": "[Deadline extended] JuliaCon Local Tokyo 2026"
+    },
+    {
+      "field": "/facts/location/city",
+      "source_id": "inspire-3200075",
+      "excerpt": "Kashiwa, Chiba"
     }
   ],
   "related_events": [],
   "identity_aliases": [
     "inspire:3200075",
-    "source-event:https://inspirehep.net/conferences/3200075|title:juliacon local tokyo 2026"
+    "source-event:https://inspirehep.net/conferences/3200075|title:juliacon local tokyo 2026",
+    "source-event:https://list.iu.edu/sympa/arc/latticenews-l/2026-10/msg00003.html|title:juliacon local tokyo 2026",
+    "source-event:https://list.iu.edu/sympa/arc/latticenews-l/2026-10/msg00004.html|title:juliacon local tokyo 2026"
   ],
   "warnings": [
     "Human review required for INSPIRE metadata and lattice relevance.",
     "Event type inferred from title/catalogue; confirm before approval.",
-    "Title does not explicitly mention lattice: relevance requires human review."
+    "Title does not explicitly mention lattice: relevance requires human review.",
+    "Human review required: matching quotations do not establish semantic correctness.",
+    "timezone_normalized at /facts/deadlines/0/timezone: Source explicitly states JST (UTC+9); represented as Asia/Tokyo. Verify during review.",
+    "deadline_review at /facts/deadlines: Review deadline purposes, labels and any shared dates.",
+    "Model flag: scope_review",
+    "scope_review at /relevance: Relevance is uncertain; an editor should decide inclusion.",
+    "Review deadline labels and purposes when combining sources."
   ],
   "editor_overrides": [],
   "decision": {
