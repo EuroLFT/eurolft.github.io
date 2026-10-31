@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "id": "event-ecde4a09e8be52a76f40afbb",
+  "revision": 1,
+  "title": "EuroLFT Community Meeting",
+  "type": "workshop",
+  "start_date": "2027-03-31",
+  "end_date": "2027-04-01",
+  "start_time": "09:00",
+  "end_time": null,
+  "timezone": null,
+  "location": {
+    "venue": "CERN",
+    "city": null,
+    "country": null
+  },
+  "attendance": "unknown",
+  "official_url": "https://indico.cern.ch/event/1742694/",
+  "summary": null,
+  "deadlines": [],
+  "lifecycle": "scheduled",
+  "origin": "collected",
+  "sources": [
+    {
+      "id": "source-d131df8c8418f1924162",
+      "kind": "announcement",
+      "url": "https://list.iu.edu/sympa/arc/latticenews-l/2026-10/msg00005.html",
+      "posted_at": "2026-10-31T08:37:41+00:00",
+      "retrieved_at": null,
+      "note": "Draft from a saved model extraction; source retrieval time is not supplied."
+    }
+  ],
+  "evidence": [
+    {
+      "field": "/facts/title",
+      "source_id": "source-d131df8c8418f1924162",
+      "excerpt": "European Lattice Field Theory (EuroLFT) Community Meeting & Workshop on Lattice Field Theory and AI, to be held at CERN from 31 March to 2 April 2027."
+    },
+    {
+      "field": "/facts/location/venue",
+      "source_id": "source-d131df8c8418f1924162",
+      "excerpt": "European Lattice Field Theory (EuroLFT) Community Meeting & Workshop on Lattice Field Theory and AI, to be held at CERN from 31 March to 2 April 2027."
+    },
+    {
+      "field": "/facts/start_date",
+      "source_id": "source-d131df8c8418f1924162",
+      "excerpt": "European Lattice Field Theory (EuroLFT) Community Meeting & Workshop on Lattice Field Theory and AI, to be held at CERN from 31 March to 2 April 2027."
+    },
+    {
+      "field": "/facts/start_time",
+      "source_id": "source-d131df8c8418f1924162",
+      "excerpt": "The EuroLFT Community Meeting will begin at 09:00 on 31 March and conclude at lunchtime on 1 April."
+    },
+    {
+      "field": "/facts/end_date",
+      "source_id": "source-d131df8c8418f1924162",
+      "excerpt": "The EuroLFT Community Meeting will begin at 09:00 on 31 March and conclude at lunchtime on 1 April."
+    },
+    {
+      "field": "/facts/official_url",
+      "source_id": "source-d131df8c8418f1924162",
+      "excerpt": "https://indico.cern.ch/event/1742694/"
+    },
+    {
+      "field": "/facts/type",
+      "source_id": "source-d131df8c8418f1924162",
+      "excerpt": "EuroLFT Community Meeting"
+    },
+    {
+      "field": "/facts/lifecycle",
+      "source_id": "source-d131df8c8418f1924162",
+      "excerpt": "to be held at CERN"
+    }
+  ],
+  "related_events": [
+    {
+      "id": "event-c53746631cad58d0c2ba5359",
+      "relation": "has_satellite"
+    }
+  ],
+  "identity_aliases": [
+    "source-event:https://list.iu.edu/sympa/arc/latticenews-l/2026-10/msg00005.html|title:eurolft community meeting"
+  ],
+  "warnings": [
+    "Human review required: matching quotations do not establish semantic correctness.",
+    "Model flag: location_review",
+    "Model flag: timezone_review",
+    "Model warning: Location for individual event sessions is inferred from the overall event location at CERN.",
+    "Model warning: Timezone for start/end times is not explicitly provided."
+  ],
+  "editor_overrides": [],
+  "decision": {
+    "status": "pending",
+    "reviewed_revision": null,
+    "reason": null,
+    "acknowledged_warnings": []
+  },
+  "history": []
+}
