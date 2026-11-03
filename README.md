@@ -58,6 +58,19 @@ All are welcome to submit announcements to the website.
 Similarly to the above,
 changes may be made in a fork and pull requested.
 
+### Calls to action
+
+The calls to action highlighted on the home page
+can be adjusted by editing the file `_data/actions.yml`.
+
+Each entry in this file takes the format:
+
+``` yaml
+- id: some-identifier
+  text: "A call to action that website visitors will read!"
+  link: "/link-to-target-page"
+```
+
 ### Adding events
 
 Adding events can be done in a similar way to announcements,

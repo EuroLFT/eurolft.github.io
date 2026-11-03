@@ -1,0 +1,6 @@
+- id: meeting-2027
+  text: "Join us at the EuroLFT Community meeting 2027"
+  link: "/events/2027-03-31-community-meeting"
+- id: mailing-list
+  text: "Keep up to date by joining the EuroLFT mailing list and Mattermost server"
+  link: "/contact"
