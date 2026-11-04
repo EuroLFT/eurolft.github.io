@@ -30,6 +30,17 @@ and organizations,
 such as CERN,
 to give our European research community a voice and represent its interests.
 
+{% if site.data.actions.size > 0 %}
+
+## Get involved!
+
+{% for action in site.data.actions %}
+
+- [{{ action.text }}]({{ action.link }})
+
+{% endfor %}
+{% endif %}
+
 <div id="map" class="map" tabindex="0"></div>
 
 <div style="float: right; font-style: italic;"><a href="people/map.html">Map details</a></div>

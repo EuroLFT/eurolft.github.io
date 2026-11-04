@@ -1,0 +1,698 @@
+- sortkey: Swansea University
+  name: Swansea University
+  link: https://www.swansea.ac.uk
+  image: swansea.svg
+  lat: 51.609722
+  lon: -3.980556
+  categories:
+  - mailinglist
+  - board
+  - board
+  match-domains:
+  - swansea.ac.uk
+  - swan.ac.uk
+  - abertawe.ac.uk
+- sortkey: Syddansk Universitet
+  name: Syddansk Universitet
+  link: https://sdu.dk
+  image: sdu.png
+  lat: 55.368611
+  lon: 10.428056
+  categories:
+  - board
+  - board
+  match-domains:
+  - sdu.dk
+- sortkey: Bonn
+  name: "Universit\xE4t Bonn"
+  link: https://www.uni-bonn.de/
+  image: bonn.svg
+  lat: 50.733889
+  lon: 7.102222
+  categories:
+  - board
+  match-domains:
+  - uni-bonn.de
+- sortkey: Bielefeld
+  name: "Universit\xE4t Bielefeld"
+  link: https://www.uni-bielefeld.de
+  image: bielefeld.svg
+  lat: 52.037778
+  lon: 8.493056
+  categories:
+  - board
+  match-domains:
+  - uni-bielefeld.de
+- sortkey: Regensburg
+  name: "Universit\xE4t Regensburg"
+  link: https://ur.de
+  image: regensburg.svg
+  lat: 48.99923
+  lon: 12.09317
+  categories:
+  - mailinglist
+  - board
+  match-domains:
+  - ur.de
+  - uni-regensburg.de
+- sortkey: Plymouth
+  name: University of Plymouth
+  link: https://www.plymouth.ac.uk
+  image: plymouth.svg
+  lat: 50.374121
+  lon: -4.138512
+  categories:
+  - board
+  match-domains:
+  - plymouth.ac.uk
+- sortkey: Bern
+  name: "Universit\xE4t Bern"
+  link: https://www.unibe.ch
+  image: bern.svg
+  lat: 46.950519
+  lon: 7.438109
+  categories:
+  - board
+  match-domains:
+  - unibe.ch
+- sortkey: Wuppertal
+  name: "Universit\xE4t Wuppertal"
+  link: https://uni-wuppertal.de
+  image: wuppertal.svg
+  lat: 51.245278
+  lon: 7.149444
+  categories:
+  - board
+  match-domains:
+  - uni-wuppertal.de
+- sortkey: "J\xFClich"
+  name: "Forschungs&shy;zentrum J\xFClich"
+  link: https://fz-juelich.de
+  image: juelich.svg
+  lat: 50.905
+  lon: 6.411944
+  categories: []
+  match-domains:
+  - fz-juelich.de
+- sortkey: Cyprus Institute
+  name: The Cyprus Institute
+  link: https://www.cyi.ac.cy
+  image: cyprus-institute.png
+  lat: 35.14069
+  lon: 33.38128
+  categories:
+  - board
+  - board
+  match-domains:
+  - cyi.ac.cy
+- sortkey: INFN
+  name: INFN
+  link: https://infn.it
+  image: infn.svg
+  lat: 41.89783
+  lon: 12.47556
+  categories:
+  - mailinglist
+  - mailinglist
+  - mailinglist
+  - board
+  match-domains:
+  - infn.it
+- sortkey: Milano-Bicocca
+  name: "Universit\xE0 degli Studi di Milano-Bicocca"
+  link: https://www.unimib.it
+  image: milano-bicocca.svg
+  lat: 45.514444
+  lon: 9.213333
+  categories:
+  - board
+  match-domains:
+  - unimib.it
+- sortkey: Liverpool
+  name: University of Liverpool
+  link: https://liverpool.ac.uk
+  image: liverpool.svg
+  lat: 53.406
+  lon: -53.406
+  categories:
+  - board
+  match-domains:
+  - liverpool.ac.uk
+  - liv.ac.uk
+- sortkey: Cyprus
+  name: University of Cyprus
+  link: https://www.ucy.ac.cy
+  image: cyprus.svg
+  lat: 35.159722
+  lon: 33.377778
+  categories: []
+  match-domains:
+  - ucy.ac.cy
+- sortkey: "Adam Mickiewicz University in Pozna\u0144"
+  name: "Adam Mickiewicz University in Pozna\u0144"
+  link: http://international.amu.edu.pl/
+  image: http://commons.wikimedia.org/wiki/Special:FilePath/UAM%20logo%20Poznan.jpg
+  lat: 52.4047
+  lon: 16.9155
+  categories:
+  - mailinglist
+  match-domains:
+  - amu.edu.pl
+- sortkey: "E\xF6tv\xF6s Lor\xE1nd University"
+  name: "E\xF6tv\xF6s Lor\xE1nd University"
+  link: https://www.elte.hu/
+  image: http://commons.wikimedia.org/wiki/Special:FilePath/Budapesti%20Tudomanyegyetem%20nagy%20pecsetje%20Orszag%20Vilag%201880%20XIII%20sz.jpg
+  lat: 47.4906
+  lon: 19.0585
+  categories:
+  - mailinglist
+  match-domains:
+  - bodri.elte.hu
+  - elte.hu
+- sortkey: null
+  name: null
+  link: null
+  image: null
+  lat: null
+  lon: null
+  categories:
+  - mailinglist
+  - mailinglist
+  match-domains:
+  - cam.ac.uk
+- sortkey: null
+  name: null
+  link: null
+  image: null
+  lat: null
+  lon: null
+  categories:
+  - mailinglist
+  match-domains:
+  - cern.ch
+- sortkey: null
+  name: null
+  link: null
+  image: null
+  lat: null
+  lon: null
+  categories:
+  - mailinglist
+  match-domains:
+  - coloradocollege.edu
+- sortkey: Coventry University
+  name: Coventry University
+  link: https://www.coventry.ac.uk/
+  image: http://commons.wikimedia.org/wiki/Special:FilePath/CU%20Coventry.png
+  lat: 52.408055555556
+  lon: -1.5055555555556
+  categories:
+  - mailinglist
+  match-domains:
+  - coventry.ac.uk
+- sortkey: null
+  name: null
+  link: null
+  image: null
+  lat: null
+  lon: null
+  categories:
+  - mailinglist
+  match-domains:
+  - cpt.univ-mrs.fr
+- sortkey: null
+  name: null
+  link: null
+  image: null
+  lat: null
+  lon: null
+  categories:
+  - mailinglist
+  match-domains:
+  - csic.es
+- sortkey: null
+  name: null
+  link: null
+  image: null
+  lat: null
+  lon: null
+  categories:
+  - mailinglist
+  match-domains:
+  - desy.de
+- sortkey: null
+  name: null
+  link: null
+  image: null
+  lat: null
+  lon: null
+  categories:
+  - mailinglist
+  - mailinglist
+  match-domains:
+  - ed.ac.uk
+- sortkey: null
+  name: null
+  link: null
+  image: null
+  lat: null
+  lon: null
+  categories:
+  - mailinglist
+  match-domains:
+  - fis.unical.it
+- sortkey: Studi Roma Tre
+  name: "Universit\xE0 degli Studi Roma Tre"
+  link: https://www.uniroma3.it/en/
+  image: http://commons.wikimedia.org/wiki/Special:FilePath/Roma%20Tre%20University%20logo.svg
+  lat: 41.8625
+  lon: 12.478888888889
+  categories:
+  - mailinglist
+  - mailinglist
+  match-domains:
+  - fis.uniroma3.it
+  - uniroma3.it
+- sortkey: Barcelona
+  name: University of Barcelona
+  link: https://web.ub.edu/web/ub/
+  image: http://commons.wikimedia.org/wiki/Special:FilePath/Universit%C3%A4t%20Barcelona.svg
+  lat: 41.386666666667
+  lon: 2.1638888888889
+  categories:
+  - mailinglist
+  match-domains:
+  - fqa.ub.edu
+  - ub.edu
+- sortkey: null
+  name: null
+  link: null
+  image: null
+  lat: null
+  lon: null
+  categories:
+  - mailinglist
+  match-domains:
+  - fshn.edu.al
+- sortkey: null
+  name: null
+  link: null
+  image: null
+  lat: null
+  lon: null
+  categories:
+  - mailinglist
+  match-domains:
+  - fysik.lu.se
+- sortkey: null
+  name: null
+  link: null
+  image: null
+  lat: null
+  lon: null
+  categories:
+  - mailinglist
+  match-domains:
+  - gfv.unizg.hr
+- sortkey: null
+  name: null
+  link: null
+  image: null
+  lat: null
+  lon: null
+  categories:
+  - mailinglist
+  match-domains:
+  - glasgow.ac.uk
+- sortkey: Helsingin yliopisto
+  name: Helsingin yliopisto
+  link: https://www.helsinki.fi/en
+  image: http://commons.wikimedia.org/wiki/Special:FilePath/Logo%20University%20of%20Helsinki%20fi.svg
+  lat: 60.169444444444
+  lon: 24.95
+  categories:
+  - mailinglist
+  match-domains:
+  - helsinki.fi
+- sortkey: "Humboldt-Universit\xE4t zu Berlin"
+  name: "Humboldt-Universit\xE4t zu Berlin"
+  link: https://www.hu-berlin.de/
+  image: http://commons.wikimedia.org/wiki/Special:FilePath/Huberlin-logo.svg
+  lat: 52.518055555556
+  lon: 13.393333333333
+  categories:
+  - mailinglist
+  - mailinglist
+  match-domains:
+  - hu-berlin.de
+- sortkey: null
+  name: null
+  link: null
+  image: null
+  lat: null
+  lon: null
+  categories:
+  - mailinglist
+  match-domains:
+  - ifca.unican.es
+- sortkey: Valencia
+  name: University of Valencia
+  link: https://www.uv.es/
+  image: http://commons.wikimedia.org/wiki/Special:FilePath/Universitat%20de%20Val%C3%A8ncia%20logo.svg
+  lat: 39.4790511
+  lon: -0.3590873
+  categories:
+  - mailinglist
+  - mailinglist
+  match-domains:
+  - ific.uv.es
+  - uv.es
+- sortkey: null
+  name: null
+  link: null
+  image: null
+  lat: null
+  lon: null
+  categories:
+  - mailinglist
+  match-domains:
+  - ihep.ru
+- sortkey: null
+  name: null
+  link: null
+  image: null
+  lat: null
+  lon: null
+  categories:
+  - mailinglist
+  match-domains:
+  - ijs.si
+- sortkey: null
+  name: null
+  link: null
+  image: null
+  lat: null
+  lon: null
+  categories:
+  - mailinglist
+  match-domains:
+  - itp.uni-frankfurt.de
+  - uni-frankfurt.de
+- sortkey: Tel Aviv University
+  name: Tel Aviv University
+  link: https://www.tau.ac.il/
+  image: http://commons.wikimedia.org/wiki/Special:FilePath/Tel%20Aviv%20university%20logo%20-%20Hebrew.png
+  lat: 32.1125
+  lon: 34.805
+  categories:
+  - mailinglist
+  - mailinglist
+  match-domains:
+  - julian.tau.ac.il
+  - tau.ac.il
+- sortkey: null
+  name: null
+  link: null
+  image: null
+  lat: null
+  lon: null
+  categories:
+  - mailinglist
+  - mailinglist
+  match-domains:
+  - lmpt.univ-tours.fr
+  - univ-tours.fr
+- sortkey: null
+  name: null
+  link: null
+  image: null
+  lat: null
+  lon: null
+  categories:
+  - mailinglist
+  match-domains:
+  - mail.ntua.gr
+  - ntua.gr
+- sortkey: null
+  name: null
+  link: null
+  image: null
+  lat: null
+  lon: null
+  categories:
+  - mailinglist
+  match-domains:
+  - maths.tcd.ie
+- sortkey: null
+  name: null
+  link: null
+  image: null
+  lat: null
+  lon: null
+  categories:
+  - mailinglist
+  match-domains:
+  - mu.ie
+- sortkey: null
+  name: null
+  link: null
+  image: null
+  lat: null
+  lon: null
+  categories:
+  - mailinglist
+  match-domains:
+  - nvidia.com
+- sortkey: null
+  name: null
+  link: null
+  image: null
+  lat: null
+  lon: null
+  categories:
+  - mailinglist
+  match-domains:
+  - physik.uni-r.de
+- sortkey: null
+  name: null
+  link: null
+  image: null
+  lat: null
+  lon: null
+  categories:
+  - mailinglist
+  match-domains:
+  - qmul.ac.uk
+- sortkey: null
+  name: null
+  link: null
+  image: null
+  lat: null
+  lon: null
+  categories:
+  - mailinglist
+  match-domains:
+  - research.gla.ac.uk
+  - gla.ac.uk
+- sortkey: null
+  name: null
+  link: null
+  image: null
+  lat: null
+  lon: null
+  categories:
+  - mailinglist
+  match-domains:
+  - soton.ac.uk
+- sortkey: null
+  name: null
+  link: null
+  image: null
+  lat: null
+  lon: null
+  categories:
+  - mailinglist
+  match-domains:
+  - tcd.ie
+- sortkey: null
+  name: null
+  link: null
+  image: null
+  lat: null
+  lon: null
+  categories:
+  - mailinglist
+  match-domains:
+  - tencico.ulisboa.pt
+- sortkey: null
+  name: null
+  link: null
+  image: null
+  lat: null
+  lon: null
+  categories:
+  - mailinglist
+  match-domains:
+  - thphys.nuim.ie
+- sortkey: "Ruprecht-Karls-Universit\xE4t Heidelberg"
+  name: "Ruprecht-Karls-Universit\xE4t Heidelberg"
+  link: https://www.uni-heidelberg.de/
+  image: http://commons.wikimedia.org/wiki/Special:FilePath/Ruprecht-Karls-Universit%C3%A4t%20Heidelberg%20Logo.svg
+  lat: 49.410277777778
+  lon: 8.7063888888889
+  categories:
+  - mailinglist
+  match-domains:
+  - thphys.uni-heidelberg.de
+  - uni-heidelberg.de
+- sortkey: null
+  name: null
+  link: null
+  image: null
+  lat: null
+  lon: null
+  categories:
+  - mailinglist
+  match-domains:
+  - tum.de
+- sortkey: null
+  name: null
+  link: null
+  image: null
+  lat: null
+  lon: null
+  categories:
+  - mailinglist
+  match-domains:
+  - uam.es
+- sortkey: Coimbra
+  name: Universidade de Coimbra
+  link: https://www.uc.pt/
+  image: http://commons.wikimedia.org/wiki/Special:FilePath/Seal%20of%20the%20University%20of%20Coimbra.svg
+  lat: 40.2074
+  lon: -8.4265
+  categories:
+  - mailinglist
+  match-domains:
+  - uc.pt
+- sortkey: null
+  name: null
+  link: null
+  image: null
+  lat: null
+  lon: null
+  categories:
+  - mailinglist
+  match-domains:
+  - ugr.es
+- sortkey: Stavanger
+  name: University of Stavanger
+  link: https://www.uis.no/
+  image: http://commons.wikimedia.org/wiki/Special:FilePath/University%20of%20Stavanger%20logo.svg
+  lat: 58.937505555556
+  lon: 5.6974166666667
+  categories:
+  - mailinglist
+  match-domains:
+  - uis.no
+- sortkey: null
+  name: null
+  link: null
+  image: null
+  lat: null
+  lon: null
+  categories:
+  - mailinglist
+  match-domains:
+  - uni-graz.at
+- sortkey: "Friedrich-Schiller-Universit\xE4t Jena"
+  name: "Friedrich-Schiller-Universit\xE4t Jena"
+  link: https://www.uni-jena.de/
+  image: http://commons.wikimedia.org/wiki/Special:FilePath/Logo%20UniJena.svg
+  lat: 50.928333333333
+  lon: 11.582222222222
+  categories:
+  - mailinglist
+  match-domains:
+  - uni-jena.de
+- sortkey: "Johannes Gutenberg-Universit\xE4t Mainz"
+  name: "Johannes Gutenberg-Universit\xE4t Mainz"
+  link: https://www.uni-mainz.de/
+  image: http://commons.wikimedia.org/wiki/Special:FilePath/Johannes%20Gutenberg-Universit%C3%A4t%20Mainz%20logo.svg
+  lat: 49.993055555556
+  lon: 8.2416666666667
+  categories:
+  - mailinglist
+  match-domains:
+  - uni-mainz.de
+- sortkey: "M\xFCnster"
+  name: "Universit\xE4t M\xFCnster"
+  link: https://www.uni-muenster.de/
+  image: http://commons.wikimedia.org/wiki/Special:FilePath/Logo%20Universit%C3%A4t%20M%C3%BCnster.svg
+  lat: 51.964
+  lon: 7.613
+  categories:
+  - mailinglist
+  match-domains:
+  - uni-muenster.de
+- sortkey: null
+  name: null
+  link: null
+  image: null
+  lat: null
+  lon: null
+  categories:
+  - mailinglist
+  match-domains:
+  - uni-tuebingen.de
+- sortkey: null
+  name: null
+  link: null
+  image: null
+  lat: null
+  lon: null
+  categories:
+  - mailinglist
+  match-domains:
+  - unipi.it
+- sortkey: null
+  name: null
+  link: null
+  image: null
+  lat: null
+  lon: null
+  categories:
+  - mailinglist
+  match-domains:
+  - unipr.it
+- sortkey: null
+  name: null
+  link: null
+  image: null
+  lat: null
+  lon: null
+  categories:
+  - mailinglist
+  match-domains:
+  - unito.it
+- sortkey: null
+  name: null
+  link: null
+  image: null
+  lat: null
+  lon: null
+  categories:
+  - mailinglist
+  match-domains:
+  - unizar.es
+- sortkey: null
+  name: null
+  link: null
+  image: null
+  lat: null
+  lon: null
+  categories:
+  - mailinglist
+  match-domains:
+  - upo.es
+
