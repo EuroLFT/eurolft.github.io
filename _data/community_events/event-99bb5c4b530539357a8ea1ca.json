@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "id": "event-99bb5c4b530539357a8ea1ca",
+  "revision": 1,
+  "title": "Ising Field Theory",
+  "type": "conference",
+  "start_date": "2027-01-25",
+  "end_date": "2027-01-29",
+  "start_time": null,
+  "end_time": null,
+  "timezone": null,
+  "location": {
+    "venue": null,
+    "city": "Lausanne",
+    "country": "Switzerland"
+  },
+  "attendance": "unknown",
+  "official_url": "https://indico.epfl.ch/event/36/",
+  "summary": null,
+  "deadlines": [],
+  "lifecycle": "scheduled",
+  "origin": "collected",
+  "sources": [
+    {
+      "id": "inspire-3230870",
+      "kind": "announcement",
+      "url": "https://inspirehep.net/conferences/3230870",
+      "posted_at": null,
+      "retrieved_at": null,
+      "note": "Structured INSPIRE catalogue metadata; updated 2026-11-19T08:41:32.918966+00:00"
+    }
+  ],
+  "evidence": [
+    {
+      "field": "/facts/title",
+      "source_id": "inspire-3230870",
+      "excerpt": "Ising Field Theory"
+    },
+    {
+      "field": "/facts/start_date",
+      "source_id": "inspire-3230870",
+      "excerpt": "2027-01-25"
+    },
+    {
+      "field": "/facts/end_date",
+      "source_id": "inspire-3230870",
+      "excerpt": "2027-01-29"
+    },
+    {
+      "field": "/facts/location/city",
+      "source_id": "inspire-3230870",
+      "excerpt": "Lausanne"
+    },
+    {
+      "field": "/facts/location/country",
+      "source_id": "inspire-3230870",
+      "excerpt": "Switzerland"
+    },
+    {
+      "field": "/facts/official_url",
+      "source_id": "inspire-3230870",
+      "excerpt": "https://indico.epfl.ch/event/36/"
+    }
+  ],
+  "related_events": [],
+  "identity_aliases": [
+    "inspire:3230870",
+    "source-event:https://inspirehep.net/conferences/3230870|title:ising field theory"
+  ],
+  "warnings": [
+    "Human review required for INSPIRE metadata and lattice relevance.",
+    "Event type inferred from title/catalogue; confirm before approval.",
+    "Title does not explicitly mention lattice: relevance requires human review."
+  ],
+  "editor_overrides": [],
+  "decision": {
+    "status": "pending",
+    "reviewed_revision": null,
+    "reason": null,
+    "acknowledged_warnings": []
+  },
+  "history": []
+}
