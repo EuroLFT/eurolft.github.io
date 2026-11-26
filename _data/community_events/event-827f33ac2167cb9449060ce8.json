@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "id": "event-827f33ac2167cb9449060ce8",
+  "revision": 1,
+  "title": "Machine Learning Physics across Scales: From Elementary Particles to the Universe",
+  "type": "conference",
+  "start_date": "2026-12-01",
+  "end_date": "2026-12-03",
+  "start_time": null,
+  "end_time": null,
+  "timezone": null,
+  "location": {
+    "venue": null,
+    "city": "Tokyo",
+    "country": "Japan"
+  },
+  "attendance": "unknown",
+  "official_url": "https://indico2.riken.jp/event/5793/",
+  "summary": null,
+  "deadlines": [],
+  "lifecycle": "scheduled",
+  "origin": "collected",
+  "sources": [
+    {
+      "id": "inspire-3222759",
+      "kind": "announcement",
+      "url": "https://inspirehep.net/conferences/3222759",
+      "posted_at": null,
+      "retrieved_at": null,
+      "note": "Structured INSPIRE catalogue metadata; updated 2026-11-05T03:04:29.008991+00:00"
+    }
+  ],
+  "evidence": [
+    {
+      "field": "/facts/title",
+      "source_id": "inspire-3222759",
+      "excerpt": "Machine Learning Physics across Scales: From Elementary Particles to the Universe"
+    },
+    {
+      "field": "/facts/start_date",
+      "source_id": "inspire-3222759",
+      "excerpt": "2026-12-01"
+    },
+    {
+      "field": "/facts/end_date",
+      "source_id": "inspire-3222759",
+      "excerpt": "2026-12-03"
+    },
+    {
+      "field": "/facts/location/city",
+      "source_id": "inspire-3222759",
+      "excerpt": "Tokyo"
+    },
+    {
+      "field": "/facts/location/country",
+      "source_id": "inspire-3222759",
+      "excerpt": "Japan"
+    },
+    {
+      "field": "/facts/official_url",
+      "source_id": "inspire-3222759",
+      "excerpt": "https://indico2.riken.jp/event/5793/"
+    }
+  ],
+  "related_events": [],
+  "identity_aliases": [
+    "inspire:3222759",
+    "source-event:https://inspirehep.net/conferences/3222759|title:machine learning physics across scales from elementary particles to the universe"
+  ],
+  "warnings": [
+    "Human review required for INSPIRE metadata and lattice relevance.",
+    "Event type inferred from title/catalogue; confirm before approval.",
+    "Title does not explicitly mention lattice: relevance requires human review."
+  ],
+  "editor_overrides": [],
+  "decision": {
+    "status": "pending",
+    "reviewed_revision": null,
+    "reason": null,
+    "acknowledged_warnings": []
+  },
+  "history": []
+}
